@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Welcome"
+date:   2017-12-02 11:51:59 -0800
+categories: blogging
+---
+
+![Digithead]({{ "/images/digithead.png" | absolute_url }})
+
+For a number of years, I wrote a thing I called [Digithead's Lab Notebook][1] on Google's Blogger platform.
+
+As a [writing-to-learn][4] exercise, I did a series on [learning to the R statistical language][3]. I blogged my progress through [Andrew Ng's Machine Learning class][5], the rudiments of [Haskell][6], and a handful of other topics.
+
+The themes came from curiousity, the hacker ethic of getting your hands dirty, and the good luck I've had getting to play in others' back yards, specifically, working with scientists, molecular biologists, and statisticians.
+
+Writing with the Git workflow is appealing to me, as is the simplicity of markdown. So, I've decided to give a new platform a try: Github and [Jekyll][2]. So, here it is. Welcome to the new Digithead's Lab Notebook.
+
+If you like to geek out on programming, machine learning, data science, and health-tech, be in touch.
+
+[1]: https://digitheadslabnotebook.blogspot.com/
+[2]: https://jekyllrb.com/
+[3]: https://digitheadslabnotebook.blogspot.com/p/r.html
+[4]: https://www.goodreads.com/book/show/585474.Writing_to_Learn
+[5]: https://digitheadslabnotebook.blogspot.com/p/ml-class.html
+[6]: https://digitheadslabnotebook.blogspot.com/2015/01/haskell-class-wrap-up.html
