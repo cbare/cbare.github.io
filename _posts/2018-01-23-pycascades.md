@@ -16,8 +16,8 @@ After hearing Łukasz Langa present [Gradual Typing of Production Applications](
 
 It's easy to get started. First, install mypy:
 
-```
-pip install mypy
+``` bash
+> pip install mypy
 ```
 
 If we want to say, for example, that the greatest-common-divisor function takes two ints and returns an int, we can:
@@ -39,7 +39,7 @@ wut = gcd('zzz', 42)
 
 ...we want the type checker to give us a heads-up. We invoke mypy on the command line and get what we deserve - a nice error message:
 
-```
+``` bash
 > mypy type_check_me.py
 type_check_me.py:8: error: Argument 1 to "gcd" has incompatible type "str"; expected "int"
 ```
@@ -55,7 +55,7 @@ def caps(strings: List[str]) -> List[str]:
 
 Parameterized types are done using `TypeVar`.
 
-```
+``` Python
 from typing import List, TypeVar
 
 T = TypeVar('T')
@@ -67,7 +67,7 @@ The above function works and type checks, but we're lying a little bit. The func
 
 We can be explicit about possible `None` values using `Optional`, an experimental feature similar to Scala's `Option` or Haskell's `Maybe`:
 
-```
+``` Python
 from typing import List, TypeVar, Sequence, Optional
 
 T = TypeVar('T')
@@ -79,7 +79,7 @@ I don't know why, but I had to use `Sequence` rather than `List`. Mypy complaine
 
 Our consumers of our `first` function are on notice that they need to handle `None`:
 
-```
+``` Python
 curses = ['dangit', 'shucks', 'flapdoodle']
 
 def twice(a: Optional[str]) -> str:
@@ -90,7 +90,7 @@ double_curse = twice(first(caps(curses)))
 
 There's yet another choice besides strict-optional and not strict-optional. The `first` function could throw an exception if no first element exists.
 
-```
+``` Python
 def first_or_die(seq: Sequence[T]) -> T:
     return seq[0]
 ```
