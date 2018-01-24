@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Type checking in Python with mypy"
+date:   2018-01-24 11:39 -0800
+categories: programming-languages, python
+---
+
 When I switched from Java to dynamic languages, I sometimes missed type checking. I flirted with rocket-science type systems, like you'll find in Scala or Haskell.
 
 Now, Python 3.6 supports optional type checking with two new components. The [typing library](https://docs.python.org/3/library/typing.html) lets you annotate parameters and return types. [Mypy](http://mypy-lang.org/) does the actual type checking.
