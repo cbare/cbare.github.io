@@ -4,3 +4,13 @@ Blathering about software engineering, programming languages, machine learning, 
 
 https://cbare.github.io/
 
+
+
+Made with [Jekyll](https://jekyllrb.com/docs/usage/). Commonly used commands:
+
+```
+jekyll build
+jekyll serve
+```
+
+
