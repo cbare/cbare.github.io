@@ -13,8 +13,12 @@ The materials from these sessions are great resources.
 
 ## Slides
 
-* [Intro TensorFlow and Deep Learning without a PhD Session 1: CNN](https://speakerdeck.com/margaretmz/tensorflow-and-deep-learning-without-a-phd-session-1-cnn)
+Intro slides by Margaret Maynard-Reid:
+
+* [TensorFlow and Deep Learning without a PhD Session 1: CNN](https://speakerdeck.com/margaretmz/tensorflow-and-deep-learning-without-a-phd-session-1-cnn)
     * [cheatsheet](https://goo.gl/orszsL)
+
+Parts 1-5 of <i>TensorFlow and Deep Learning without a PhD</i>:
 
 * [TensorFlow and Deep Learning without a PhD](https://goo.gl/pHeXe7)
 * [Recurrent Neural Networks](https://goo.gl/UuN41S) or [Recurrent Neural Networks](https://goo.gl/jrd7AR)
@@ -40,6 +44,8 @@ Martin's talks seems to exist in multiple versions on YouTube.
 
 * [Teaching Machines to Read and Comprehend](https://arxiv.org/abs/1506.03340v3)
 * [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869v1.pdf)
+* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+* [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
 
 ## Hallucinated Shakespear
 
