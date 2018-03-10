@@ -7,28 +7,43 @@ categories: machine-learning, python
 
 ![TensorFlow, deep learning and recurrent neural networks]({{ "/images/tensorflow_rnn_wo_phd.png" | absolute_url }})
 
-The excellent folks of [GDGSeattle](https://www.meetup.com/gdg-seattle/) and [Seattle-DAML](https://www.meetup.com/Seattle-DAML/) put on a couple of workshops on deep learning and Google's [TensorFlow](https://www.tensorflow.org/) package.
+The excellent folks of [GDGSeattle](https://www.meetup.com/gdg-seattle/) and [Seattle-DAML](https://www.meetup.com/Seattle-DAML/) put on a couple of workshops on deep learning and Google's [TensorFlow](https://www.tensorflow.org/) package featuring talks and codelabs by [Martin Görner](https://twitter.com/martin_gorner).
 
-Their materials are a great resources. 
+The materials from these sessions are great resources.
 
 ## Slides
 
-* [TensorFlow and Deep Learning without a PhD Session 1: CNN](https://speakerdeck.com/margaretmz/tensorflow-and-deep-learning-without-a-phd-session-1-cnn) by 
-    * [codelab](http://goo.gl/mVZloU)
+* [Intro TensorFlow and Deep Learning without a PhD Session 1: CNN](https://speakerdeck.com/margaretmz/tensorflow-and-deep-learning-without-a-phd-session-1-cnn)
     * [cheatsheet](https://goo.gl/orszsL)
-* [TensorFlow and Modern Convolutional Networks](https://goo.gl/orszsL) by Martin Gorner
-* [TensorFlow and Recurrent Neural Networks](https://goo.gl/jrd7AR)
+
+* [TensorFlow and Deep Learning without a PhD](https://goo.gl/pHeXe7)
+* [Recurrent Neural Networks](https://goo.gl/UuN41S) or [Recurrent Neural Networks](https://goo.gl/jrd7AR)
+* [Convolutional Neural Nets](https://goo.gl/VxQDmx)
+* [Modern RNN Architectures](https://goo.gl/BYT7au)
+* [Deep Reinforcement Learning](https://goo.gl/CB8xNH)
+
+## Codelab
+
+* [codelab](http://goo.gl/mVZloU)
 
 ## Video
 
+Martin's talks seems to exist in multiple versions on YouTube.
+
+* [Tensorflow and deep learning without a PhD](https://www.youtube.com/watch?v=vq2nnJ4g6N0)
+* [Tensorflow, deep learning and modern RNN architectures, without a PhD](https://www.youtube.com/watch?v=pzOzmxCR37I)
+* [Tensorflow, deep learning and modern convolutional neural nets, without a PhD ](https://www.youtube.com/watch?v=vaL1I2BD_xY)
 * [TensorFlow and Deep Learning without a PhD, Part 1](https://www.youtube.com/watch?v=u4alGiomYP4)
 * [TensorFlow and Deep Learning without a PhD, Part 2](https://www.youtube.com/watch?v=fTUwdXUFfI8)
-* [Tensorflow, deep learning and modern RNN architectures, without a PhD](https://www.youtube.com/watch?v=pzOzmxCR37I) by [Martin Görner](https://twitter.com/martin_gorner)
-* [Tensorflow and deep learning without a PhD - both parts](https://www.youtube.com/watch?v=vq2nnJ4g6N0)
+
+## Papers
+
+* [Teaching Machines to Read and Comprehend](https://arxiv.org/abs/1506.03340v3)
+* [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869v1.pdf)
 
 ## Hallucinated Shakespear
 
-Martin has a handful of [tutorials on GitHub](https://github.com/martin-gorner) including the amazing language model RNN-Shakespear.
+Martin has a handful of [tutorials on GitHub](https://github.com/martin-gorner) including the amazing RNN-Shakespear.
 
 ![TensorFlow Shakespear]({{ "/images/tensorflow_shakespear.png" | absolute_url }})
 
@@ -38,6 +53,8 @@ Applied to the Python code of TensorFlow itself, after 0.4 epochs of training it
 
 ![TensorFlow Python 0.4 epochs]({{ "/images/tensorflow_python.png" | absolute_url }})
 
-...and after 12 epochs of training, I say ship it:
+...and after 12 epochs of training? Looks good to me. Ship it!
 
 ![TensorFlow Python 12 epochs]({{ "/images/tensorflow_python_2.png" | absolute_url }})
+
+
