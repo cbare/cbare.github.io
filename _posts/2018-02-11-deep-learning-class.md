@@ -2,7 +2,7 @@
 layout: post
 title:  "Cat Pictures"
 date:   2018-02-11 13:05 -0800
-categories: machine-learning, python
+categories: machine-learning python
 ---
 
 Back in 2011, when Andrew Ng released a free class in Machine Learning, I was one of about 13,000 students who finished. In the ensuing wave of excitement over online courses, Coursera and EdX got started.

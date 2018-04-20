@@ -2,7 +2,7 @@
 layout: post
 title:  "Type checking in Python with mypy"
 date:   2018-01-24 11:39 -0800
-categories: programming-languages, python
+categories: python
 ---
 
 When I switched from Java to dynamic languages, I sometimes missed type checking. I flirted with rocket-science type systems, like you'll find in Scala or Haskell.

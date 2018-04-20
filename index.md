@@ -8,11 +8,11 @@ Building software tools that enhance the ability to create and discover. Machine
 Currently:
 * creating a software platform for health and wellness at [Arivale][1].
 
-Formerly:
-* built tools for open science and reproducible research at [Sage Bionetworks][2].
-* crowdsourced answers to biomedical questions with [DREAM challenges][3].
-* reverse engineered the regulation of gene expression at the [Institute for Systems Biology][4].
-* coauthored [papers][5].
+Formerly part of:
+* building for open science and reproducible research at [Sage Bionetworks][2].
+* crowdsourcing answers to biomedical questions with [DREAM challenges][3].
+* reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
+* research [papers][5].
 
 The old [Digithead's Lab Notebook][6].
 
