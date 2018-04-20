@@ -24,25 +24,25 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
+            <a href="https://github.com/{{ site.github_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
           </li>
           {% endif %}
 
           {% if site.linkedin_username %}
           <li>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
           </li>
           {% endif %}
 
           {% if site.stackoverflow_username %}
           <li>
-            <a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}"><span class="icon icon--stackoverflow">{% include icon-stackoverflow.svg %}</span></a>
+            <a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#stackoverflow' | relative_url }}"></use></svg></a>
           </li>
           {% endif %}
         </ul>
