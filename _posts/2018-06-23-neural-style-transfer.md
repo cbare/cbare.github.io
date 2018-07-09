@@ -5,6 +5,8 @@ date: 2018-06-23 22:47 -0700
 categories: machine-learning
 ---
 
+_Notes from week 4 of [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks):_
+
 Neural style transfer takes two images and applies the style of one to the content of the other. A pretrained deep network is used to represent both content and style.
 
 #### Content
