@@ -17,12 +17,17 @@ Natural language processing is still at a point closer to Eliza than HAL.
 
 How to evaluate generalization isn't entirely clear. One proposal is: "Every paper, together with evaluation on held-out test sets, should evaluate on a novel distribution or on a novel task"
 
-Transfer learning, applying pretrainined networks to new tasks, has been very successful in computer vision. A pair of articles describes work to bring transfer learning to NLP based on language modeling, predicting the next word in a sequence.
+Transfer learning has been very successful in computer vision. Applying pretrained networks based on the Imagenet corpus is now a standard starting point for any image-related task.
+
+A pair of articles describes work to bring transfer learning into the NLP domain. Word embeddings were the first step in this direction. Now, pretrained networks are being built based on language modeling, predicting the next word in a sequence.
 
 * [NLP's ImageNet moment has arrived][2]
 * [Introducing state of the art text classification with universal language models][3]
 
-Also featuring pretrained language models: [Efficient Contextualized Representation][4]
+Also featuring pretraining in NLP: [Efficient Contextualized Representation][4] and [Phrase-Based & Neural Unsupervised Machine Translation][8].
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Unsupervised Machine Translation: Build word embeddings &amp; language models (LM) from monolingual data, use LMs to correct naive monolingually-trained models while generating fake parallel data, then iterate entire process. Great start for MT from mono data. <a href="https://t.co/4RarBppCuj">https://t.co/4RarBppCuj</a> <a href="https://t.co/ckzAM0uuuY">pic.twitter.com/ckzAM0uuuY</a></p>&mdash; Reza Zadeh (@Reza_Zadeh) <a href="https://twitter.com/Reza_Zadeh/status/1039297349221117952?ref_src=twsrc%5Etfw">September 10, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 [1]: https://thegradient.pub/frontiers-of-generalization-in-natural-language-processing/
@@ -32,5 +37,5 @@ Also featuring pretrained language models: [Efficient Contextualized Representat
 [5]: https://www.theatlantic.com/technology/archive/2018/01/the-shallowness-of-google-translate/551570/
 [6]: http://www.lauradhamilton.com/inductive-biases-various-machine-learning-algorithms
 [7]: https://thegradient.pub/
-
+[8]: https://arxiv.org/pdf/1804.07755.pdf
 
