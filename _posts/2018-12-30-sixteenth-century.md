@@ -28,6 +28,8 @@ The House of Hapsburg came to control a disconnected set of territories includin
 
 The book follows an extended family from coastal Albania, members of which serve the various powers of the day - Venice, Spain, the Papacy, or the Porte. This point of view, low level nobility from a backwater region, maybe somewhat analogous to the professional class of today, allows the setting, the complex political economy of the eastern Mediterranian to take center stage. On another layer, Malcolm gives amusing insight into the process of historical sleuthing through sparse and ambiguous surviving records that uncovered the family's story. The result is dense reading - but well worth it.
 
+Here are some major events that I gathered up to try and get some context on these turbulent times:
+
 
 ## The Protestant reformation
 
@@ -57,6 +59,7 @@ The book follows an extended family from coastal Albania, members of which serve
 * 1521: Magellan reaches the Pacific
 * 1519-1521: conquest of the Aztecs by Cortes
 * 1532: Francisco Pizarro leads the Spanish conquest of the Inca Empire.
+* 1543: Portuguese traders reach Japan
 * 1557: The Portuguese settle in Macau
 * 1569: Mercator 1569 world map published by Gerardus Mercator.
 * 1579: The British navigator Sir Francis Drake passes through Maluku on his circumnavigation of the world
@@ -103,6 +106,7 @@ In 1453, Constantinople, the capital of the Byzantine Empire, was captured by th
 * 722-1492: Spanish Reconquista
 * 1096-1291: Crusades
 * 1300-1600: Renaissance
+* 1347-1351: Peak of black plague in Europe
 * 1368–1644: Ming dynasty
 * 1600-1700: Dutch golden age
 * 1606–1669: Rembrandt
