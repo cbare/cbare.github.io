@@ -49,9 +49,9 @@ Martin's talks seems to exist in multiple versions on YouTube.
 
 ## Hallucinated Shakespear
 
-Martin has a handful of [tutorials on GitHub](https://github.com/martin-gorner) including the amazing RNN-Shakespear.
+Martin has a handful of [tutorials on GitHub](https://github.com/martin-gorner) including the amazing RNN-Shakespeare.
 
-![TensorFlow Shakespear]({{ "/images/tensorflow_shakespear.png" | absolute_url }})
+![TensorFlow Shakespeare]({{ "/images/tensorflow_shakespear.png" | absolute_url }})
 
 ## Hallucinated Python
 
