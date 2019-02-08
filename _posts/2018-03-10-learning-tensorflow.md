@@ -47,7 +47,7 @@ Martin's talks seems to exist in multiple versions on YouTube.
 * [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
 * [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
 
-## Hallucinated Shakespear
+## Hallucinated Shakespeare
 
 Martin has a handful of [tutorials on GitHub](https://github.com/martin-gorner) including the amazing RNN-Shakespeare.
 
