@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deep Learning - Sequence Models"
+title:  "Deep Learning - Sequence Models - Week 1"
 date:   2019-01-27 09:50 -0800
 categories: machine-learning python
 ---
