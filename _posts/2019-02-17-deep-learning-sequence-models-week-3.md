@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Learning - Sequence Models - Week 3"
-date:   2019-02-10 11:57 -0800
+date:   2019-02-17 12:36 -0800
 categories: machine-learning python
 ---
 
@@ -57,6 +57,11 @@ The spectrogram shows three spoken words, “phone”, “activate” in a male 
 ![RNN Trigger word network]({{ "/images/rnn-trigger-word-model.png" | absolute_url }})
 
 It would be interesting to know more about the role of the 1D convolutional layer compared to attention.
+
+
+## Done!
+
+And, just like that... we're done! Thanks, Andrew Ng.
 
 
 
