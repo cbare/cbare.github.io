@@ -14,6 +14,8 @@ Formerly part of:
 * reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
 * research [papers][5].
 
+This is my **[online notebook][7]** - a collection of stuff possibly related to programming, data-science, machine-learning, deep-learning, natural-language-processing, life-science...
+
 The old [Digithead's Lab Notebook][6].
 
 [1]: https://arivale.com/ "Arivale"
@@ -22,3 +24,4 @@ The old [Digithead's Lab Notebook][6].
 [4]: https://www.systemsbiology.org/ "Institute for Systems Biology"
 [5]: https://scholar.google.com/citations?hl=en&user=EEZ5DLgAAAAJ&view_op=list_works&sortby=pubdate "Publications on Google Scholar"
 [6]: https://digitheadslabnotebook.blogspot.com/ "Digithead's Lab Notebook"
+[7]: /notebook.html

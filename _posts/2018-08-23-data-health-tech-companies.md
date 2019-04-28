@@ -5,6 +5,8 @@ date:   2018-08-23 21:24 -0800
 categories: health-tech data
 ---
 
+(Updated April, 2019)
+
 The [data-intensive wellness](https://followthedata.wordpress.com/2017/01/05/data-intensive-wellness-companies/) space is getting crowded these days. Lots of companies are forming around the idea that, in one way or another, [data will transform health care](https://www.economist.com/news/leaders/21736138-welcome-doctor-you-revolution-health-care-coming). We're moving into a world where everything is measured for [better or worse](https://money.cnn.com/2018/09/19/news/companies/john-hancock-life-insurance-vitality/index.html). Might instrumenting ourselves like aircraft engines open up new ways to [optimize wellness](https://www.npr.org/sections/health-shots/2017/12/28/572677879/will-gathering-vast-troves-of-information-really-lead-to-better-health)?
 
 One dimension of the [personal health data cloud](https://www.nature.com/articles/nbt.3870) is genetics. A group at the Broad Institute [says](https://www.nature.com/articles/s41588-018-0183-z), "We propose that it is time to contemplate the inclusion of polygenic risk prediction in clinical care."
@@ -232,6 +234,3 @@ Jessica Mega, Chief Medical Officer of Verily, gave a short [talk at a Stanford 
 
 Poop is cool these days. [Viome](https://www.viome.com/) is a [well funded](https://www.crunchbase.com/organization/viome) direct-to-consumer product that analyzes your gut microbiome to give personalized food recommendations. Interestingly, they do [gene expression sequencing](https://www.viome.com/our-science) to get at quantifying activity of microbial metabolic pathways.
 
-
-
-(Updated April, 2019)

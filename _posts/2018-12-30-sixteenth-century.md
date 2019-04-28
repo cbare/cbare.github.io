@@ -16,9 +16,9 @@ by Noel Malcolm.
 
 The 16th Century was a time of transition. The modern era was slowly and unevenly emerging from the middle ages. Fuedal structures clung to some areas while others charged ahead.
 
-The printing press was the disruptive technology of the time. The Protestant Reformation ushered in a period of religous ware and political instability that drastically changed the power structure of Europe.
+The printing press was the disruptive technology of the time. The Protestant Reformation ushered in a period of religous war and political instability that drastically changed the power structure of Europe.
 
-Art and Science gathered momentum towards the Enlightenment of the 17th and 18th Centuries. Gun powder came into increasingly common usage in battle. The discovery of the New World and in short order lopsided conquests of the Aztecs and Incas kicked off the colonial era. The technologies of naval power advanced to the point where, in 1616, 6 Spanish ships defeated an Ottoman armada of 55 galleys in the Battle of Cape Celidonia. Already, the next generation of colonial powers were preparing to leapfrog the Iberian countries.
+Art and Science gathered momentum towards the Enlightenment of the 17th and 18th Centuries. Gun powder came into increasingly common usage in battle. The discovery of the New World and subsequent lopsided conquests of the Aztecs and Incas kicked off the colonial era. The technologies of naval power advanced to the point where, in 1616, 6 Spanish ships defeated an Ottoman armada of 55 galleys in the Battle of Cape Celidonia. Already, the next generation of colonial powers were preparing to leapfrog the Iberian countries.
 
 [![Europe at the Beginning of Modern History]({{ "/images/Europe at the Beginning of Modern History.png" | absolute_url }})](https://etc.usf.edu/maps/pages/3100/3164/3164.htm)
 
