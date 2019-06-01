@@ -208,10 +208,11 @@ In 2016, Thorne acquired [WellnessFX](https://www.wellnessfx.com/) provider of d
 
 Formerly known as Google Life Sciences, [Verily Life Sciences](https://verily.com/) started out under the cloud of a [management kerfuffle](https://www.statnews.com/2016/06/06/google-star-trek-fiction/).
 
-Participants in [Project Baseline](https://www.projectbaseline.com/) get sequenced, have their [blood, microbiome and immune system assayed, and wear a spiffy watch](https://www.zdnet.com/article/project-baseline-googles-give-year-plan-to-map-the-entire-journey-of-human-health/).
+[Project Baseline](https://www.projectbaseline.com/) kicked off in 2017. Participants get sequenced, have their [blood, microbiome and immune system assayed, and wear a spiffy watch](https://www.zdnet.com/article/project-baseline-googles-give-year-plan-to-map-the-entire-journey-of-human-health/).
 
 [![Project Baseline watch]({{ "/images/verily_project_baseline_watch.jpg" | absolute_url }})](https://www.wellnessfx.com/info/lab-tests-online)
 
+As of May 2019, [Novartis, Otsuka, Pfizer and Sanofi](https://www.fiercebiotech.com/biotech/novartis-otsuka-pfizer-sanofi-join-verily-s-project-baseline) have signed on to run clinical trials with Verily.
 
 ### Jessica Mega talk on Verily Baseline project
 
