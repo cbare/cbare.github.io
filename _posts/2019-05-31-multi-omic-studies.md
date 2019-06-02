@@ -32,25 +32,26 @@ In May of 2019, the [Snyder Lab][12] published [A longitudinal big data approach
 
 ![multi-dimensional health data]({{ "/images/rose-data-types.png" | absolute_url }})
 
-Snyder paper on the topic go back quite a number of years, including: [Personal phenotypes to go with personal genomes][16], [Personal omics profiling reveals dynamic molecular and medical phenotypes][15]...
+Earlier papers with similar themes go back quite a ways, including: [Personal phenotypes to go with personal genomes][16]  (2009), [Personal omics profiling reveals dynamic molecular and medical phenotypes][15] (2012)...
 
 ![iPOP figure 1]({{ "/images/iPOP-fig-1.png" | absolute_url }})
 {:style="width: 400px; height: 400px;"}
 
 
-...and [Promise of personalized omics to precision medicine][6].
+...[Promise of personalized omics to precision medicine][6]  (2013)
 
 ![personalized omics fig 2]({{ "/images/nihms414565f2.jpg" | absolute_url }})
 {:style="width: 400px; height: 400px;"}
 
+...and [Integrative omics for health and disease
+][17]  (2018).
+
 
 ## Human Longevity, Inc.
 
-n = 1,083
+n = 1,253
 
-“Modern medicine is rapidly moving towards a data-driven paradigm based on comprehensive multimodal health assessments.”
-
-[Unsupervised integration of multimodal dataset identifies novel signatures of health and disease][2]
+“Modern medicine is rapidly moving towards a data-driven paradigm based on comprehensive multimodal health assessments.” [Unsupervised integration of multimodal dataset identifies novel signatures of health and disease][2]
 
 ![Human Longevity Inc. multi-omics paper]({{ "/images/hli-multi-omics-fig-1.png" | absolute_url }})
 {:style="width: 400px; height: 340px;"}
@@ -60,9 +61,11 @@ n = 1,083
 
 n = 10,000 (??)
 
-Verily's Project Baseline is well funded, but asks participants to give up their data with little in return. Starting in 2017 the multi-year study is expected to cost more than $100 million.
+Verily's Project Baseline is well funded, but is perhaps the most blatant about asking participants to [give up their data with little in return][9].
 
-Verily's deep molecular profiling includes: “[clinical, molecular, imaging, sensor, self-reported, behavioral, environmental, and other health-related measurements][8].”
+“Alphabet’s Google division is, fundamentally, in the business of selling data. That is a useful thing to keep in mind when Alphabet’s Verily comes calling for your medical data. But Google is also inarguably useful; this is why, despite knowing that my every move is being tracked by the company, I still make use of Google search, Gmail, and Google Docs, among its other myriad services. Verily’s Project Baseline is, in some sense, the health equivalent of those kinds of services — it has the potential to greatly expand our knowledge about what human health looks like. Not incidentally, the project will be of service to Verily as well.” -[The Verge, April, 2017][10]
+
+Starting in 2017 the multi-year study is expected to cost more than $100 million. Verily's deep molecular profiling includes: “[clinical, molecular, imaging, sensor, self-reported, behavioral, environmental, and other health-related measurements][8].”
 
 ![verily deep molecular profiling]({{ "/images/verily_deep_molecular_profiling.png" | absolute_url }})
 
@@ -79,7 +82,7 @@ n = 500,000
 
 ## Etc.
 
-Other studies along the same lines include: [The future of individualized health maintenance][5], [Integration of gut microbiome, host biomarkers, and urine metabolome data reveals networks of interactions associated with distinct clinical phenotypes][3], and the NIH's [All of Us][11]
+Other studies along the same lines include: [The future of individualized health maintenance][5], [Integration of gut microbiome, host biomarkers, and urine metabolome data reveals networks of interactions associated with distinct clinical phenotypes][3] (aka the China-Denmark study after the affiliations of the authors), and the NIH's [All of Us][11]
 
 
 [1]: https://www.ncbi.nlm.nih.gov/pubmed/28714965
@@ -98,4 +101,5 @@ Other studies along the same lines include: [The future of individualized health
 [14]: https://q.bio/
 [15]: https://www.cell.com/cell/fulltext/S0092-8674(12)00166-3
 [16]: http://msb.embopress.org/content/5/1/273.short
+[17]: https://www.nature.com/articles/nrg.2018.4
 
