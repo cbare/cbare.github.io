@@ -5,7 +5,7 @@ date:   2018-08-23 21:24 -0800
 categories: health-tech data
 ---
 
-(Updated April, 2019)
+(Updated June, 2019)
 
 The [data-intensive wellness](https://followthedata.wordpress.com/2017/01/05/data-intensive-wellness-companies/) space is getting crowded these days. Lots of companies are forming around the idea that, in one way or another, [data will transform health care](https://www.economist.com/news/leaders/21736138-welcome-doctor-you-revolution-health-care-coming). We're moving into a world where everything is measured for [better or worse](https://money.cnn.com/2018/09/19/news/companies/john-hancock-life-insurance-vitality/index.html). Might instrumenting ourselves like aircraft engines open up new ways to [optimize wellness](https://www.npr.org/sections/health-shots/2017/12/28/572677879/will-gathering-vast-troves-of-information-really-lead-to-better-health)?
 
@@ -57,7 +57,7 @@ Seattle-based Arivale spun out of [research](https://www.ncbi.nlm.nih.gov/pmc/ar
 
 ![pioneer-100-figure-1]({{ "/images/pioneer-100-figure-1.png " | absolute_url }})
 
-[Update April, 2019] I spent a happy and interesting two years plus a bit as part of the Arivale team. Sadly, Arivel [ran out of runway](https://www.geekwire.com/2019/scientific-wellness-startup-arivale-closes-abruptly-tragic-end-vision-transform-personal-health/) this past week.
+I spent a happy and interesting two years plus a bit as part of the Arivale team. Sadly, Arivel [ran out of runway](https://www.geekwire.com/2019/scientific-wellness-startup-arivale-closes-abruptly-tragic-end-vision-transform-personal-health/) at the end of April.
 
 
 ## AthGene
@@ -67,6 +67,11 @@ Seattle-based Arivale spun out of [research](https://www.ncbi.nlm.nih.gov/pmc/ar
 One smart move was offering to import your 23andMe data. "Discover your bodies natural fitness genetics potential by importing your 23andMe results onto the AthGene platform – for FREE"
 
 [Interview with Yusufa Sey, CEO of AthGene](https://medium.com/journeyxp-learn-hub/interview-with-yusufa-sey-ceo-of-athgene-a-nomad-which-is-reshaping-genetics-and-lifestyle-d99e74ab1363)
+
+
+## Base10 Genetics
+
+Physician led Base10 Genetics is a nascent company doing pharmacogenomics and nutrigenomics.
 
 
 ## Color Genomics
@@ -151,6 +156,11 @@ Standford Professor [Michael Snyder](http://snyderlab.stanford.edu/) is a founde
 [MultiScale Health](https://www.multiscalehn.com/) is a Seattle company founded by a pair of Amazon alumni in partnership with Providence St. Joseph Health that's positioning itself as a health data broker. "The company partners with health systems to bring their internal data onto a cloud platform, which lets the systems have easy access to that data and build new applications on top of it."
 
  * [MultiScale Health, aiming to ‘liberate’ healthcare data](https://www.geekwire.com/2018/tech-vets-launch-multiscale-health-aiming-liberate-healthcare-data-real-time-platform/)
+
+
+## Orig3n
+
+Boston-based [Orig3n](https://orig3n.com/) sells DNA tests related to fitness and nutrition. “Empowering everyone with actionable insights about wellness through DNA Testing...” sounds vaguely familiar. But, not a data play: “Privacy is of the utmost importance at #Orig3n; your data is never sold or shared.”
 
 
 ## Pathway Genomics
