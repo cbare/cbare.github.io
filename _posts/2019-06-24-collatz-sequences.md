@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Collatz sequences"
-date:   2019-06-23 9:43 -0800
+date:   2019-06-24 17:20 -0800
 categories: python math
 ---
 
