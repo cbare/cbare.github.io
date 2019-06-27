@@ -8,16 +8,16 @@ Building software tools that enhance the ability to create and discover. Machine
 Currently:
 * Figuring out what's next!
 
-Formerly part of:
+Formerly:
 * creating a software platform for health and wellness at [Arivale][1].
 * building for open science and reproducible research at [Sage Bionetworks][2].
 * crowdsourcing answers to biomedical questions with [DREAM challenges][3].
 * reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
-* research [papers][5].
+* contributing to research [papers][5].
 
 This is my **[online notebook][7]** - a collection of stuff possibly related to programming, data-science, machine-learning, deep-learning, natural-language-processing, life-science...
 
-The old [Digithead's Lab Notebook][6].
+Old stuff still lives on the old [Digithead's Lab Notebook][6].
 
 [1]: https://arivale.com/ "Arivale"
 [2]: http://sagebase.org/ "Sage Bionetworks"
