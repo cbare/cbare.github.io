@@ -6,9 +6,10 @@ title: J. Christopher Bare
 Building software tools that enhance the ability to create and discover. Machine learning, programming languages, and life-sciences.
 
 Currently:
-* creating a software platform for health and wellness at [Arivale][1].
+* Figuring out what's next!
 
 Formerly part of:
+* creating a software platform for health and wellness at [Arivale][1].
 * building for open science and reproducible research at [Sage Bionetworks][2].
 * crowdsourcing answers to biomedical questions with [DREAM challenges][3].
 * reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
