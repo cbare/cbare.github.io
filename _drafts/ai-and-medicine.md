@@ -5,11 +5,12 @@ date:   2019-06-10 9:15:00 -0800
 categories: machine-learning deep-learning health-tech
 ---
 
-The practice of medicine entails constantly making fast high-stakes decisions based on incomplete and uncertain information. Somewhat belatedly, medicine is getting to the point where there's enough machine-readable data to start applying algorithms that learn from data. At the same time, the algorithms are racing ahead at an incredible pace.
+The practice of medicine entails constantly making fast high-stakes decisions based on incomplete and uncertain information. Somewhat belatedly, medicine is getting to the point where there's enough machine-readable data to start applying algorithms that learn from data. At the same time, the algorithms are racing ahead.
 
 For medicine, at least the parts visible to public, the human-in-the-loop approach is going to be a lot more palatable for some time to come. Machines may outperform humans at tasks like staging cancer from lung x-rays. Humans remain better at the metacognition tasks, like "hey, this is an image of the wrong patient's lung" or "hey, this is an image of the exam room floor."
 
-Some technologies displace older technologies, others interoperate with the existing system. In general, the later approach is more likely to succeed, and I think this will prove especially true in health-care.
+Some technologies displace older technologies, others interoperate with the existing system. In general, the later approach is more likely to succeed, and I think this will prove especially true in health-care. But, no technology will succeed by adding one more thing onto the backs of [already overburdened docs][10].
+
 
 ## AI in Medicine
 
@@ -43,3 +44,4 @@ Daphne Koller's new venture, [insitro][3], is constructing a highly automated [b
 [7]: /2019-05-31/multi-omic-studies.html
 [8]: /2018-08-24/data-health-tech-companies.html
 [9]: https://www.ft.com/content/e450a688-ddfb-11e8-b173-ebef6ab1374a
+[10]: https://www.nytimes.com/2019/06/08/opinion/sunday/hospitals-doctors-nurses-burnout.html
