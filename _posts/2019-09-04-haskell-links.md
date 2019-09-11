@@ -22,9 +22,10 @@ Fresh from [functional programming summer school][13], which was super-fun, I'm 
  * [The Haskell Phrasebook][2]
  * [What we talk about when we talk about monads][6] by Tomas Petricek
  * [Lexi King's Opinionated guide to Haskell in 2018](https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/)
- * Chris Allen's [How to learn Haskell](https://github.com/bitemyapp/learnhaskell) [Functional Education](https://bitemyapp.com/blog/functional-education/)
+ * Chris Allen's [How to learn Haskell](https://github.com/bitemyapp/learnhaskell) and [Functional Education](https://bitemyapp.com/blog/functional-education/)
  * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
  * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
+ * [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
 
 ## Papers
  * John Hughs paper [Why Functional Programming Matters][6] with talks available on YouTube.
