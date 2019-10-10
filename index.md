@@ -6,7 +6,7 @@ title: J. Christopher Bare
 Building software tools that enhance the ability to create and discover. Machine learning, programming languages, and life-sciences.
 
 Currently:
-* Figuring out what's next!
+* Applying machine learning to primary care medicine at [98point6][8].
 
 Formerly:
 * creating a software platform for health and wellness at [Arivale][1].
