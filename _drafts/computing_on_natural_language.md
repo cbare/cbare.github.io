@@ -15,6 +15,39 @@ Keith Trnka's [Reading list for text classification, 2018][2]
 
 Paper [Recent Trends in Deep Learning Based Natural Language Processing][13]
 
+Rachel Thomas SciPy2019 keynote: [The New Era of NLP][14]
+
+[Neural Network Methods for Natural Language Processing][15] by Yoav Goldberg
+
+Oxford class on [Deep Learning for NLP][16] with [lecture notes][17]
+
+[Natural Language in Python using spaCy][18]
+
+
+
+
+Embeddings
+
+Bert
+ELMo
+
+
+classes online
+
+Sebastian Rastcha ML book.
+
+Kinds of NLP problems
+
+Text classification
+Sentiment analysis
+Named entity recognition (NER)
+
+
+https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+
+
+https://nlpprogress.com
+
 
 
 
@@ -31,3 +64,10 @@ Paper [Recent Trends in Deep Learning Based Natural Language Processing][13]
 [11]: https://github.com/andrewt3000/dl4nlp
 [12]: https://medium.com/@ageitgey/natural-language-processing-is-fun-9a0bff37854e
 [13]: https://arxiv.org/pdf/1708.02709.pdf
+[14]: https://www.youtube.com/watch?v=KChtdexd5Jo
+[15]: https://www.goodreads.com/book/show/34931897-neural-network-methods-for-natural-language-processing
+[16]: http://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/
+[17]: https://github.com/oxford-cs-deepnlp-2017/lectures
+[18]: https://t.co/eu3C3XiY4q
+[19]: https://t.co/G6mZfXsdMr
+

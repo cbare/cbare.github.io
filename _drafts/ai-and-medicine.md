@@ -35,6 +35,13 @@ Recently announced partnerships between pharma and health-tech focus on differen
 Daphne Koller's new venture, [insitro][3], is constructing a highly automated [bio-data-factory][4] with the aim of building a data pool that will enable machine-learning to support decisions early in the drug development pipeline. They won't be the only only ones trying to [bring AI to pharma and drug development][9].
 
 
+
+“Care traffic control”: A patient-relationship platform that sits atop otherwise disconnected systems (EHR, wearables, etc.) providing a coordinated view across the healthcare ecosystem delivering a more coordinated, tailored patient experience at a lower total cost of care.
+
+https://hbr.org/2019/10/how-new-health-care-platforms-will-improve-patient-care
+
+
+
 [1]: https://www.nature.com/articles/s41591-018-0316-z
 [2]: https://www.nature.com/articles/s41591-018-0300-7
 [3]: http://www.insitro.com/
