@@ -26,6 +26,7 @@ Fresh from [functional programming summer school][13], which was super-fun, I'm 
  * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
  * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
  * [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
+ * Evgeny Pogrebnyak's [Seven classes on Haskell and a follow-up reading list](https://github.com/epogrebnyak/haskell-intro)
 
 ## Papers
  * John Hughs paper [Why Functional Programming Matters][6] with talks available on YouTube.

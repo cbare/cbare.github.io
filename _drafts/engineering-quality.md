@@ -6,6 +6,7 @@
 - Automated continuous deploy
 - Standard project template
 - Standards for ops, e.g. terraform, CDK
+- [Docs](https://www.sohamkamani.com/blog/how-to-write-good-documentation/)
 
 ## Continuous improvement
 - retrospectives on errors / downtime
