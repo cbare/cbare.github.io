@@ -6,7 +6,7 @@ title: J. Christopher Bare
 Building software tools that enhance the ability to create and discover. Machine learning, programming languages, and life-sciences.
 
 Currently:
-* Applying machine learning to primary care medicine at [98point6][8].
+* Applying machine learning to on-demand text-based primary care medicine at [98point6][8].
 
 Formerly:
 * creating a software platform for health and wellness at [Arivale][1].
@@ -26,3 +26,4 @@ Old stuff still lives on the old [Digithead's Lab Notebook][6].
 [5]: https://scholar.google.com/citations?hl=en&user=EEZ5DLgAAAAJ&view_op=list_works&sortby=pubdate "Publications on Google Scholar"
 [6]: https://digitheadslabnotebook.blogspot.com/ "Digithead's Lab Notebook"
 [7]: /notebook.html
+[8]: https://www.98point6.com/
