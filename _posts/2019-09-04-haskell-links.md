@@ -27,6 +27,9 @@ Fresh from [functional programming summer school][13], which was super-fun, I'm 
  * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
  * [Your easy guide to Monads, Applicatives, & Functors](https://medium.com/@lettier/your-easy-guide-to-monads-applicatives-functors-862048d61610)
  * Evgeny Pogrebnyak's [Seven classes on Haskell and a follow-up reading list](https://github.com/epogrebnyak/haskell-intro)
+ * [Monad Transformers Step By Step](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/monad-transformers-step-by-step.pdf)
+ * Ben Lynn's [Haskell Fan Site](https://crypto.stanford.edu/~blynn/haskell/papers.html)
+ * Standard Ladder of Functional Programming
 
 ## Papers
  * John Hughs paper [Why Functional Programming Matters][6] with talks available on YouTube.
@@ -59,7 +62,8 @@ After years of graduate school you may eventually understand functors, applicati
  * [Category Theory: Lecture Notes and Online Books][28]
  * Category Theory in Context, [Emily Riehl](http://www.math.jhu.edu/~eriehl/)
 
-
+### PLT
+ * The [Software Foundations](https://softwarefoundations.cis.upenn.edu) series is a broad introduction to the mathematical underpinnings of reliable software.
 
 
 [1]: https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell
