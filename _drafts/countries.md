@@ -4,29 +4,29 @@
  - Mexico
  - Honduras
  - Costa Rica
+ - Bahamas
  - Peru
  - Argentina
  - Chile
- - Bahamas
 
 ## Europe
  - Netherlands
- - Germany
  - Belgium
- - France
- - Italy
- - England
- - Switzerland
  - Luxemburg
- - Austria
+ - England
+ - Germany
+ - France
  - Spain
- - Greece
  - Portugal
+ - Italy
+ - Switzerland
+ - Austria
  - Hungary
- - Turkey
  - Czech Republic
  - Croatia
  - Bosnia
+ - Greece
+ - Turkey
 
 ## Africa
  - Morocco
