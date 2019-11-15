@@ -14,9 +14,9 @@ by Noel Malcolm.
 
 [![Agents of Empire]({{ "/images/agents_of_empire_cover.jpeg" | absolute_url }})](https://global.oup.com/academic/product/agents-of-empire-9780190262785)
 
-The 16th Century was a time of transition. The modern era was slowly and unevenly emerging from the middle ages. Fuedal structures clung to some areas while others charged ahead.
+The 16th Century was a time of transition. The modern era was slowly and unevenly emerging from the middle ages. Feudal systems remained firmly entrenched in most of Europe, while here and there a new order was pushing aside the old.
 
-The printing press was the disruptive technology of the time. The Protestant Reformation ushered in a period of religous war and political instability that drastically changed the power structure of Europe.
+The printing press was the disruptive technology. The Protestant Reformation ushered in religous war and political upheaval that drastically changed the dynamics of power across the continent.
 
 Art and Science gathered momentum towards the Enlightenment of the 17th and 18th Centuries. Gun powder came into increasingly common usage in battle. The discovery of the New World and subsequent lopsided conquests of the Aztecs and Incas kicked off the colonial era. The technologies of naval power advanced to the point where, in 1616, 6 Spanish ships defeated an Ottoman armada of 55 galleys in the Battle of Cape Celidonia. Already, the next generation of colonial powers were preparing to leapfrog the Iberian countries.
 
@@ -28,7 +28,7 @@ The House of Hapsburg came to control a disconnected set of territories includin
 
 The book follows an extended family from coastal Albania, members of which serve the various powers of the day - Venice, Spain, the Papacy, or the Porte. This point of view, low level nobility from a backwater region, maybe somewhat analogous to the professional class of today, allows the setting, the complex political economy of the eastern Mediterranian to take center stage. On another layer, Malcolm gives amusing insight into the process of historical sleuthing through sparse and ambiguous surviving records that uncovered the family's story. The result is dense reading - but well worth it.
 
-Here are some major events that I gathered up to try and get some context on these turbulent times:
+Here are some major events that I gathered up to try to get some context on these turbulent times:
 
 
 ## The Protestant reformation
