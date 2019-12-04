@@ -5,9 +5,9 @@ date:   2019-12-02 17:20 -0800
 categories: python
 ---
 
-# Idiomatic Python
+Idiomatic use of language makes the difference between code that concisely expresses intent and code that hides its intent in an awkward misshapen structure.
 
-Great resources on idiomatic Python:
+Python provides a sparse and carefully-considered set of primitives that compose nicely together. Using these tools with good taste takes a little practice. Luckily, the community has produced some great resources on writing idiomatic Python code.
 
 - Raymond Hettinger's talks:
   - [Transforming Code into Beautiful, Idiomatic Python][3] (old but good)
@@ -17,7 +17,7 @@ Great resources on idiomatic Python:
 
 - [The Hitchhiker’s Guide to Python][6] aims to be a handbook of best practices.
 
-- [Fluent Python][1] by Luciano Ramalho is a rare thing - a well-written intermediate-level programming book. Working your way through its 21 chapters will take you from competence to proficiency.
+- [Fluent Python][1] by Luciano Ramalho is a well-written intermediate-level programming book. Working your way through its chapters will take you from competence to proficiency.
 
 - Chip Huyen's [Python-is-cool][2] covers some of Python's unique syntax.
 
@@ -34,7 +34,7 @@ Great resources on idiomatic Python:
 
 ### Laziness
 
-The transition from Python 2 to Python 3, brought with it more lazy evaluation. For example, [range][903], [zip][904], [dict.items][905] all went from eager (also called strict) to lazy. Judicious use of laziness can help code run faster and use less memory.
+The transition from Python 2 to Python 3, brought with it more _lazy evaluation_. For example, [range][903], [zip][904], and [dict.items][905] all went from eager to lazy. Judicously lazy code runs faster using less memory.
 
 ### Comprehensions
 
@@ -46,7 +46,8 @@ Comprehensions combine well with [itertools][908] and [functools][909] libraries
 #### List comprehensions
 
 ``` python
-unmoldy_twaddled_turnips = [twaddle(turnip) for turnip in turnips if not is_moldy(turnip)]
+unmoldy_twaddled_turnips = [twaddle(turnip)
+    for turnip in turnips if not is_moldy(turnip)]
 ```
 
 #### Generator expressions
@@ -54,7 +55,8 @@ unmoldy_twaddled_turnips = [twaddle(turnip) for turnip in turnips if not is_mold
 The lazy version of a list comprehension is a generator expression.
 
 ``` python
-generator = (twaddle(turnip) for turnip in turnips if not is_moldy(turnip))
+generator = (twaddle(turnip)
+    for turnip in turnips if not is_moldy(turnip))
 ```
 
 #### Set and dict comprehensions
@@ -81,10 +83,8 @@ def foo(*args, **kwargs):
     """
     Accept positional and keyword arguments and print them.
     """
-    for arg in args:
-        print(arg)
-    for key, value in kwargs.items():
-        print(f'{key} = {value}')
+    print('positional args = {}'.format(', '.join(str(arg) for arg in args)))
+    print(', '.join(f'{key}={value}' for key, value in kwargs.items()))
 ```
 
 #### Destructuring assignment
@@ -100,18 +100,19 @@ head, *tail = (1, 2, 3, 4)
 a, b = b, a
 ```
 
-### decorators
+### Decorators
+
+[Decorators][203] are syntax for creating a wrapper around a function, method or class. Usually, you'll import and use them from libraries. Examples include:
+- property
+- classmethod
+- lrucache
 
 
+### NamedTuple
 
-### namedtuple
+Classes are needed less than you might think. [Named tuples](https://docs.python.org/3/library/collections.html#namedtuple-factory-function-for-tuples-with-named-fields) are memory-efficient, immutable and can be defined in one line.
 
-classes - less needed than you might think
-@staticmethod
-@classmethod
-
-
-For a mutable alternative to NamedTuple, consider [argparse.Namespace](https://docs.python.org/3/library/argparse.html#argparse.Namespace).
+For a mutable alternative, consider [argparse.Namespace](https://docs.python.org/3/library/argparse.html#argparse.Namespace).
 
 
 ## Habits to avoid
@@ -120,7 +121,7 @@ For a mutable alternative to NamedTuple, consider [argparse.Namespace](https://d
 - singleton classes; use modules
 - static methods; use functions, prefer pure functions
 - class hierarchies; prefer composition over inheritence
-- record / struct style classes; use dict or NamedTuple
+- record / struct style classes; use namedtuple or [dataclass][204]
 - getters / setters; use member variables, covert to @property when needed and not before
 - defining custom exceptions; prefer [built-in exceptions][906]
 
@@ -173,6 +174,8 @@ Conventional usage of single-letter variables:
 
 [201]: https://realpython.com/python-kwargs-and-args/
 [202]: https://rszalski.github.io/magicmethods/
+[203]: https://realpython.com/primer-on-python-decorators/
+[204]: https://docs.python.org/3/library/dataclasses.html
 
 [901]: https://docs.python.org/3/tutorial/modules.html
 [902]: https://docs.python.org/3/library/functions.html
