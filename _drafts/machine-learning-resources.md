@@ -10,6 +10,10 @@ categories: machine-learning
 
 * [Machine Learning for Software Engineers][1] by Adaptilab
 * Amazon's [Get Started with Machine Learning][2]
+* [Hands-On Machine Learning with R][3]
+* [machine-learning-resource][4]
 
 [1]: https://www.educative.io/collection/6083138522447872/5629499534213120
 [2]: https://aws.amazon.com/machine-learning/learn/
+[3]: https://bradleyboehmke.github.io/HOML/
+[4]: https://github.com/crazyhottommy/machine-learning-resource

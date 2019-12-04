@@ -7,6 +7,9 @@
 - Standard project template
 - Standards for ops, e.g. terraform, CDK
 - [Docs](https://www.sohamkamani.com/blog/how-to-write-good-documentation/)
+  
+## Design
+- [functional core, imperative shell](https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e)
 
 ## Continuous improvement
 - retrospectives on errors / downtime
@@ -34,16 +37,17 @@
 - check pre- and post-conditions
 
 
+## APIs
+- [REST API Guidelines from Microsoft][5]
+- example's of excellent API docs:
+  - [Stripe's API docs][6]
+  - [Github][7]
 
-[What’s your ML Test Score? A rubric for ML production systems][1]
-[Machine Learning: The High-Interest Credit Card of Technical Debt][2]
-[Software Engineering for Machine Learning: A Case Study][3]
-[Trials and Tribulations of Developers of Intelligent Systems][4]
 
-[1]: https://ai.google/research/pubs/pub45742
-[2]: https://ai.google/research/pubs/pub43146
-[3]: https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf
-[4]: http://web.engr.oregonstate.edu/~burnett/reprints.html
+[5]: https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md
+[6]: https://stripe.com/docs/api
+[7]: https://developer.github.com/v3/
+
 
 
 

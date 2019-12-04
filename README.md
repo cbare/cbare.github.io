@@ -9,8 +9,9 @@ https://cbare.github.io/
 Made with [Jekyll](https://jekyllrb.com/docs/usage/). Commonly used commands:
 
 ```
-jekyll build
-jekyll serve
+jekyll build --drafts
+
+jekyll serve --drafts --future
 ```
 
 

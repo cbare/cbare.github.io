@@ -5,7 +5,20 @@ date:   2019-10-20 12:15:00 -0800
 categories: machine-learning deep-learning software-engineering data-engineering
 ---
 
-Machine learning is a little bit different.
+
+![Programming vs machine learning]({{ "/images/programming_vs_machine_learning.png" | absolute_url }})
+
+
+
+
+
+A Few Useful Things to Know about Machine Learning. Pedro Domingos
+
+
+
+If you engineer your product to scale right from the start, you'll probably never get to the point where it matters.
+
+
 
 The discipline of software engineering is young compared to, say, building bridges. But the software engineering is relatively mature compared to engineering learning systems.
 
@@ -21,10 +34,10 @@ Monitoring performance in production.
 [What’s your ML Test Score? A rubric for ML production systems][2]
 [Software Engineering for Machine Learning: A Case Study][4]
 [Safe and Reliable Machine Learning][3]
+[Trials and Tribulations of Developers of Intelligent Systems][5]
 
 
 [The morning paper][103] covered papers on machine-learning engineering from [Airbnb][102] and [Booking.com][104]
-
 [Applying Deep Learning To Airbnb Search][101]
 
 You need to be this tall:
@@ -64,11 +77,33 @@ Data quality dimensions
 
 
 
+Ask HN: What is your ML stack like?
+https://news.ycombinator.com/item?id=21516311
+
+
+
+Steps
+ - What is the goal or question?
+ - Is data available and of sufficient quality to answer the question?
+ - Alternatives?
+ - Is model performance, precision / recall sufficient?
+ - Operational concerns
+ - Action or intervention
+ - Evaluation in production, real outcomes
+ - Risks
+ - Ethics / privacy / unintended consequences
+
+
+
 
 [1]: https://ai.google/research/pubs/pub43146
 [2]: https://ai.google/research/pubs/pub45742
 [3]: https://arxiv.org/abs/1904.07204
 [4]: https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/
+
+[5]: http://web.engr.oregonstate.edu/~burnett/reprints.html
+
+
 [101]: https://arxiv.org/abs/1810.09591
 [102]: https://blog.acolyer.org/2019/10/09/applying-deep-learning-to-airbnb-search/
 [103]: https://blog.acolyer.org
@@ -76,6 +111,7 @@ Data quality dimensions
 [105]: https://developers.google.com/machine-learning/guides/rules-of-ml
 [201]: https://berlinbuzzwords.de/18/session/top-10-data-engineering-mistakes
 [202]: https://www.slideshare.net/lallea/top-10-data-engineering-mistakes
+
 
 [301]: https://www.youtube.com/watch?v=4Spo2QRTz1k
 [302]: https://medium.com/@maximebeauchemin
@@ -85,4 +121,5 @@ Data quality dimensions
 [402]: https://twitter.com/oceankidbilly
 
 
-
+[501]: https://www.thoughtworks.com/insights/blog/coding-habits-data-scientists
+[502]: https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/

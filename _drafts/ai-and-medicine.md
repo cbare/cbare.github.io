@@ -5,7 +5,7 @@ date:   2019-06-10 9:15:00 -0800
 categories: machine-learning deep-learning health-tech
 ---
 
-The practice of medicine entails constantly making fast high-stakes decisions based on incomplete and uncertain information. Somewhat belatedly, medicine is getting to the point where there's enough machine-readable data to start applying algorithms that learn from data. At the same time, the algorithms are racing ahead.
+The practice of medicine entails quickly making high-stakes decisions based on incomplete and uncertain information. Somewhat belatedly, medicine is getting to the point where there's enough machine-readable data to start applying algorithms that learn from data. At the same time, the algorithms are racing ahead.
 
 For medicine, at least the parts visible to public, the human-in-the-loop approach is going to be a lot more palatable for some time to come. Machines may outperform humans at tasks like staging cancer from lung x-rays. Humans remain better at the metacognition tasks, like "hey, this is an image of the wrong patient's lung" or "hey, this is an image of the exam room floor."
 
@@ -28,7 +28,7 @@ Jeff Dean and co-authors from Stanford and Google offer [A guide to deep learnin
 
 While the above work focuses on clinical practice, another layer of healthcare facing diminishing returns is drug development with costs spiraling and high-profile drug trails ending in failure.
 
-The founding idea of Sage Bionetworks (my former gig) was a run at this problem using the toolkit open-data / open-science.
+The founding idea of Sage Bionetworks (my former gig) was a run at this problem using the toolkit of open-data / open-science.
 
 Recently announced partnerships between pharma and health-tech focus on different steps on the path from the lab and the pharmacy. [Glaxo's $300 million investment in 23andMe][6] given the pharma giant access to 5 million genotypes from which to mine “genetically validated targets” and develop drugs. [Novartis, Otsuka, Pfizer and Sanofi have formed a strategic alliance to run clinical trials with Verily][5].
 
@@ -52,3 +52,18 @@ https://hbr.org/2019/10/how-new-health-care-platforms-will-improve-patient-care
 [8]: /2018-08-24/data-health-tech-companies.html
 [9]: https://www.ft.com/content/e450a688-ddfb-11e8-b173-ebef6ab1374a
 [10]: https://www.nytimes.com/2019/06/08/opinion/sunday/hospitals-doctors-nurses-burnout.html
+
+
+
+
+https://www.nytimes.com/2019/11/14/technology/apple-harvard-health-studies.html
+
+
+Google's 'Project Nightingale'
+https://www.wsj.com/articles/google-s-secret-project-nightingale-gathers-personal-health-data-on-millions-of-americans-11573496790
+
+Google, new owner of Fitbit, has made a deal with Ascension, the second-largest health system in the U.S. giving it access to health records of millions of Americans. This adds to another deal with Mayo Clinic.
+
+
+WSJ Your Health Data Isn’t as Safe as You Think
+
