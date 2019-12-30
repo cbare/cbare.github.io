@@ -30,8 +30,8 @@ Stuff I'm trying to stuff into my brain in the last weeks of 2019:
 
 ### NLP
 
- * NLP in Action
- * Neural Network Methods for NLP
+ * [NLP in Action](https://github.com/totalgood/nlpia)
+ * Neural Network Methods for NLP, by Yoav Goldberg
  * [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Jurafsky & Martin
  * [Stanford CS224N: NLP with Deep Learning, Winter 2019](http://web.stanford.edu/class/cs224n/)
 
