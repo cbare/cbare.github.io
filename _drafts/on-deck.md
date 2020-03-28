@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Deck"
-date:   2020-1-1 08:00 -0800
+date:   2020-1-15 08:00 -0800
 categories: org
 ---
 
@@ -13,8 +13,9 @@ Interesting stuff, early 2020. Still working on most of my [previous on-deck lis
  * [Python Machine Learning 3rd ed.](https://www.packtpub.com/data/python-machine-learning-third-edition)
  * [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://github.com/ageron/handson-ml2)
  * [Unsupervised Evaluation and Weighted Aggregation of Ranked Classification Predictions](http://jmlr.org/papers/v20/18-094.html) by Mehmet Eren Ahsen, Robert M Vogel, Gustavo A Stolovitzky
- * From 2017: [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35) by Andrej Karpathy. An interesting article, although I don't love the way it contrasts software development and ML. I see ML as a powerful tool in the engineer's toolbox, albiet one that might require a little special handling.
+ * [Building the Software 2.0 Stack](https://www.youtube.com/watch?v=zywIvINSlaI) a 2018 talk by Andrej Karpathy. Interesting thinking, although I don't love the way it divides software engineering from ML. The talk is better than the origin blog post [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35).
  * [Neurips 2019 videos](https://slideslive.com/neurips#!feed=popular), [Notes by David Abel](https://david-abel.github.io/notes/neurips_2019.pdf)
+ * [On the Measure of Intelligence] Francois Chollet
 
 ### NLP
 
@@ -25,15 +26,30 @@ Interesting stuff, early 2020. Still working on most of my [previous on-deck lis
  * Christopher Potts made some [hort screencasts on core concepts in natural language understanding](https://web.stanford.edu/~cgpotts/talks.html)
  * Christopher Olah on [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) (2015)
 
-#### NLP in Healthcare
+#### AI and NLP in Healthcare
 
  * Andrew Maas speaking on [ML/NLP for Healthcare Analytics](https://roamanalytics.com/2018/12/04/andrew-maas-in-stanfords-seminar-in-artificial-intelligence-in-healthcare/) (Dec, 2018). Andrew is cofounder and chief scientist at Roam Analytics, a machine learning platform for healthcare. Andrew graduated with a PhD in Computer Science from Stanford University in 2015, advised by Andrew Ng and Dan Jurafsky.
+ * [cs522.stanford.edu](http://cs522.stanford.edu/) Seminar in Artificial Intelligence in Healthcare
+ * [Challenges to the Reproducibility of Machine Learning Models in Health Care](https://jamanetwork.com/journals/jama/fullarticle/2758612)
+ * [15 ways Silicon Valley is harnessing Big Data for health](https://www.nature.com/articles/s41591-019-0708-8) by Becky McCall writing in Nature Medicine news.
+ * [Top-Funded Digital Health Companies And Their Impact On High-Burden, High-Cost Conditions](https://www.healthaffairs.org/doi/10.1377/hlthaff.2018.05081) (Jan 2019) Safavi, et al. HEALTH AFFAIRS 38, NO. 1 (2019): 115–123
+ * [“A patient like me” – An algorithm-based program to inform patients on the likely conditions people with symptoms like theirs have](http://dx.doi.org/10.1097/MD.0000000000017596) Koren et al. Medicine (2019) 98:42
+
+
+## Independent Research
+
+* Nadia Eghbal on [Reimagining the PhD](https://nadiaeghbal.com/phd): “You’re just a person, learning in public, about a topic that other people find interesting.”
+* [Becoming an Independent Researcher](https://medium.com/@andreas_madsen/becoming-an-independent-researcher-and-getting-published-in-iclr-with-spotlight-c93ef0b39b8b)
+* [Emil’s Story as a Self-Taught AI Researcher](https://blog.floydhub.com/emils-story-as-a-self-taught-ai-researcher/)
+
 
 ## Other stuff
 
 * Strange Loop is always interesting: [Highlights from Strange Loop 2019 and PWLConf 2019](https://www.twosigma.com/insights/article/tech-stew-highlights-from-strange-loop-2019-and-pwlconf-2019/)
-* [Scala and functional programming classes](https://scala.epfl.ch/)
-* Nadia Eghbal on [Reimagining the PhD](https://nadiaeghbal.com/phd): “You’re just a person, learning in public, about a topic that other people find interesting.”
+* [The Making of an IO](https://www.signifytechnology.com/blog/2019/10/the-making-of-an-io-by-daniel-spiewak) by Daniel Spiewak, showing that there's interesting stuff going on in the [Scala](https://scala.epfl.ch/) world.
+* [Cormac McCarthy’s tips on how to write a great paper](https://www.nature.com/articles/d41586-019-02918-5)
+* A Distant Mirror by Barbara Tuchman
+* Lunar Men Jenny Uglow
 
 ## Writing
 
