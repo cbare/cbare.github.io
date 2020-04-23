@@ -29,6 +29,7 @@
 1666              Great Fire of London
 1688              Glorious Revolution: James II overthrown by a union of English Parliamentarians and William of Orange
 1769              James Watt's steam engine patented
+1776              Adam Smith's "The Wealth of Nations" published
 1776              Declaration of American Independence
 1789              French Revolution
 1796              Vaccination against smallpox introduced
