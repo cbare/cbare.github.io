@@ -50,7 +50,7 @@ During lulls in the fighting with the English, French knights with little to kee
 
 ## Forshadowing Protestantism
 
-The sale of indulgences and church appointments eroded the authority of the Church. Clergy who amassed great wealth and kept mistresses were widely viewed and corrupt and venal. The Western Schism between 1378-1418 did still more damage.
+The sale of indulgences and church appointments eroded the authority of the Church. Clergy amassed great wealth and kept mistresses. The Western Schism between 1378-1418 did still more damage.
 
 Oxford theologian [John Wyclif](https://en.wikipedia.org/wiki/John_Wycliffe), denounced the sale of indugences and preached the disendowment of the temporal property of the Church and the exclusion of the clergy from temporal government. His followers produced an English translation of the Bible.
 
@@ -63,11 +63,11 @@ _At the same time, Popes repeatedly tried and mostly failed to organize resistan
 
 ## War and taxes
 
-The noblity needed war to justify their existence, settle their quarrels and fill their coffers. The costs fell heavily on the working classes.
+The noblity needed war to justify their existence, settle their quarrels and fill their coffers. The costs fell on the working classes, without regard to the opposition and resentment engendered.
 
 “It should be an established principle,” wrote Villani, “that war ought not to be paid for out of the purses of the poor but rather by those to whom power belongs.”
 
-Deschamps wrote “This grain, this corn, what is it but the blood and bones of the poor folk who have poughed the land?”
+Poet Eustache Deschamps wrote “This grain, this corn, what is it but the blood and bones of the poor folk who have ploughed the land?Wherefore their spirit crieth on God for vengeance. Woe to the lords, the councillors and all who steer us thus, and woe to all who are of their party, for no man careth now but to fill his bags.”
 
 ![Ploughing]({{ "/images/ploughing.jpg" | absolute_url }})
 
@@ -127,10 +127,11 @@ Enguerrand de Coucy died in captivity in 1397 after the allied Crusaders met def
 
 Byzantium fell in 1453. The Gutenberg Bible was published in 1455. The Council of Constance, which lasted from 1414 to 1418 ended the Western Schism.
 
+Europe's merchant shipping network grew throughout the Middle Ages, setting the stage for the Age of Discovery.
+
+
 _The ills and disorders of the 14th Century could not be without consequence. Times were to grow worse over the next 50-odd years until at some imperceptible moment by some mysterious chemisty, energies were refreshed, ideas broke out of the mold of the Middle Ages into new realms and humanity found itself redirected._
 
-
- Europe's merchant shipping network grew throughout the Middle Ages, setting the stage for the Age of Discovery.
 
 [![Map of Medieval Commerce]({{ "/images/europe_mediaeval_commerce.jpg" | absolute_url }})](https://legacy.lib.utexas.edu/maps/historical/shepherd/europe_mediaeval_commerce.jpg) [Insets: England; Hanseatic League in Northern Germany]. From The Historical Atlas by William R. Shepherd, 1926.
 
