@@ -53,6 +53,8 @@ https://hbr.org/2019/10/how-new-health-care-platforms-will-improve-patient-care
 [9]: https://www.ft.com/content/e450a688-ddfb-11e8-b173-ebef6ab1374a
 [10]: https://www.nytimes.com/2019/06/08/opinion/sunday/hospitals-doctors-nurses-burnout.html
 
+[101]: https://techcommunity.microsoft.com/t5/azure-ai/introducing-text-analytics-for-health/ba-p/1505152
+[102]: https://www.geekwire.com/2020/microsoft-releases-preview-text-analytics-health-battle-tested-covid-19-partnership/
 
 
 
@@ -66,4 +68,13 @@ Google, new owner of Fitbit, has made a deal with Ascension, the second-largest 
 
 
 WSJ Your Health Data Isn’t as Safe as You Think
+
+
+[Introducing Text Analytics for Health][101]
+
+Hadas Bitran, Group Manager, Microsoft Healthcare   The healthcare industry is overwhelmed with data. Much of this healthcare data is in the form of unstructured text, such as doctor’s notes, medical publications, electronic health records, clinical trials protocols, medical encounter transcripts an...
+
+Microsoft releases preview of Text Analytics for health, battle-tested in COVID-19 partnership
+
+COVID-19 Open Research Dataset
 
