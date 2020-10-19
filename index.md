@@ -3,20 +3,20 @@ layout: page
 title: J. Christopher Bare
 ---
 
-Building software tools that enhance the ability to create and discover. Machine learning, programming languages, and life-sciences.
+Building software tools that enhance the ability to create and discover. Machine learning and software engineering applied to life-sciences and human health.
 
 Currently:
-* ...in between things...
+* ...looking for the next thing...
 
 Formerly:
 * Applying machine learning to on-demand text-based primary care medicine at [98point6][8].
-* creating a software platform for health and wellness at [Arivale][1].
-* building for open science and reproducible research at [Sage Bionetworks][2].
-* crowdsourcing answers to biomedical questions with [DREAM challenges][3].
-* reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
-* contributing to research [papers][5].
+* Creating a software platform for health and wellness at [Arivale][1].
+* Building tools for open science and reproducible research at [Sage Bionetworks][2].
+* Crowdsourcing answers to biomedical questions with [DREAM challenges][3].
+* Reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
+* [publications][5] (ORCID: [0000-0003-1006-1491][9]).
 
-This is my **[online notebook][7]** - a collection of stuff possibly related to programming, data-science, machine-learning, deep-learning, natural-language-processing, life-science...
+This is my **[online notebook][7]** - a collection of stuff possibly related to programming, data-science, machine-learning, deep-learning, natural-language-processing, life-science. On any given topic, I might know what I'm talking about or I might just be curious. Mostly, the latter.
 
 Old stuff still lives on the old [Digithead's Lab Notebook][6].
 
@@ -28,3 +28,4 @@ Old stuff still lives on the old [Digithead's Lab Notebook][6].
 [6]: https://digitheadslabnotebook.blogspot.com/ "Digithead's Lab Notebook"
 [7]: /notebook.html
 [8]: https://www.98point6.com/
+[9]: https://orcid.org/0000-0003-1006-1491
