@@ -6,7 +6,7 @@ title: J. Christopher Bare
 Building software tools that enhance the ability to create and discover. Machine learning and software engineering applied to life-sciences and human health.
 
 Currently:
-* ...looking for the next thing...
+* ...looking for the next thing, [remotely](/2020-08-30/nz.html)...
 
 Formerly:
 * Applying machine learning to on-demand text-based primary care medicine at [98point6][8].
