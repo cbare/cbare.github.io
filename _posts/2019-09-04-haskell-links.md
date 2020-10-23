@@ -30,6 +30,9 @@ Fresh from [functional programming summer school][13], which was super-fun, I'm 
  * [Monad Transformers Step By Step](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/monad-transformers-step-by-step.pdf)
  * Ben Lynn's [Haskell Fan Site](https://crypto.stanford.edu/~blynn/haskell/papers.html)
  * Standard Ladder of Functional Programming
+ * [Katie Miller on Monads](https://www.youtube.com/watch?v=MlZCiiKGbb0) ([slides](http://monads.codemiller.com/#/))
+ * [The Haskell WikiBook](https://en.wikibooks.org/wiki/Haskell)
+ * [A Journey to Enlightenment](http://www.lambdacat.com/the-midnight-monad-a-journey-to-enlightenment/)
 
 ## Papers
  * John Hughs paper [Why Functional Programming Matters][6] with talks available on YouTube.
