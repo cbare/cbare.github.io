@@ -50,7 +50,7 @@ During lulls in the fighting with the English, French knights with little to kee
 
 ## Forshadowing Protestantism
 
-The sale of indulgences and church appointments eroded the authority of the Church. Clergy amassed great wealth and kept mistresses. The Western Schism between 1378-1418 did still more damage.
+The sale of indulgences and church appointments eroded the authority of the Church. Clergy amassed great wealth and kept mistresses. The Western Schism between 1378-1418 did still more damage. Though it would not be until 1517 that Martin Luther nailed the 95 Theses to the church door, the makings of the Protestant Reformation were already taking shape.
 
 Oxford theologian [John Wyclif](https://en.wikipedia.org/wiki/John_Wycliffe), denounced the sale of indugences and preached the disendowment of the temporal property of the Church and the exclusion of the clergy from temporal government. His followers produced an English translation of the Bible.
 
