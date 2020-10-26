@@ -32,7 +32,9 @@ Fresh from [functional programming summer school][13], which was super-fun, I'm 
  * Standard Ladder of Functional Programming
  * [Katie Miller on Monads](https://www.youtube.com/watch?v=MlZCiiKGbb0) ([slides](http://monads.codemiller.com/#/))
  * [The Haskell WikiBook](https://en.wikibooks.org/wiki/Haskell)
- * [A Journey to Enlightenment](http://www.lambdacat.com/the-midnight-monad-a-journey-to-enlightenment/)
+ * [The midnight Monad, a journey to enlightenment](http://www.lambdacat.com/the-midnight-monad-a-journey-to-enlightenment/)
+ * [The Book of Monads](https://www.amazon.com/Book-Monads-Alejandro-Serrano-Mena/dp/0578405296) by [Alejandro Serrano Mena](https://twitter.com/trupill)
+ * [Quchen's articles](https://github.com/quchen/articles)
 
 ## Papers
  * John Hughs paper [Why Functional Programming Matters][6] with talks available on YouTube.
