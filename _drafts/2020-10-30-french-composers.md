@@ -1,19 +1,20 @@
 ---
 layout: post
-title:  "French & Romantic Composers"
+title:  "French Composers"
 date:   2020-10-30 21:35:00 +1300
 categories: music
 ---
 
 ![French Composers Timeline]({{ "/images/french-composers-timeline.png" | absolute_url }}){:style="width: 92%; margin: 0px 24px"}
 
-Timeline made in [Time.Graphics](https://time.graphics/editor/433649).
+I've been [listening][1001] to a lot of French piano music, lately. To get a better picture of the development of the music, here's a timeline of a selection of French composers and others for context, made in [Time.Graphics](https://time.graphics/editor/433649).
 
 ---------------------------|-------------|
  [François Couperin][1]    | (1668-1733) |
  [Jean-Philippe Rameau][2] | (1683-1764) |
  [Felix Mendelssohn][3]    | (1809-1847) |
  [Frédéric Chopin][4]      | (1810-1849) |
+ [Franz Liszt][15]         | (1811-1886) |
  [César Franck][5]         | (1822-1890) |
  [Camille Saint-Saëns][6]  | (1835-1921) |
  [Jules Massenet][7]       | (1842-1912) |
@@ -41,3 +42,5 @@ Timeline made in [Time.Graphics](https://time.graphics/editor/433649).
 [13]: https://en.wikipedia.org/wiki/Francis_Poulenc
 [14]: https://en.wikipedia.org/wiki/Olivier_Messiaen
 [15]: https://en.wikipedia.org/wiki/Edvard_Grieg
+
+[1001]: https://www.last.fm/user/cbare/library/artists?from=2020-04-01&rangetype=9month
