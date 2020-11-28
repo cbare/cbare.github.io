@@ -9,6 +9,8 @@ categories: music
 
 I've been [listening][1001] to a lot of French piano music, lately. To get a better picture of the development of the music, here's a timeline of a selection of French composers and others for context, made in [Time.Graphics](https://time.graphics/editor/433649).
 
+![Satie sketch]({{ "/images/satie.jpg" | absolute_url }}){:style="width: 45%; margin: 0px 24px; float: right;"}
+
 ---------------------------|-------------|
  [François Couperin][1]    | (1668-1733) |
  [Jean-Philippe Rameau][2] | (1683-1764) |
