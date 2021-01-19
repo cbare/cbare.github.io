@@ -1,3 +1,0 @@
-
-
-Trindi tick-list

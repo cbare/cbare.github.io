@@ -39,17 +39,21 @@
  - Myanmar
  - Laos
  - Cambodia
- - Australia
- - Fiji
  - Japan
  - Hong Kong
+
+## Pacific
+ - Australia
+ - Fiji
+ - New Zealand
+
+
 
 
 ## Want to go
  - Sweden
  - Denmark
  - Norway
- - New Zealand
  - Scotland
  - Poland
  - China
