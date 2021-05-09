@@ -3,10 +3,12 @@ layout: page
 title: J. Christopher Bare
 ---
 
+![My funny face]({{ "/images/j_christopher_bare.jpg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; border-radius: 50%; width: 25%"}
+
 Building software tools that enhance the ability to create and discover. Machine learning and software engineering applied to life-sciences and human health.
 
 Currently:
-* ...looking for the next thing, [remotely]({% post_url 2020-08-30-nz %})...
+* Building data pipelines to help better understand breast cancer screening and risk at [Volpara][10].
 
 Formerly:
 * Applying machine learning to on-demand text-based primary care medicine at [98point6][8].
@@ -29,3 +31,4 @@ Old stuff still lives on the old [Digithead's Lab Notebook][6].
 [7]: /notebook.html
 [8]: https://www.98point6.com/
 [9]: https://orcid.org/0000-0003-1006-1491
+[10]: https://www.volparahealth.com/
