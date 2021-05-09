@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Learning Git"
+title:  "Teaching Git"
 date:   2021-03-28 11:55:00 +1300
 categories: programming tools
 ---
 
-This is a set of notes for a presentation I gave to a group of data oriented folks and a refresher on version control for data people.
+This is a set of notes on version control with Git targeted at data analysts wanting to add Git version control to their workflow.
 
 ## Tools for software quality
 
-Software engineering gives us a set of tools for maintaining quality. Source code version control tracks changes to a codebase over time.
+Software engineering gives us a set of tools for maintaining quality.
 
 - Tests
 - ***Version control  <<=====***
@@ -19,9 +19,13 @@ Software engineering gives us a set of tools for maintaining quality. Source cod
 - Standard project template
 - [Infra-as-code tools, e.g. Terraform, ARM (Azure Resource Manager)][22]
 
-Working with data and models brings a few new variables into the mix - non-deterministic behavior and testing assumptions about data. The new buzzwords are ML-ops and data-ops. You can version models and even data. More on that later.
+**Source code version control** tracks changes to a codebase over time.
+
+Using these tool in context of data and models adds a few new variables into the mix - non-deterministic behavior and testing assumptions about data. The new buzzwords are ML-ops and data-ops. You can version models and even data. More on that later.
 
 ## Starting a new project
+
+Let's start by creating a new project.
 
 ``` sh
 mkdir hackalicious

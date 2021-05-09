@@ -4,6 +4,7 @@
   - ask: "How to ensure code quality?"
 - CI/CD, build and deploy process
   - ask: "How do we reduce the likelihood of bugs into production?"
+  - feature flags
 - logging, error analysis
   - ask: "If you get bug reports, how do you dig in?"
 - monitoring & analytics

@@ -95,6 +95,30 @@ https://www.bloomberg.com/news/articles/2020-05-21/bezos-buffett-dimon-joint-ven
 
 
 
+https://www.firefly.health/ (Massachusetts)
+
+
+
+https://tend.nz/
+
+https://www.fastcompany.com/90251795/why-do-digital-health-startups-keep-failing
+
+
+
+
+https://www.mobihealthnews.com/news/back-future-digital-health-led-decentralization-health-care-delivery
+
+virtual-first primary care
+
+
+
+Psychiatry Is Revealing the Potential — and Pitfalls — of Telehealth
+https://hbr.org/2020/12/psychiatry-is-revealing-the-potential-and-pitfalls-of-telehealth?ab=hero-subleft-2
+
+
+
+
+
 
 [1]: https://www.cnbc.com/2019/01/27/98point6-building-the-amazon-prime-of-primary-care.html
 [2]: https://www.apnews.com/b3af57ee5d574a2db6a1a628eab1403b

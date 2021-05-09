@@ -25,3 +25,9 @@ gluonnlp
 
 julian bright ML-Ops demo
 
+https://medium.com/@keith.trnka
+
+
+http://veekaybee.github.io/2020/06/09/ml-in-prod/
+
+

@@ -30,6 +30,14 @@ ei·do·lon
 “extraordinary claims require extraordinary evidence.”
 
 
+“We are drowning in information but starved for knowledge.”
+– John Naisbitt
+
+
+“Some days I feel like my shadow’s casting me.”
+– Warren Zevon
+
+
 https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 

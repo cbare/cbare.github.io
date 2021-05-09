@@ -78,3 +78,26 @@ Microsoft releases preview of Text Analytics for health, battle-tested in COVID-
 
 COVID-19 Open Research Dataset
 
+
+
+https://ada.com/conditions/
+
+
+https://community.rstudio.com/t/healthcare-at-rstudio-global-2021/94250
+
+
+Reproducible Medical Research with R
+https://bookdown.org/pdr_higgins/rmrwr/
+
+
+Data Science for the Biomedical Sciences
+https://ds4biomed.tech/
+
+
+https://blog.orionhealth.com/the-state-of-digital-healthcare/
+
+“AI, however, is only as good as the underlying data used to train and implement the algorithms. Hence an increased focus on the quality, timeliness and overall governance of data is likely to go hand-in-hand with the desire to introduce AI more closely in the care delivery process.”
+
+
+Lily Peng, “How to develop machine learning models for Healthcare”
+

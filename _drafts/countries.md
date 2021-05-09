@@ -66,3 +66,4 @@
  - Nepal
  - Bhutan
  - Madeira / Azores
+ - Tahiti
