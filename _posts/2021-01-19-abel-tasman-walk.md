@@ -5,9 +5,12 @@ date:   2021-01-19 14:55:00 +1300
 categories: travel new-zealand
 ---
 
+![Abel Tasman Anapai]({{ "/images/anapai.jpg" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}
+
+
 The [Abel Tasman][1] is one of New Zealand's [Great Walks][2], and of those it's probably the most accessible. We did about 2/3 of the trail with two kids ages 7 and 13 and two out-of-shape grown-ups.
 
-Part of the charm is that most of the [trail][6] is serviced by [water-taxi from Marahau][7]. You can get yourself, bags or even a "chilly bin" dropped at any of the main beaches up as far as Totaranui.
+Part of the charm is that most of the [trail][6] is serviced by [water-taxi from Marahau][7]. You can get yourself, bags, or even a "chilly bin" dropped at any of the main beaches up as far as Totaranui.
 
 ### Prep
 
@@ -65,6 +68,7 @@ We met one camper doing a loop from Totaranui via the inland Gibbs track then al
 - Bring bug juice. The sandflies are brutal. Some people take antihistimines proactively.
 - The trail is very well marked and basically goes in a straight line. There's really only one place you can screw up. Be careful which trail you take out of Anchorage. There are three ways to get in/out of Anchorage - the hot and hilly South trail back towards Marahau, the North trail toward Cleopatra's pool, and the tidal-crossing directly to Torrent Bay.
 - [More tips here][9].
+- [Kayak Abel Tasman][10]
 
 
 [1]: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/things-to-do/tracks/abel-tasman-coast-track/
@@ -76,3 +80,4 @@ We met one camper doing a loop from Totaranui via the inland Gibbs track then al
 [7]: https://www.marahauwatertaxis.co.nz/plan-and-prepare/
 [8]: http://www.deviatingthenorm.com/blogarchive/2015/4/9/abeltasman
 [9]: https://www.laidbacktrip.com/posts/abel-tasman-coast-track-hiking-guide
+[10]: https://journeyjottings.com/blog/2018/02/kayak-abel-tasman/
