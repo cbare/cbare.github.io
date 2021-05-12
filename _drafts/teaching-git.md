@@ -173,6 +173,20 @@ If you have to make coordinated changes across several repos, you might have too
 If you have code of different maturity, different release cycles, different teams, different tooling, these might be better off in different repos.
 
 
+## Versioning data and models
+
+ - Git is not great at versioning large files.​
+ - Solution to that is to combine blob-storage with references in Git.​
+
+Goal is to be able to track: Version x.y.z of product has version a.b of the model and was trained on defined snapshot of training data. Model hyperparameters can be defined in code or config files.​
+
+Tools for ML-Ops
+ - Data Version Control · DVC​
+ - Machine Learning Operations – MLOps | Microsoft Azure​
+ - AWS Sagemaker
+​
+
+
 [21]: https://github.com/nastyhacks
 [22]: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/infrastructure-as-code
 [23]: https://www.destroyallsoftware.com/blog/2017/the-biggest-and-weirdest-commits-in-linux-kernel-git-history

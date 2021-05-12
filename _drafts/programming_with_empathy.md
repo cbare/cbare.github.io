@@ -33,3 +33,7 @@ learning focussed
 5. Drive cluster: energetic, competitive, driven, and decisive
 6. Self-presentation cluster: receptive, self-aware
 
+
+
+https://dynomight.net/better-personalities/
+
