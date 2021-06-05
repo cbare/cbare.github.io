@@ -60,3 +60,8 @@ Ever since they became an underdog, I keep rooting for a Microsoft comeback. I'm
 
 
 https://www.tutlinks.com/deploy-fastapi-on-azure/
+
+
+
+https://www.thoughtworks.com/radar/platforms/azure-machine-learning
+
