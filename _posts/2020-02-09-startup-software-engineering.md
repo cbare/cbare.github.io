@@ -1,11 +1,19 @@
-Notes on start-up software engineering
+---
+layout: post
+title:  "Startup Software Engineering"
+date:   2020-02-09 21:01 -0800
+categories: programming
+---
 
-“Sixty percent of startups don’t survive the first five years,
-and 75 percent of venture capital funded startups fail.” [[3]][3]
+Notes on start-up software engineering.
+
+_“Sixty percent of startups don’t survive the first five years,
+and 75 percent of venture capital funded startups fail.”_ [[3]][3]
 
 ## Characteristics
 
 Some characteristics of software engineering in a start-up are:
+
 - uncertainty
 - innovation
 - rapid prototyping
@@ -43,14 +51,27 @@ Process should be optimized for quick iteration. The obvious stuff still applies
 - testing
 - automation
 
+## The four F's
+
+Karan Gupta offers these principles in order of priority[[5]][5]:
+
+- Fast-ness (speed)
+- Function (capabilities provided)
+- Form (how it looks and feels)
+- Fabrication (how it is built on the inside)
+
+
+## References
 
 1. [Software development in startup companies: A systematic mapping study][1], Paternoster, 2013
 2. [Software Development in Startup Companies:The Greenfield Startup Model][2], Giardino, 2016
 3. [What Do We Know about Software Development in Startups?][3], Giardino, 2014
 4. [How to build a startup engineering team][4], Stewart, 2019
+5. Code-ish Podcast: [Principles of Pragmatic Engineering, with guest Karan Gupta][5]
 
 
 [1]: http://dx.doi.org/10.1016/j.infsof.2014.04.014
 [2]: https://ieeexplore.ieee.org/document/7360225
 [3]: https://www.computer.org/csdl/magazine/so/2014/05/mso2014050028/13rRUxjyX2e
 [4]: https://increment.com/teams/how-to-build-a-startup-engineering-team/
+[5]: https://www.heroku.com/podcasts/codeish/principles-of-pragmatic-engineering

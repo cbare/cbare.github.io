@@ -1,4 +1,5 @@
 ## Americas
+
  - U.S.A.
  - Canada
  - Mexico
@@ -9,7 +10,9 @@
  - Argentina
  - Chile
 
+
 ## Europe
+
  - Netherlands
  - Belgium
  - Luxemburg
@@ -28,11 +31,15 @@
  - Greece
  - Turkey
 
+
 ## Africa
+
  - Morocco
  - Egypt
 
+
 ## Asia
+
  - Thailand
  - Malaysia
  - Singapore
@@ -42,7 +49,9 @@
  - Japan
  - Hong Kong
 
+
 ## Pacific
+
  - Australia
  - Fiji
  - New Zealand
