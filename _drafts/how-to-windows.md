@@ -5,7 +5,9 @@ date:   2021-04-24 19:51 +1300
 categories: programming
 ---
 
-It's been a while since I packed my last Windows box with it's pair of screaming 733Gz Pentiums into a closet, never to return. The tech landscape has shifted a lot: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15 years of Mac and Linux, I'm reluctantly back on Windows.
+![Windows]({{ "/images/windows-logo.svg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 25%"}
+
+It's been a while since I packed my last Windows box with it's pair of screaming 733Gz Pentiums into a closet, never to return. The tech landscape has shifted a lot: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15-plus years of Mac and Linux, I'm reluctantly back on Windows.
 
 So, in 2021, how do you—[or can you][12]—[make Microsoft Windows tolerable][11]? Here's what I've figured out so far.
 
@@ -13,13 +15,17 @@ So, in 2021, how do you—[or can you][12]—[make Microsoft Windows tolerable][
 
 First, don't switch unless you have to. Expect to lose a week or two setting up, working kinks out, and getting used to a new environment. Also, expect to pay an ongoing tax on your productivity if you switch back and forth between Mac and Windows.
 
+CTOs, VPs of technology, don't do this to your people. Allow them to choose the platform on which they are most productive. Whatever you gain from standardization will be more than offset by losses in productivity, increased vendor lock-in, and decreased hiring pool.
+
 That said, I really only need 3 things to be productive: a text editor, a terminal, and a browser. After a few weeks, I have these more or less dialed in and it's starting to feel like a [workable development environment][13].
 
 ## Keys
 
-While key-bindings are usually customizable, some friction around keyboard layout is unavoidable. Your choice seems to boil down to remap alt to ctrl and deal with some quirky cases or just get used to switching.
+Pushing things like typing down into muscle memory frees up space for higher-level thinking. Switching keyboards makes that harder.
 
-Home and end keys vs ctrl-a and ctrl-e are especially annoying. There's apparently no way to type things like em-dash and curly-quotes on a Windows laptop without a #@$%ing numeric keypad?!?
+While key-bindings are customizable, some friction around keyboard layout is unavoidable. Your choice seems to boil down to remap alt to ctrl and deal with the quirks that induces or just get used to switching and pay the tax.
+
+It took me while to figure out that `windows-key + .` brings up a special-characters menu like `control + command + space` on MacOS. Apparently, you can't directly type things like curly-quotes without a numeric keypad.
 
 Here's more on keyboard remapping:
 
@@ -30,29 +36,21 @@ Here's more on keyboard remapping:
 [3003]: https://www.mobigyaan.com/how-to-reconfigure-keyboard-by-remapping-keys-on-windows-10
 
 
+## Text Editors
+
+![Windows]({{ "/images/vs-code-logo.png" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 8%"}
+
+This is a bright spot. [VS-Code][16] is excellent. JetBrains products are, too. Both work fine on Windows.
+
 ## Command shell and terminal
 
-Twenty years ago, I used [Cygwin][6] to "get the Linux feeling on Windows". CygWin is still there, but these days, there's also [Windows Subsystem for Linux, aka WSL 2][2]. In true Microsoft style, you [apparently have to install WSL 1, then upgrade to WSL 2][1]. But, once you do that, you've got all the GNU-ish and Linux-y tools your grinchy little hacker heart desires. Pull your dot files off GitHub and away you go. I installed [OhMyZsh][3] and the [powerline font package][7] for an extra layer of nice.
+![Windows Terminal]({{ "/images/windows-terminal.png" | absolute_url }})
+
+In the old days, I used [Cygwin][6] to "get the Linux feeling on Windows". CygWin is still there, but these days, there's also [Windows Subsystem for Linux, aka WSL 2][2]. In true Microsoft style, you [apparently have to install WSL 1, then upgrade to WSL 2][1]. But, once you do that, you've got all the GNU-ish and Linux-y tools your grinchy little hacker heart desires. Pull your dot files off GitHub and away you go. I installed [OhMyZsh][3] and the [powerline font package][7] for an extra layer of nice.
 
 I found [Fluent Terminal][4] first through [this post][8]. Fluent looks sharp, but I ran into issues scrolling back through long terminal sessions. Also, when pasting into IPython sessions, the indenting gets screwed up.
 
 So far, [Windows Terminal][5] seems [more solid][10] and pasting into IPython works as expected.
-
-### WSL2 clock skew
-
-WSL 2 has an issue with clock skew. I kept having to reset the clock after sleeping, like so:
-
-```sh
-sudo hwclock -v -s
-```
-
-I had this version `5.4.72-microsoft-standard-WSL2`. I just upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring  [work-around][17].
-
-BTW, you can check the kernel version, like so:
-
-```sh
-uname -r
-```
 
 See also:
 
@@ -62,46 +60,55 @@ See also:
 
 ## Browser
 
-Microsoft has quite a history with browsers. Internet Explorer won the browser wars and then became epically aweful. What is now called Legacy Edge was a failed rewrite.
+![Windows Edge]({{ "/images/edge-logo.jpg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 15%"}
 
-The new Chromium-based Edge is a quite simply a decent browser. It's basically white-labeled Chrome. Perhaps an admission of defeat, but also a good call.
+Microsoft has quite a history with browsers. Internet Explorer won the browser wars and then became epically aweful. What is now called “Legacy Edge” was a failed rewrite.
 
-
-## Code Editors
-
-This is a bright spot. [VS-Code][16] is excellent. JetBrains products are excellent. Both work fine on Windows.
-
-
-## The rest of the ecosystem
-
-### AzureDevOps
-
-Works fairly well. But, why are the breadcrumbs in this order?
-
-{{ "/images/new-repository.png" | absolute_url }}
-
-Files and commits are *inside* a repo, so should be *below* in the implied hierarchy. What could they possibly have been thinking?
-
-### .Net
-
-Based on my dated view, C# seems a bit more refined in some ways than Java, but very similar in a [kingdom-of-nouns][9] kind of way. F# looks a bit like Scala. The .Net platform seems to have taken a welcome step in the right direction with it's new tag-line. "Free. Cross-platform. Open source." Good on them!
-
-Also in the plus column, C# can be used to write desktop GUI apps and Unity has a lot of appeal.
-
-On the other side, we all have a finite learning budget and spending that effectively is important. I generally don't want to know the Microsoft way to do things I can already do the everybody-else way. Same goes for Google or Amazon for that matter.
-
-### Azure
-
-There's plenty to say about Azure. Microsoft has a viable cloud platform, which in itself is something. But I'll leave that for another day.
+The new Edge is basically white-labeled Chrome. Perhaps an admission of defeat, but it's quite simply a decent browser. Seems like a good call.
 
 
 ## What the hell am I doing here?
 
-Some Microsoft sales rep did a heck of a job here in Wellington. There seems to have been a large amount of Redmond kool-aide going around at some point. The employee handbook at one company pledges loyalty to MSFT in *the third paragraph*.
+Some Microsoft sales rep did a heck of a job here in Wellington. There seems to have been a large amount of Redmond kool-aide going around at some point. One employee handbook I happened to peruse pledges commitment to Microsoft in *the third paragraph*.
 
-I overheard one co-worker saying that with open source software, you get what you pay for. He only trusts products where you can call tech support when they break and it's their problem to fix it. I haven't heard that voiced in ages.
+I overheard a co-worker saying, “you get what you pay for with open source software.” He only trusts products where you can call tech support when they break and it's their problem to fix it. There's a sentiment I hadn't heard in ages.
 
-As Microsoft has turned underdog, I find myself rooting for them. The company's messaging is much improved under Nadela. AWS needs a viable competitor and Google seems like it can't be bothered.
+As Microsoft turned underdog, I've found myself rooting for them. The company's messaging is much improved under Nadela. AWS needs a viable competitor and Google seems like it can't be bothered. I'd like to see a Microsoft that produces great products that mesh nicely with the non-Windows world.
+
+
+## Misadventures in Windows-land
+
+...I'm just complaining now, preserving my travails for the record.
+
+### WSL2 DNS issues
+
+Apparently, WSL2 does some behind the scenes hackery to configure `/etc/resolv.conf` based on the host OS settings, which [can or maybe used to run into problems][2001]. You can fall back on [manually configuring DNS][2002].
+
+[2001]: https://github.com/microsoft/WSL/issues/5256
+[2002]: https://gist.github.com/sivinnguyen/8bc0125b274250683a97e149cf270040
+
+### WSL2 clock skew
+
+WSL 2 has an issue with clock skew. I kept having to reset the clock after sleeping, like so:
+
+```sh
+sudo hwclock -v -s
+```
+
+I believe I saw somewhere that the latest update is supposed to fix the clock skew issue. I had this version `5.4.72-microsoft-standard-WSL2`. I upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring a [workaround][17].
+
+BTW, you can check the kernel version, like so:
+
+```sh
+uname -r
+```
+
+### Azure DevOps WTF
+
+What could they have been thinking? Look at the order of the breadcrumbs. They put “Pull requests” *above* the name of the repository, implying that a pull request has repositories inside it. Just weird.
+
+![Azure DevOps]({{ "/images/azure-devops-breadcrumbs.png" | absolute_url }})
+
 
 
 [1]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
