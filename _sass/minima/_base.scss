@@ -60,6 +60,12 @@ figcaption {
   font-size: $small-font-size;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-size: $small-font-size;
+}
+
 
 
 /**

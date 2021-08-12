@@ -5,8 +5,6 @@ date:   2021-04-01 14:55:00 +1300
 categories: devops
 ---
 
-Some Microsoft sales person did a brilliant job here in Wellington, New Zealand. Redmond technology is very entrenched in the tech scene here. One company I know describes their commitment to the Microsoft stack in paragraph 3 of the employee handbook. Talk about drinking the Kool-Aid!
-
 Now that the [BDFL Emeritus has joined up][100], there should be no doubt that Python is a “first class citizen” on Azure. Well, one would hope.
 
 Below are notes taken along the journey up the learning curve of Azure from the perspective of a data-centric Python developer.
@@ -64,4 +62,8 @@ https://www.tutlinks.com/deploy-fastapi-on-azure/
 
 
 https://www.thoughtworks.com/radar/platforms/azure-machine-learning
+
+
+
+https://markheath.net/post/user-delegation-sas
 

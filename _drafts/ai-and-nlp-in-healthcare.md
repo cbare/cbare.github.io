@@ -1,4 +1,5 @@
 ## Data driven healthcare requires quantifying patients.
+
 “Sadly, very bad news about what the healthcare system has done so far about data capture. They did not think about long term secondary uses of data.”
 
 Language assays - output targeted structured data:

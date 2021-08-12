@@ -7,7 +7,7 @@ categories: programming
 
 ![Windows]({{ "/images/windows-logo.svg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 25%"}
 
-It's been a while since I packed my last Windows box with it's pair of screaming 733Gz Pentiums into a closet, never to return. The tech landscape has shifted a lot: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15-plus years of Mac and Linux, I'm reluctantly back on Windows.
+It's been a while since I packed my last Windows box with it's pair of screaming 733 MHz Pentiums into a closet, never to return. The tech landscape has shifted a lot: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15-plus years of Mac and Linux, I'm reluctantly back on Windows.
 
 So, in 2021, how do you—[or can you][12]—[make Microsoft Windows tolerable][11]? Here's what I've figured out so far.
 
@@ -67,6 +67,11 @@ Microsoft has quite a history with browsers. Internet Explorer won the browser w
 The new Edge is basically white-labeled Chrome. Perhaps an admission of defeat, but it's quite simply a decent browser. Seems like a good call.
 
 
+## Say something nice
+
+The desktop switching feature works nicely. You can even label desktops. Why [Apple won't implement named desktops[19] is totally beyond me. People have been [asking for a decode][18].
+
+
 ## What the hell am I doing here?
 
 Some Microsoft sales rep did a heck of a job here in Wellington. There seems to have been a large amount of Redmond kool-aide going around at some point. One employee handbook I happened to peruse pledges commitment to Microsoft in *the third paragraph*.
@@ -95,7 +100,7 @@ WSL 2 has an issue with clock skew. I kept having to reset the clock after sleep
 sudo hwclock -v -s
 ```
 
-I believe I saw somewhere that the latest update is supposed to fix the clock skew issue. I had this version `5.4.72-microsoft-standard-WSL2`. I upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring a [workaround][17].
+It looks like the latest update fixes the clock skew issue. I had this version `5.4.72-microsoft-standard-WSL2`. I upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring a [workaround][17].
 
 BTW, you can check the kernel version, like so:
 
@@ -128,3 +133,5 @@ What could they have been thinking? Look at the order of the breadcrumbs. They p
 [15]: https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-2-docker-desktop-and-more
 [16]: https://code.visualstudio.com/
 [17]: https://github.com/microsoft/WSL/issues/5014#issuecomment-605243281
+[18]: https://apple.stackexchange.com/questions/18029/how-can-i-rename-desktops-in-mission-control
+[19]: https://www.reddit.com/r/osx/comments/aqtgvi/is_it_possible_to_rename_a_desktop/

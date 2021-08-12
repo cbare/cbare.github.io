@@ -3,6 +3,10 @@
 
 data cleaning, management, analysis and visualization
 
+## Topics
+
+ Join and Anti-join
+
 
 ## Tidy-verse
 

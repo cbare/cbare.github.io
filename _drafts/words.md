@@ -33,6 +33,11 @@ ei·do·lon
 “We are drowning in information but starved for knowledge.”
 – John Naisbitt
 
+“Before I came here I was confused about this subject. Having listened to your lecture I am still confused. But on a higher level.”
+― Enrico Fermi
+
+“Gentlemen, we have run out of money. It's time to start thinking.”
+― Ernest Rutherford.
 
 “Some days I feel like my shadow’s casting me.”
 – Warren Zevon
@@ -43,3 +48,9 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 "Success breeds complacency. Complacency breeds failure. Only the paranoid survive."
 – Andy Grove
+
+
+“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”
+― Ralph Waldo Emerson
+
+444254
