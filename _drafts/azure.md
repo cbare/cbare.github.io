@@ -5,10 +5,7 @@ date:   2021-04-01 14:55:00 +1300
 categories: devops
 ---
 
-Now that the [BDFL Emeritus has joined up][100], there should be no doubt that Python is a “first class citizen” on Azure. Well, one would hope.
-
-Below are notes taken along the journey up the learning curve of Azure from the perspective of a data-centric Python developer.
-
+Microsoft technology is very entrenched in the Wellington tech scene. Below are notes taken along the journey up the learning curve of Azure from a data and Python perspective. Now that the [BDFL Emeritus has joined up][100], one would hope that Python will get first classtreatment on Azure.
 
 ## The Good Parts
 

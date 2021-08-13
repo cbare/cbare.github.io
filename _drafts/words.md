@@ -46,11 +46,12 @@ ei·do·lon
 https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 
-"Success breeds complacency. Complacency breeds failure. Only the paranoid survive."
+“Success breeds complacency. Complacency breeds failure. Only the paranoid survive.”
 – Andy Grove
 
 
 “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”
 ― Ralph Waldo Emerson
 
-444254
+“the past continues to erupt into the present and remains key to understanding it.”
+- https://www.nytimes.com/2021/06/13/books/review/historical-fiction-jonathan-lee.html

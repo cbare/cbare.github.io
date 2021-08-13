@@ -3,9 +3,9 @@
   -  [✓] Live in another country
   -  [✓] Write scientific papers
   -  [✓] Get married to somebody I love
-  -  [✓] Become a parent
+  -  [✓] Become a parent and raise kids
   -  [✓] Take a hot-air balloon ride
-  -  [✓] Run a half marathon
+  -  [✓] Run a marathon
   -  [✓] Scuba diving
   -  [✓] Skiing
   -  [~] Sailing
@@ -16,9 +16,10 @@
   -  [ ] Build my own home
   -  [ ] Hike the enchantments
   -  [ ] Do a long backpacking trip (pct, jmt, wonderland)
-  -  [~] Play an instrument
+  -  [~] Play a musical instrument
   -  [ ] Write music
   -  [~] Travel
   -  [ ] See auroras
   -  [ ] Live on a boat
   -  [ ] Have a creative work space
+  -  [ ] Run a half-marathon again
