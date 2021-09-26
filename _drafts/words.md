@@ -55,3 +55,8 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 “the past continues to erupt into the present and remains key to understanding it.”
 - https://www.nytimes.com/2021/06/13/books/review/historical-fiction-jonathan-lee.html
+
+
+“Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.” – Charles Goodhart
+
+“When a measure becomes a target, it ceases to be a good measure.” – Marilyn Strathern

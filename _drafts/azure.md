@@ -7,6 +7,7 @@ categories: devops
 
 Microsoft technology is very entrenched in the Wellington tech scene. Below are notes taken along the journey up the learning curve of Azure from a data and Python perspective. Now that the [BDFL Emeritus has joined up][100], one would hope that Python will get first classtreatment on Azure.
 
+
 ## The Good Parts
 
 - Virtual Machines (VMs)

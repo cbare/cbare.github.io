@@ -8,6 +8,19 @@ categories: data-engineering
 
 A guide to building a data pool and an environment on which to do research.
 
+
+
+Components of a modern data stack
+- ingest
+- query
+- snapshots?
+- models?
+- quality and metrics?
+
+
+
+
+
 privacy, regulation, ethical issues and anti-tech backlash
 
 
@@ -38,6 +51,9 @@ https://dataengweekly.com/index.html
 [A Beginner’s Guide to Data Engineering][2]
 
 
+[Why your data needs a QA process][12]
+
+
 ## Tools
 
 - [Apache Airflow][3]
@@ -62,7 +78,9 @@ https://dataengweekly.com/index.html
 [9]: https://meltano.com/
 [10]: https://dvc.org/
 [11]: https://pandas.pydata.org/
+[12]: https://stackoverflow.blog/2021/09/13/why-your-data-needs-a-qa-process/
 
 [101]: https://talkpython.fm/episodes/show/302/the-data-engineering-landscape-in-2021
 [102]: https://www.pythonpodcast.com/
 [103]: https://www.dataengineeringpodcast.com/
+
