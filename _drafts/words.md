@@ -60,3 +60,21 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 “Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.” – Charles Goodhart
 
 “When a measure becomes a target, it ceases to be a good measure.” – Marilyn Strathern
+
+"It is a profoundly erroneous truism, repeated by all copy-books and by eminent people when they are making speeches, that we should cultivate the habit of thinking of what we are doing. The precise opposite is the case. Civilization advances by extending the number of important operations which we can perform without thinking about them. "
+― Alfred North Whitehead
+
+“...the only simplicity to be trusted is the simplicity to be found on the far side of complexity.”
+― Alfred North Whitehead
+
+“Error is the price we pay for progress.”
+― Alfred North Whitehead
+
+“Intelligence is quickness to apprehend as distinct from ability, which is capacity to act wisely on the thing apprehended.”
+― Alfred North Whitehead
+
+“We think in generalities, but we live in detail.”
+― Alfred North Whitehead
+
+“Get your knowledge quickly and then use it. If you can use it you will retain it.”
+― Alfred North Whitehead
