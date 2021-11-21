@@ -95,6 +95,20 @@ Steps
 
 
 
+Treat data like a product
+
+Monitor data: watch for changes in data quality, distribution drift
+Monitor model performance: get gold-standard data and compare predictions
+Watch for unreasonable predicts and build logic to avoid these cases
+
+Multiple versions of a model in production
+
+Version control: data, hyperparameters, models
+
+
+
+
+
 
 [1]: https://ai.google/research/pubs/pub43146
 [2]: https://ai.google/research/pubs/pub45742
