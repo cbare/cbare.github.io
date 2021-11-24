@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Zealand in Statistics"
-date:   2021-10-24 09:26:00 +1300
+date:   2021-10-24 09:26:00 +1200
 categories: new-zealand
 ---
 
@@ -123,3 +123,4 @@ Budget 1.5% of GDP
 [4]: https://www.geonet.org.nz/earthquake
 [5]: https://www.geonet.org.nz/volcano
 [6]: https://www.ehinz.ac.nz/indicators/population-vulnerability/ethnic-profile/
+[7]: https://www.rnz.co.nz/news/whoseatingnewzealand/446357/who-s-eating-new-zealand
