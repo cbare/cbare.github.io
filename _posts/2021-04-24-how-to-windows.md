@@ -69,7 +69,7 @@ The new Edge is basically white-labeled Chrome. Perhaps an admission of defeat, 
 
 ## Say something nice
 
-The desktop switching feature works nicely. You can even label desktops. Why [Apple won't implement named desktops[19] is totally beyond me. People have been [asking for a decode][18].
+The desktop switching feature works nicely. You can even label desktops. Why [Apple won't implement named desktops][19] is totally beyond me. People have been [asking for a decade][18].
 
 
 ## What the hell am I doing here?
