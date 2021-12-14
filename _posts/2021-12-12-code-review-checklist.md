@@ -10,6 +10,8 @@ Good code review has a lot of benefits. Walking through a pull-request is a vect
 
 ## What to ask
 
+![Frog and Toad by Arnold Lobel]({{ "/images/frog-and-toad-list.jpg" | absolute_url }}){:style="width: 400px; height: 647px; float: right;"}
+
 First, consider the requirements. Every bit of code should be there because it gives something to a user. If the code adds a feature that someone wants, works, and has tests, the bias should be towards merging. Later PRs can always refactor and generalize, assuming continuous deployment.
 
 Is it the right scope? Ideally, a pull-request should add a bite size piece of functionality - a single feature, a bug fix, or a refactoring, but not all three. Refactorings are cleaner if no new code is added at the same time.
@@ -64,14 +66,14 @@ Here's a checklist I put together as a reminder to myself. Maybe it will help yo
 
 ## Style points
 
-[Idiomatic use of a programming language][11] results in elegant and efficient solutions. Points of style can be a great topic for code review, lifting intermediate level skills toward expertise.
+[Idiomatic use of a programming language][11] results in elegant and efficient solutions. Idiomatic style can be a great topic for code review, lifting intermediate skills toward expertise.
 
-On the other hand, don't fight the style wars. We all love beautiful code. But my aesthetic isn't necessarily yours. You can convene the committee to write style guide and zealously flame-broil your colleagues over every violation, or adopt standards like [gofmt][6] or [Black][7] and forget about it.
+On the other hand, don't fight the style wars. We all love beautiful code. But my aesthetic isn't necessarily yours. You can convene the committee to write the style guide and zealously flame-broil your colleagues over every violation, or adopt standards like [gofmt][6] or [Black][7] and forget about it.
 
 
 ## What is good code?
 
-There's a lot of advice out there about what makes for good or bad code, what it means to be well-factored, most of it well-intended, some of it occasionally useful. Popular heuristics include:
+There's a lot of advice out there about what makes for good or bad code and what it means to be well-factored, most of it well-intended, some of it occasionally useful. Popular heuristics include:
 
 - [SOLID][12]
 - YAGNI
@@ -79,11 +81,14 @@ There's a lot of advice out there about what makes for good or bad code, what it
 - Favor composition over inheritance
 - Code to an interface
 
-Simplicity deserves special mention. A simpler implementation will allow us to deploy working code and start getting feedback sooner. We can always iterate based on feedback to fix rough spots and add features. You won't regret giving a listen to [Rich Hickey's thoughts][14] on the topic.
+Simplicity deserves special mention. A simpler implementation will allow us to deploy working code and start getting feedback sooner. It costs less to maintain and probably has fewer bugs. Simplicity and generality often go together. We can always iterate based on feedback to fix rough spots and add features. You won't regret giving a listen to [Rich Hickey's thoughts][14] on the topic.
 
 Programming languages provide primitives, means of combination, and means of abstraction, according to [SICP][10]. When looking at any piece of code, take note of which of the available means were chosen and why. Immutable data and pure functions are easy to reason about and should generally be our first choices. I write way fewer classes than I used to. Your mileage may vary.
 
-As developers, we're proud of our work. Executives, PMs, and customers don't care, so, it's nice to show off a little to someone who gets it. Don't forget to give your fellow code-monkey some props for pretty code or a clever hack.
+
+## Give Props
+
+As developers, we're proud of our work. Executives, PMs, and customers don't care, so, it's nice to show off a little to someone who gets it. A little positive energy goes a long way. Don't forget to give your fellow code-monkey some props for pretty code or a clever hack.
 
 
 ## Other code review checklists

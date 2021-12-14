@@ -146,7 +146,7 @@ To a first approximation, [stop writing classes][205], as detailed in a talk by 
 
 Simplicity takes work. The judgement to know whether a little extra effort will pay off or become a maintenance headache comes only with experience—specifically the experience of doing it wrong.
 
-In general, don't develop against imagined future requirements. The YAGNI principle says “you ain't gonna need it”. Even better, if _do_ need it that's OK. You can add it later.
+In general, don't develop against imagined future requirements. The YAGNI principle says “you ain't gonna need it”. If it turns out that we _do_ need it, we can add it later.
 
 Python has some features that help you avoid unnecessary work. _Properties_ mean that getters and setters can be added transparently to the client and therefore never have to be created “just in case we need them later”. In the same way, functions can become callable objects with no impact on client code.
 
