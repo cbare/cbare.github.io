@@ -88,7 +88,7 @@ Programming languages provide primitives, means of combination, and means of abs
 
 ## Give Props
 
-As developers, we're proud of our work. Executives, PMs, and customers don't care, so, it's nice to show off a little to someone who gets it. A little positive energy goes a long way. Don't forget to give your fellow code-monkey some props for pretty code or a clever hack.
+As developers, we're proud of our work. Executives, PMs, and customers don't care about pretty code or a clever hack. So, it's nice when someone gets it. A little positive energy goes a long way. Don't forget to give your fellow code-monkey some props.
 
 
 ## Other code review checklists
