@@ -10,13 +10,13 @@ Good code review has a lot of benefits. Walking through a pull-request is a vect
 
 ## What to ask
 
-Firstly, consider the requirements. Every bit of code should be there because it gives something to a user. If the code adds a feature that someone wants, works, and has tests, the bias should be towards merging. Later PRs can always refactor and generalize, assuming continuous deployment.
+First, consider the requirements. Every bit of code should be there because it gives something to a user. If the code adds a feature that someone wants, works, and has tests, the bias should be towards merging. Later PRs can always refactor and generalize, assuming continuous deployment.
 
 Is it the right scope? Ideally, a pull-request should add a bite size piece of functionality - a single feature, a bug fix, or a refactoring, but not all three. Refactorings are cleaner if no new code is added at the same time.
 
 You'll have a gut feel about how well new code fits into an existing code base. Does it deal in the same abstractions? Does it reimplement existing functionality? Is the new code immitating deprecated patterns? Or not following existing patterns that are good? If the PR clearly adds technical debt, make sure that's warranted. Note the decision in the PR and create a ticket to resolve the quick and dirty parts while it's fresh in mind.
 
-You'll notice that several of the bullet points below contradict others. If you're spotting such trade-offs and weighing them, that's judgement.
+Here's a checklist I put together as a reminder to myself. Maybe it will help you, too. You'll notice that several of the bullet points below contradict others. If you're spotting such trade-offs and weighing them, that's judgement.
 
 
 ## Checklist
@@ -25,10 +25,11 @@ You'll notice that several of the bullet points below contradict others. If you'
 - Clarity, readability, naming, comments
 - Complexity, simpler is better
   - Single responsibility
+  - [Code is the enemy][8]
 - Duplication
   - Don't reinvent the wheel; make use of libraries and in-house components.
   - Finding overlap with existing functionality? Factor out common code.
-  - Keep code DRY, [Code is the enemy][8]
+  - Keep code DRY
 - Abstraction and modularity
   - Does the code live in the right place? In the right layer?
   - Does the code introduce circular dependencies?
@@ -37,7 +38,7 @@ You'll notice that several of the bullet points below contradict others. If you'
   - What level of generality are we shooting for?
 - Extensibility
   - Consider extension points for likely vectors of change
-  - But, consider that you ain't gonna need it
+  - Also, consider that you ain't gonna need it
 - Efficiency and performance
   - Choice of data structures
   - Memory and cpu usage
@@ -56,31 +57,36 @@ You'll notice that several of the bullet points below contradict others. If you'
 - Clean up
   - opened resources get closed; use finally
 - Logging
-- Security
+  - Log errors and very sparsely to INFO.
+- [Security][3]
   - Sanitize inputs
   - If I was trying to steal data, how might I exploit this code?
 
 ## Style points
 
-[Idiomatic use of the language][11] results in elegant and efficient solutions. Points of style can be a great topic for code review, especially if you're in that awkward intermediate stage and you've got access to someone with years of expertise.
+[Idiomatic use of a programming language][11] results in elegant and efficient solutions. Points of style can be a great topic for code review, lifting intermediate level skills toward expertise.
 
-On the other hand, don't fight the style wars. We all love beautiful code. But my aesthetic isn't necessarily yours. There are few lower value activities than convening the committee to write company style guide. Adopt standards like [gofmt][6] or [Black][7] and forget about it.
+On the other hand, don't fight the style wars. We all love beautiful code. But my aesthetic isn't necessarily yours. You can convene the committee to write style guide and zealously flame-broil your colleagues over every violation, or adopt standards like [gofmt][6] or [Black][7] and forget about it.
+
 
 ## What is good code?
 
-There's a lot of advice out there about what it means for code to be well-factored. Your mileage may vary. Popular heuristics include:
+There's a lot of advice out there about what makes for good or bad code, what it means to be well-factored, most of it well-intended, some of it occasionally useful. Popular heuristics include:
 
-- Code to an interface
-- Favor composition over inheritance
 - [SOLID][12]
 - YAGNI
 - [Code smells][13]
+- Favor composition over inheritance
+- Code to an interface
 
-Simplicity deserves special mention. A simpler implementation will allow us to deploy working code and start getting feedback sooner. We can always iterate based on feedback to fix rough spots and add features. Rich Hickey's thoughts on
+Simplicity deserves special mention. A simpler implementation will allow us to deploy working code and start getting feedback sooner. We can always iterate based on feedback to fix rough spots and add features. You won't regret giving a listen to [Rich Hickey's thoughts][14] on the topic.
 
-A programming language provides primitives, means of combination, and means of abstraction, according to [SICP][10]. When looking at any piece of code, consider which of the available means were chosen and why. Immutable data and pure functions are easy to reason about. These should be our first choices. I write way fewer classes than I used to.
+Programming languages provide primitives, means of combination, and means of abstraction, according to [SICP][10]. When looking at any piece of code, take note of which of the available means were chosen and why. Immutable data and pure functions are easy to reason about and should generally be our first choices. I write way fewer classes than I used to. Your mileage may vary.
 
-## Other checklists for code review
+As developers, we're proud of our work. Executives, PMs, and customers don't care, so, it's nice to show off a little to someone who gets it. Don't forget to give your fellow code-monkey some props for pretty code or a clever hack.
+
+
+## Other code review checklists
 
 - [mgreiler][2]
 - [Codementor][4]
@@ -100,3 +106,4 @@ A programming language provides primitives, means of combination, and means of a
 [11]: https://cbare.github.io/2019-12-03/idiomatic-python.html
 [12]: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 [13]: https://mmantyla.github.io/BadCodeSmellsTaxonomy
+[14]: https://www.youtube.com/watch?v=SxdOUGdseq4
