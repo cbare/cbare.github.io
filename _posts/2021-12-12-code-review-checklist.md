@@ -10,7 +10,9 @@ Good code review has a lot of benefits. Walking through a pull-request is a vect
 
 ## What to ask
 
-![Frog and Toad by Arnold Lobel]({{ "/images/frog-and-toad-list.jpg" | absolute_url }}){:style="width: 400px; height: 647px; float: right;"}
+![Frog and Toad by Arnold Lobel]({{ "/images/frog-and-toad-list.jpg" | absolute_url }})
+*Frog and Toad by Arnold Lobel*
+{:style="width: 400px; height: 647px; float: right;"}
 
 First, consider the requirements. Every bit of code should be there because it gives something to a user. If the code adds a feature that someone wants, works, and has tests, the bias should be towards merging. Later PRs can always refactor and generalize, assuming continuous deployment.
 
@@ -81,6 +83,9 @@ There's a lot of advice out there about what makes for good or bad code and what
 - Favor composition over inheritance
 - Code to an interface
 
+![Code Complexity vs Years of Programming by @flaviocopes]({{ "/images/code-complexity-vs-years-of-programming.jpg" | absolute_url }})
+*[Code Complexity vs Years of Programming][15] by @flaviocopes*
+
 Simplicity deserves special mention. A simpler implementation will allow us to deploy working code and start getting feedback sooner. It costs less to maintain and probably has fewer bugs. Simplicity and generality often go together. We can always iterate based on feedback to fix rough spots and add features. You won't regret giving a listen to [Rich Hickey's thoughts][14] on the topic.
 
 Programming languages provide primitives, means of combination, and means of abstraction, according to [SICP][10]. When looking at any piece of code, take note of which of the available means were chosen and why. Immutable data and pure functions are easy to reason about and should generally be our first choices. I write way fewer classes than I used to. Your mileage may vary.
@@ -112,3 +117,4 @@ As developers, we're proud of our work. Executives, PMs, and customers don't car
 [12]: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 [13]: https://mmantyla.github.io/BadCodeSmellsTaxonomy
 [14]: https://www.youtube.com/watch?v=SxdOUGdseq4
+[15]: https://twitter.com/JavierGonzalez/status/1463685147333738497
