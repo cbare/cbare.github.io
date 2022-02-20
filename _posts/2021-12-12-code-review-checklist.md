@@ -33,10 +33,9 @@ Here's a checklist I put together as a reminder to myself. Maybe it will help yo
 - Duplication
   - Don't reinvent the wheel; make use of libraries and in-house components.
   - Finding overlap with existing functionality? Factor out common code.
-  - Keep code DRY
+  - DRY (don't repeat yourself)
 - Abstraction and modularity
   - Does the code live in the right place? In the right layer?
-  - Does the code introduce circular dependencies?
   - Minimize surface area and cognitive load
   - What implementation details do we want to hide?
   - What level of generality are we shooting for?
@@ -54,16 +53,17 @@ Here's a checklist I put together as a reminder to myself. Maybe it will help yo
   - Test properties or invariants
 - Dependencies
   - Fewer is better
-  - Watch out for circular dependencies between modules
+  - Watch out for circular dependencies
 - Error handling
-  - What could go wrong and what should happen?
+  - What could go wrong and what should happen when it does?
   - Fail fast
 - Clean up
   - opened resources get closed; use finally
 - Logging
   - Log errors and very sparsely to INFO.
 - [Security][3]
-  - Sanitize inputs
+  - Least privilege
+  - Sanitize inputs; look for injection
   - If I was trying to steal data, how might I exploit this code?
 
 ## Style points
@@ -75,11 +75,13 @@ On the other hand, don't fight the style wars. We all love beautiful code. But m
 
 ## What is good code?
 
-There's a lot of advice out there about what makes for good or bad code and what it means to be well-factored, most of it well-intended, some of it occasionally useful. Popular heuristics include:
+What makes code good or bad? What does it mean to be well-factored? There's a lot of advice out there, most of it well-intended, some of it occasionally helpful. Popular heuristics include:
 
 - [SOLID][12]
-- YAGNI
+- [YAGNI][16]
 - [Code smells][13]
+- Be conservative in what you send; be liberal in what you accept
+- Principle of least surprise
 - Favor composition over inheritance
 - Code to an interface
 
@@ -118,3 +120,4 @@ As developers, we're proud of our work. Executives, PMs, and customers don't car
 [13]: https://mmantyla.github.io/BadCodeSmellsTaxonomy
 [14]: https://www.youtube.com/watch?v=SxdOUGdseq4
 [15]: https://twitter.com/JavierGonzalez/status/1463685147333738497
+[16]: https://martinfowler.com/bliki/Yagni.html
