@@ -72,6 +72,7 @@ Here's a checklist I put together as a reminder to myself. Maybe it will help yo
 
 On the other hand, don't fight the style wars. We all love beautiful code. But my aesthetic isn't necessarily yours. You can convene the committee to write the style guide and zealously flame-broil your colleagues over every violation, or adopt standards like [gofmt][6] or [Black][7] and forget about it.
 
+Gunnar Morling's [Code Review Pyramid][17] gives a good indication of where to focus your efforts.
 
 ## What is good code?
 
@@ -100,6 +101,7 @@ As developers, we're proud of our work. Executives, PMs, and customers don't car
 
 ## Other code review checklists
 
+- [Gunnar Morling's Code Review Pyramid][17]
 - [mgreiler][2]
 - [Codementor][4]
 - [Evoke][5]
@@ -121,3 +123,4 @@ As developers, we're proud of our work. Executives, PMs, and customers don't car
 [14]: https://www.youtube.com/watch?v=SxdOUGdseq4
 [15]: https://twitter.com/JavierGonzalez/status/1463685147333738497
 [16]: https://martinfowler.com/bliki/Yagni.html
+[17]: https://www.morling.dev/blog/the-code-review-pyramid/
