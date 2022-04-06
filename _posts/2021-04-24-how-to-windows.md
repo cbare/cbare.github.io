@@ -50,7 +50,7 @@ In the old days, I used [Cygwin][6] to "get the Linux feeling on Windows". CygWi
 
 I found [Fluent Terminal][4] first through [this post][8]. Fluent looks sharp, but I ran into issues scrolling back through long terminal sessions. Also, when pasting into IPython sessions, the indenting gets screwed up.
 
-So far, [Windows Terminal][5] seems [more solid][10] and pasting into IPython works as expected.
+So far, [Windows Terminal][5] seems [more solid][10] and pasting into IPython works as expected, but see below for a long-running issue with domain name resolution.
 
 See also:
 
@@ -87,25 +87,40 @@ As Microsoft turned underdog, I've found myself rooting for them. The company's 
 
 ### WSL2 DNS issues
 
-Apparently, WSL2 does some behind the scenes hackery to configure `/etc/resolv.conf` based on the host OS settings, which [can or maybe used to run into problems][2001]. You can fall back on [manually configuring DNS][2002].
+Apparently, WSL2 does some behind-the-scenes hackery to configure `/etc/resolv.conf` based on the host OS settings, which [can run into problems][2001] and [cause DNS lookup to fail][2003]. You can fall back on [manually configuring DNS][2002]. My `/etc/resolv.conf` looks like this:
+
+```txt
+nameserver 8.8.8.8
+nameserver 1.1.1.1
+nameserver f123:0:0:f123::1
+```
+
+The first two entries are public DNS servers and the last is an IPv6 address that comes from connecting to my VPN and doing `ipconfig /all` in powershell.
 
 [2001]: https://github.com/microsoft/WSL/issues/5256
 [2002]: https://gist.github.com/sivinnguyen/8bc0125b274250683a97e149cf270040
+[2003]: https://github.com/microsoft/WSL/issues/6404
 
 ### WSL2 clock skew
 
-WSL 2 has an issue with clock skew. I kept having to reset the clock after sleeping, like so:
+WSL 2 ~~has~~ had an issue with clock skew. I kept having to reset the clock after sleeping, like so:
 
 ```sh
 sudo hwclock -v -s
 ```
 
-It looks like the latest update fixes the clock skew issue. I had this version `5.4.72-microsoft-standard-WSL2`. I upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring a [workaround][17].
+It looks like the clock skew issue is fixed. I had this version `5.4.72-microsoft-standard-WSL2`. I upgraded to `5.10.16.3-microsoft-standard-WSL2`. True to form, the installer ".msi" file has some issue requiring a [workaround][17].
 
 BTW, you can check the kernel version, like so:
 
 ```sh
 uname -r
+```
+
+...or in powershell:
+
+```sh
+wsl --status
 ```
 
 ### Azure DevOps WTF
