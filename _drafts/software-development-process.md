@@ -32,6 +32,7 @@ The kind of dev environments available only to elite organizations with teams de
 [Continuous Delivery Pipelines: How to Build Better Software Faster][5], Dave Farley's presentation at GOTO 2021.
 
 
+My experience is limited and doesn't include building software as a medical device. It does, however, cover developing software to handle PHI in HIPAA regulated contexts including a hospital, two pharmas, research, telemedicine, and genomics. Previous projects consisted of data ingest, databases, web services, and model retraining and deployment, but no "shrink-wrapped" software.
 
 ## Goals
 
@@ -54,7 +55,7 @@ What are the goals of software development process?
 - Enable "learning loop" in which a smart product extracts feedback from users that improve the product.
 - Respond quickly to opportunities, react quickly to changing technology, etc.
 
-Over all, we want to build innovative products safely and at a competitive pace. These goals are in conflict and must, to some extent, be traded off with each other and with available resources. However, modern software development practice offers tools and techniques that address quality and security concerns while enabling iterative development and short release cycles.
+Over all, we want to build innovative products safely and competitively. These goals are in conflict and must, to some extent, be traded off with each other and with available resources. However, modern software development practice offers tools and techniques that address quality and security concerns while enabling iterative development and short release cycles.
 
 
 ## Strategies
@@ -135,3 +136,5 @@ The DevOps Research and Assessment (DORA) team at Google designed a six-year pro
 [4]: https://queue.acm.org/detail.cfm?id=3454124
 [5]: https://www.youtube.com/watch?v=MYVrLXKJp0Y
 [6]: https://stackoverflow.blog/2021/11/29/the-four-engineering-metrics-that-will-streamline-your-software-delivery/
+[7]: https://microsoft.github.io/code-with-engineering-playbook/
+[8]: https://alexewerlof.medium.com/the-ownership-trio-482a4e5f666d
