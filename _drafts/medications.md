@@ -82,4 +82,8 @@ John F. Steiner, MD, MPH; Mark A. Earnest, MD
 https://annals.org/aim/article-abstract/713531/language-medication-taking
 
 
+The Most Prescribed Drugs in the U.S.
+November 1, 2021
+By Omri Wallach and Amy Realey
+https://www.visualcapitalist.com/ranked-the-most-prescribed-drugs-in-the-u-s/
 

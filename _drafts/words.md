@@ -53,7 +53,11 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”
 ― Ralph Waldo Emerson
 
-“the past continues to erupt into the present and remains key to understanding it.”
+
+“We become the stories that we tell about ourselves.”
+
+
+“The past continues to erupt into the present and remains key to understanding it.”
 - https://www.nytimes.com/2021/06/13/books/review/historical-fiction-jonathan-lee.html
 
 

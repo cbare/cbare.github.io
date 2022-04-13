@@ -5,7 +5,7 @@ date:   2021-04-01 14:55:00 +1300
 categories: devops
 ---
 
-Microsoft technology is very entrenched in the Wellington tech scene. Below are notes taken along the journey up the learning curve of Azure from a data and Python perspective. Now that the [BDFL Emeritus has joined up][100], one would hope that Python will get first classtreatment on Azure.
+Microsoft technology is very entrenched in the Wellington tech scene. Below are notes taken along the journey up the learning curve of Azure from a data and Python perspective. Now that the [BDFL Emeritus has joined up][100], one would hope that Python will get first class treatment on Azure.
 
 
 ## The Good Parts
@@ -23,11 +23,11 @@ Microsoft technology is very entrenched in the Wellington tech scene. Below are 
 
 ## The non-good parts
 
-Microsoft's history of proprietary point-n-click software could hardly help influencing their cloud offering. No doubt, cloud migration from legacy products represents a huge part of Azure's success.
+Microsoft's cloud offering could hardly help being influenced by its history of proprietary point-n-click software. No doubt, cloud migration from legacy products represents a huge part of Azure's success.
 
 Also, technology moves fast and Microsoft is not a young company. Come to think of it, I'm not young anymore either, but anyway... Parts of Azure show signs of being alpha-quality software rushed into production.
 
-I'm hoping I'll learn to recognize and avoid technologies in either of these categories. But, so far, I've had to struggle a bit before it becomes clear whether I'm climbing a steep learning curve for a solid technology or falling into a pothole of half-baked jankyness.
+I'm hoping I'll learn to recognize and avoid technologies in either of these categories. But, so far, I've had to struggle a bit before it becomes clear whether I'm climbing a steep learning curve for a solid technology or falling into a pothole of half-baked jank.
 
 
 ## Auth
@@ -64,4 +64,12 @@ https://www.thoughtworks.com/radar/platforms/azure-machine-learning
 
 
 https://markheath.net/post/user-delegation-sas
+
+
+[201]: https://www.alexhudson.com/2021/09/17/its-tough-being-an-azure-fan/
+
+
+
+https://marileeturscak.com/posts/app-registrations-enterprise-applications-service-principals/
+
 
