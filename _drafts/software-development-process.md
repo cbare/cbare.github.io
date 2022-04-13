@@ -5,8 +5,7 @@ The following are a few recommendations to improve software development process 
 
 ## Caveats
 
-My experience is limited and doesn't include building software as a medical device. It does, however, cover software that handles PHI and is subject to HIPAA developed at a hospital, two big pharmas, two research groups, and two health-related start-ups, one providing primary care medicine. Previous projects consisted of data ingest, databases, web services, and model retraining and deployment, but no "shrink-wrapped" software.
-
+My experience is limited and doesn't include building software as a medical device. It does, however, cover developing software to handle PHI in HIPAA regulated contexts including a hospital, two pharmas, research, telemedicine, and genomics. Previous projects consisted of data ingest, databases, web services, and model retraining and deployment, but no "shrink-wrapped" software.
 
 ## Goals
 
@@ -29,7 +28,7 @@ What are the goals of software development process?
 - Enable "learning loop" in which a smart product extracts feedback from users that improve the product.
 - Respond quickly to opportunities, react quickly to changing technology, etc.
 
-Over all, we want to build innovative products safely and at a competitive pace. These goals are in conflict and must, to some extent, be traded off with each other and with available resources. However, modern software development practice offers tools and techniques that address quality and security concerns while enabling iterative development and short release cycles.
+Over all, we want to build innovative products safely and competitively. These goals are in conflict and must, to some extent, be traded off with each other and with available resources. However, modern software development practice offers tools and techniques that address quality and security concerns while enabling iterative development and short release cycles.
 
 
 ## Strategies
@@ -83,3 +82,5 @@ Process should be invoked to address specific concerns in proportion to the risk
 [2]: https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/devops-dotnet-webapp
 [3]: https://itrevolution.com/accelerate-book/
 [4]: https://queue.acm.org/detail.cfm?id=3454124
+[5]: https://microsoft.github.io/code-with-engineering-playbook/
+[6]: https://alexewerlof.medium.com/the-ownership-trio-482a4e5f666d

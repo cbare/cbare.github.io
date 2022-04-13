@@ -61,7 +61,7 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 “When a measure becomes a target, it ceases to be a good measure.” – Marilyn Strathern
 
-"It is a profoundly erroneous truism, repeated by all copy-books and by eminent people when they are making speeches, that we should cultivate the habit of thinking of what we are doing. The precise opposite is the case. Civilization advances by extending the number of important operations which we can perform without thinking about them. "
+"It is a profoundly erroneous truism, repeated by all copy-books and by eminent people when they are making speeches, that we should cultivate the habit of thinking of what we are doing. The precise opposite is the case. Civilization advances by extending the number of important operations which we can perform without thinking about them."
 ― Alfred North Whitehead
 
 “...the only simplicity to be trusted is the simplicity to be found on the far side of complexity.”
