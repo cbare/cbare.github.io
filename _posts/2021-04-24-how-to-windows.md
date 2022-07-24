@@ -92,10 +92,16 @@ Apparently, WSL2 does some behind-the-scenes hackery to configure `/etc/resolv.c
 ```txt
 nameserver 8.8.8.8
 nameserver 1.1.1.1
-nameserver f123:0:0:f123::1
 ```
 
-The first two entries are public DNS servers and the last is an IPv6 address that comes from connecting to my VPN and doing `ipconfig /all` in powershell.
+You may get away with using public DNS servers. Your VPN may require using it's own, which you might find by doing `ipconfig /all` in powershell.
+
+After DNS worked, outgoing SSH connections were failing until the folks at Perimeter 81 gave us this bit of magic:
+
+```sh
+sudo ifconfig eth0 mtu 1380
+```
+
 
 [2001]: https://github.com/microsoft/WSL/issues/5256
 [2002]: https://gist.github.com/sivinnguyen/8bc0125b274250683a97e149cf270040
