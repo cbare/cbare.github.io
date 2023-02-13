@@ -7,24 +7,24 @@ categories: machine-learning software-engineering
 
 Notes on: [Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process][1] by Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian Kästner.
 
-Building ordinary software systems is hard enough. Introducing machine learning adds more ways for things to go sideways. The technical challenges certainly exist, but even more vexing are organizational snafus. So, it's encouraging –not to mention **validating**, thank you– that researchers are studying common pitfalls.
+Building ordinary software systems is hard enough. Introducing machine learning adds more ways for things to go sideways. The technical challenges certainly exist, but even more vexing are organizational snafus. So, it's encouraging –not to mention _validating_, thank you– that researchers are studying common pitfalls.
 
-The [paper][1] synthesizes themes from practitioner interviews exploring how introducing machine learning into software projects challenges collaboration. A lot of the responses sound really familiar.
+The [paper][1] synthesizes themes from practitioner interviews exploring how introducing machine learning into software projects challenges collaboration. A lot of the pit-falls sound really familiar. What follows are my take-aways.
 
 
 ## Unicorns wanted
 
-Even the most gullible believers in mythical creatures like unicorns or 10x engineers have to admit, at some point, that one person can't do it all. Abstraction and a divide and conquer strategy are essential. Dividing software into components and hiding internals behind interfaces is a key principle of modular software development. The interface is where teams negotiate and renegotiate how to divide work and assign responsibilities.
+Even the most gullible believers in mythical creatures like unicorns or 10x engineers have to admit, at some point, that one person can't do it all. Abstraction and a divide and conquer strategy are essential. Dividing software into components and hiding internals behind interfaces are key strategies of modular software development. The interface is where teams negotiate and renegotiate how to divide work and assign responsibilities.
 
 
 ## Common Development Trajectories
 
-Most ML containing products are built either model-first, where you build the model then build a product around it, or product-first, where you're adding ML features to an existing product. Less commonly, model and product are developed in parallel.
-
-Because model building is frequently a research project with uncertain timelines and results, planning and estimation are likely to be even more fictional than usual.
+Most ML containing products are built either model-first, building the model then building a product around it, or product-first, adding ML features to an existing product. Less commonly, model and product are developed in parallel.
 
 
 ## Collaboration Points
+
+Data scientists and software engineers are certainly not the first to realize that interdisciplinary collaborations are fraught with communication and cultural challenges. Here are the main points of friction that surfaced in the interviews.
 
 ![Collaboration Points]({{ "/images/ml-collaboration-points.png" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}
 
@@ -39,6 +39,8 @@ Model requirements are often underspecified and should consider:
 - fairness
 - explainability
 - monitoring data and models in production
+
+Model building is frequently a research project with uncertain timelines and results making planning and estimation even more fictional than usual.
 
 
 ### Data
@@ -60,16 +62,16 @@ Many organizations seem to underestimate the engineering effort required to turn
 
 To build an ML-enabled system, both ML components and traditional non-ML components need to be integrated and deployed, requiring data scientists and software engineers to work together, typically across multiple teams. We found many conflicts at this collaboration point, stemming from unclear processes and responsibilities, as well as differing practices and expectations. Culture clashes between data science and software engineering are made worse by unclear responsibilities and boundaries.
 
-Differing expectations causes conflicts regarding code quality, documentation, and version control. Software engineers expressed frustration that data scientists do not follow the same practices or have the same quality standards.
+Differing expectations regarding code quality, documentation, and version control can lead to conflict. Software engineers expressed frustration that data scientists do not follow the same practices or have the same quality standards.
 
 Siloing data scientists is widely recognized as problematic, fostering integration problems. Some orgs, particularly big tech, expect engineering skills from all data science hires. But, data scientists often don't want engineering or ops responsibilities, prefering instead to be supported by embedded engineering and ML Ops.
-
-Data scientists and software engineers are certainly not the first to realize that interdisciplinary collaborations are challenging and fraught with communication and cultural problems.
 
 
 ## The product view
 
-Keeping a product mindset helps. In the end, it's quite helpful for all to remember that a model is not particularly useful except as a component in a product.
+OK, we've seen what can go wrong. What works?
+
+Keeping a product mindset helps. It's quite helpful for all to remember that in the end a model is not particularly useful except as a component in a product.
 
 ![ML-is-a-component-of-a-product]({{ "/images/ml-collaboration.png" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}
 
