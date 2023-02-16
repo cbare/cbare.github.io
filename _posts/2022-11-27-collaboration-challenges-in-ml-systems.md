@@ -7,9 +7,9 @@ categories: machine-learning software-engineering
 
 Notes on: [Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process][1] by Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian Kästner.
 
-Building ordinary software systems is hard enough. Introducing machine learning adds more ways for things to go sideways. The technical challenges certainly exist, but even more vexing are organizational snafus. So, it's encouraging –not to mention _validating_, thank you– that researchers are studying common pitfalls.
+Building ordinary software systems is hard enough. Introducing machine learning adds more ways for things to go sideways. The technical challenges certainly exist, but even more vexing are organizational snafus. So, it's encouraging –not to mention _validating_, thank you– that researchers are studying common failure modes.
 
-The [paper][1] synthesizes themes from practitioner interviews exploring how introducing machine learning into software projects challenges collaboration. A lot of the pit-falls sound really familiar. What follows are my take-aways.
+The [paper][1] synthesizes themes from practitioner interviews exploring how introducing machine learning into software projects challenges collaboration. A lot of the pitfalls sound really familiar. What follows are my takeaways.
 
 
 ## Unicorns wanted
