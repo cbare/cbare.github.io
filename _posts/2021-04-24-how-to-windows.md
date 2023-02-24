@@ -7,7 +7,7 @@ categories: programming
 
 ![Windows]({{ "/images/windows-logo.svg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 25%"}
 
-It's been a while since I packed my last Windows box with it's pair of screaming 733 MHz Pentiums into a closet, never to return. The tech landscape has shifted a lot: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15-plus years of Mac and Linux, I'm reluctantly back on Windows.
+It's been a while since I packed my last Windows box with it's pair of screaming 733 MHz Pentiums into a closet, never to return. The tech landscape has shifted a lot since then: AWS, smart phones, the evolution of JavaScript, the various permutations of data and machine-learning. Well, never say never. Here we are in 2021, the world is turned upside down, and after 15-plus years of Mac and Linux, I'm reluctantly back on Windows.
 
 So, in 2021, how do you—[or can you][12]—[make Microsoft Windows tolerable][11]? Here's what I've figured out so far.
 
@@ -46,7 +46,7 @@ This is a bright spot. [VS-Code][16] is excellent. JetBrains products are, too. 
 
 ![Windows Terminal]({{ "/images/windows-terminal.png" | absolute_url }})
 
-In the old days, I used [Cygwin][6] to "get the Linux feeling on Windows". CygWin is still there, but these days, there's also [Windows Subsystem for Linux, aka WSL 2][2]. In true Microsoft style, you [apparently have to install WSL 1, then upgrade to WSL 2][1]. But, once you do that, you've got all the GNU-ish and Linux-y tools your grinchy little hacker heart desires. Pull your dot files off GitHub and away you go. I installed [OhMyZsh][3] and the [powerline font package][7] for an extra layer of nice.
+In the old days, I used [Cygwin][6] to “get that Linux feeling on Windows”. CygWin is still there, but these days, there's also [Windows Subsystem for Linux, aka WSL 2][2]. At one time, you had to [install WSL 1, then upgrade to WSL 2][1]. Thankfully, as of 2023, just head on over to the app store. Once you've installed [WSL][20] and [Ubuntu][21], you've got all the GNU-ish and Linux-y tools your grinchy little hacker heart desires. Pull your dot files off GitHub and away you go. I installed [OhMyZsh][3] and the [powerline font package][7] for an extra layer of nice.
 
 I found [Fluent Terminal][4] first through [this post][8]. Fluent looks sharp, but I ran into issues scrolling back through long terminal sessions. Also, when pasting into IPython sessions, the indenting gets screwed up.
 
@@ -156,3 +156,5 @@ What could they have been thinking? Look at the order of the breadcrumbs. They p
 [17]: https://github.com/microsoft/WSL/issues/5014#issuecomment-605243281
 [18]: https://apple.stackexchange.com/questions/18029/how-can-i-rename-desktops-in-mission-control
 [19]: https://www.reddit.com/r/osx/comments/aqtgvi/is_it_possible_to_rename_a_desktop/
+[20]: https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R
+[21]: https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
