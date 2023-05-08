@@ -49,3 +49,25 @@ liquid biopsy / cell-free DNA
 
 polygenic risk score
 
+
+https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean
+
+
+Implications for downstream workload based on calibrating an artificial intelligence detection algorithm by standalone-reader or combined-reader sensitivity matching
+https://pubmed.ncbi.nlm.nih.gov/37035276/
+
+
+OPTIMAM Mammography Image Database: a large scale resource of mammography images and clinical data
+https://arxiv.org/abs/2004.04742
+
+
+13 January 2022
+Optimizing risk-based breast cancer screening policies with reinforcement learning
+https://www.nature.com/articles/s41591-021-01599-w
+
+
+Karolinska data set
+A Multi-million Mammography Image Dataset and Population-Based Screening Cohort for the Training and Evaluation of Deep Neural Networks-the Cohort of Screen-Aged Women
+Karin Dembrower 1 2, Peter Lindholm 3 4, Fredrik Strand 5 6
+https://pubmed.ncbi.nlm.nih.gov/31520277/
+
