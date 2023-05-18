@@ -19,6 +19,10 @@ LLaMA: Open and Efficient Foundation Language Models
 https://arxiv.org/abs/2302.13971v1
 
 
+Are Emergent Abilities of Large Language Models a Mirage?, Schaeffer et al, 2023
+https://arxiv.org/abs/2304.15004
+
+
 ## Medicine
 
 Capabilities of GPT-4 on Medical Challenge Problems
