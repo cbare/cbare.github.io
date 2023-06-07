@@ -41,6 +41,8 @@ What are the most common conditions in primary care? Systematic review
 Caitlin R. Finley
 https://www.cfp.ca/content/cfp/64/11/832.full.pdf
 
+Calibrating a chief complaint list for low resource settings: a methodologic case study
+https://intjem.biomedcentral.com/articles/10.1186/s12245-021-00347-8
 
 The 25 most common medical diagnoses
 February 9, 2011
@@ -107,3 +109,11 @@ https://github.com/isaacmg/healthcare_ml
 
 
 https://ada.com/conditions/
+
+
+
+https://www.kaggle.com/datasets/hagari/disease-and-their-symptoms
+https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
+https://github.com/leanderme/sytora
+https://www.kaggle.com/datasets/plarmuseau/sdsort
+https://www.kaggle.com/code/plarmuseau/primer/notebook

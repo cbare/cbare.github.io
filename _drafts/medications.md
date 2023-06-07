@@ -87,3 +87,6 @@ November 1, 2021
 By Omri Wallach and Amy Realey
 https://www.visualcapitalist.com/ranked-the-most-prescribed-drugs-in-the-u-s/
 
+
+Medication adverse drug effects
+https://github.com/tatonetti-lab/onsides

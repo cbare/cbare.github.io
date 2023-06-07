@@ -5,6 +5,11 @@ date:   2021-05-26 08:47:00 +1300
 categories: biotechnology health-tech
 ---
 
+[Milestones in Cancer Research and Discovery][6]
+
+a chance to cut is a chance to cure
+emporer of maladies
+
 disregulation of cell cycle
 
 solid/non-solid
@@ -29,19 +34,15 @@ staging
 
 
 
-Oncogenes
+## Data types
 
-Tumor suppressor genes
-
-BRCA, P53, TNF
-Receptors and signal transduction
-- Braf
-- NF kappa B
+Medical records, EHR
+Histology, biopsy
+labcorps test results
 
 
 
 
-[Mesh Terms][3]
 Cancer is a disease of the genome.
 Information flow in the cell: DNA -> RNA -> Protein
 Regulation of gene expression
@@ -51,13 +52,22 @@ Polygenic risk score
 Cancer subtyping
 liquid biopsy / cell-free DNA
 
-meds
+Oncogenes
+Tumor suppressor genes
+
+BRCA, P53, TNF
+Receptors and signal transduction
+- Braf
+- NF kappa B
+
+
+
+## meds
 mabs
 checkpoint inhibitors
 
 
-a chance to cut is a chance to cure
-emporer of maladies
+
 
 
 ### Questions from Ralph's slides
@@ -69,8 +79,10 @@ emporer of maladies
 - Does AI integrate with existing clinical workflow?
 
 
+
 [1]: https://www.cell.com/fulltext/S0092-8674(11)00127-9
 [2]: https://www.meddeviceonline.com/doc/lessons-for-ai-in-medtech-case-studies-from-breast-cancer-detection-0001
 [3]: https://meshb.nlm.nih.gov/record/ui?ui=D001943
 [4]: https://www.nature.com/articles/527S101a
 [5]: https://centuryofbio.substack.com/p/genome-informed-cancer-therapy
+[6]: https://www.cancer.gov/research/progress/250-years-milestones
