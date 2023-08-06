@@ -115,3 +115,8 @@ https://www.semianalysis.com/p/google-we-have-no-moat-and-neither
 RLHF: Reinforcement Learning from Human Feedback
 May 2, 2023 Chip Huyen
 https://huyenchip.com/2023/05/02/rlhf.html
+
+How Rogue AIs may Arise
+Published 22 May 2023 by Yoshua Bengio
+https://yoshuabengio.org/2023/05/22/how-rogue-ais-may-arise/
+

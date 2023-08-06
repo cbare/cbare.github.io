@@ -1,4 +1,4 @@
-## Americas
+## Americas (9)
 
  - U.S.A.
  - Canada
@@ -11,7 +11,7 @@
  - Chile
 
 
-## Europe
+## Europe (17)
 
  - Netherlands
  - Belgium
@@ -32,13 +32,13 @@
  - Turkey
 
 
-## Africa
+## Africa (2)
 
  - Morocco
  - Egypt
 
 
-## Asia
+## Asia (8)
 
  - Thailand
  - Malaysia
@@ -50,10 +50,11 @@
  - Hong Kong
 
 
-## Pacific
+## Pacific (3)
 
  - Australia
  - Fiji
+ - French Polynesia
  - New Zealand
 
 
