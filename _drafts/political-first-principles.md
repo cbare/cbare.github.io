@@ -18,15 +18,17 @@
 
 Liberty in the personal, economic and political spheres.
 
+
 ## citizenship
 
 "A republic, if you can keep it"
 
 The root cause of Americas political crisis is a failure of citizenship. Although it may fit the pattern of what happens to republics as they age, our descent into tribalism and plutocracy isn't some kind of natural disaster.
 
-America has not failed us as much as we have failed America. By being too busy working; by getting sucked to addictive brain candy in one kind or another; by getting too comfortable in our own echo chambers; by attending to our own interests while parts of the country regressed and fell into disrepair.
+America has not failed us as much as we have failed America. By being too busy working; by getting sucked to addictive brain candy of one kind or another; by getting too comfortable in our own echo chambers; by attending to our own interests while parts of the country regressed and fell into disrepair.
 
 Maybe, before things get too much worse, we'll collectively learn the civics lesson that corruption takes root anywhere noone is watching, feeds on passivity and blossoms in the shadows. Democracy is government for the people by the people. Democracy asks something of the citizen.
+
 
 ## freedom of the press
 

@@ -28,6 +28,7 @@ MLO
 CC
 
 Lunit
+Traspara
 
 Optimam dataset
 
@@ -90,6 +91,8 @@ standard double reading in the Mammography Screening
 with Artificial Intelligence trial (MASAI)
 Lång et al, Lancet Oncology 2023
 
+https://doi.org/10.1016/S1470-2045(23)00298-X
+
 AI + radiologist reduces screening workload by 44.3% relative to double reading, the standard in many European countries. AI + radiologist detected 20% more cancers at a comparible false positive rate. Comparing rates of interval cancers will be done after 2 years.
 
 "In retrospective studies, about 20–30% of interval cancers have been shown to display highly suspicious signs of malignancy at the preceding screening mammogram,6–8"
@@ -108,6 +111,8 @@ and prior screening mammograms. Acad Radiol 2022;
 percentages of missed interval breast cancers: retrospective study of
 interval cancers in a population-based screening program. Radiology
 2005; 237: 437–43.
+
+MASAI is a randomized prospective trial of radiologist + Transpara's AI vs double reading for screening mammography. The headline result is radiologist + AI reduces screening workload by 44% while detecting more cancers. n ~= 80k evenly divided between radiologist + AI and double reading. All GE Senographe Pristina. To be followed up in 2 years with interval cancer rates and assessment of overdiagnosis.
 
 ----
 
