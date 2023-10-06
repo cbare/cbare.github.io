@@ -60,6 +60,10 @@ Karan Gupta offers these principles in order of priority[[5]][5]:
 - Form (how it looks and feels)
 - Fabrication (how it is built on the inside)
 
+## Updates
+
+The April 2023 article “Late Architecture with Functional Programming” discusses how functional programming enables “functionality that is independent of the macroarchitecture.”
+
 
 ## References
 
@@ -75,3 +79,4 @@ Karan Gupta offers these principles in order of priority[[5]][5]:
 [3]: https://www.computer.org/csdl/magazine/so/2014/05/mso2014050028/13rRUxjyX2e
 [4]: https://increment.com/teams/how-to-build-a-startup-engineering-team/
 [5]: https://www.heroku.com/podcasts/codeish/principles-of-pragmatic-engineering
+[6]: https://www.infoq.com/news/2023/04/late-arch-functional-programming/

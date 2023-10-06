@@ -45,8 +45,9 @@
 
 
 
-  ## Ensuring code quality
-  - ask: "How to ensure code quality?"
+## Ensuring code quality
+
+- ask: "How to ensure code quality?"
 - CI/CD, build and deploy process
   - ask: "How do we reduce the likelihood of bugs into production?"
   - feature flags

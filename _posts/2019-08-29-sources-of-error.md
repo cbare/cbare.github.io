@@ -13,7 +13,7 @@ But what kinds of bugs do type checkers catch? And what bugs are invisible at th
 
 [![Sources of software errors]({{ "/images/sources-of-error-in-software-development.png" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}](/images/sources-of-error-in-software-development.png)
 
-I wouldn't conclude from this that static typing is useless. But, it's just a tool. In skilled hands, types are a tool for understanding a problem domain, making concepts explicit and checking for internal consistency. Even so, there are certainly sources of error well outside the scope of types.
+I wouldn't conclude from this that static typing is useless. In skilled hands, types are a tool for understanding a problem domain, making concepts explicit and checking for internal consistency. Even so, there are certainly sources of error well outside the scope of types.
 
 ## More thinking about errors
 

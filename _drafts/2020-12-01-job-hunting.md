@@ -1,5 +1,7 @@
 
 
+Don't take sideways steps. Don't take steps that are too small. Don't take on a bunch of meaningless stress for a trivial amount of money.
+
 
 https://arc.dev/remote-jobs/natural-language-processing
 

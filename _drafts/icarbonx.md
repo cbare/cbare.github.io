@@ -17,3 +17,7 @@ https://www.icarbonx.com/news/528.html
 A team from iCarbonX won a DREAM Challenge for modeling Single Cell Signaling in Breast Cancer.
 https://www.synapse.org/#!Synapse:syn20366914/wiki/
 
+
+https://www.facebook.com/stevenhollarch/posts/pfbid0DKbcvrZ9NvqSZB87QhxqwsNy5MRUDgou4zhPyhCunjG819epFbXt4aREtxnYr3cdl
+
+https://www.skyscrapercity.com/threads/shenzhen-icarbonx-headquarters-200m-656ft-46-fl-150m-492ft-37-fl-u-c.2296354/page-3

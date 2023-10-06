@@ -5,128 +5,99 @@ date:   2021-01-19 15:47:00 +1300
 categories: software-engineering
 ---
 
-## Preamble
+Assembling a productive software development team is not easy. Nor is converging on a set of practices that generate working code that does something useful. You have to do that in a competitive environment with limited resources. No wonder failure is common.
 
-Should we move fast and break things? ...um, no. I have very little love for that philosophy because it fails to recognize the costs and consequences involved and, when it succeeds, it's often by offloading pain onto unfortunate others. When some over-hyped go-getter moves fast and breaks things, the execs go looking for a steady even-keeled engineer to clean up the mess. I've been that person.
+Like most engineers, I've fumbled by trial and error through a thicket of advice on process ranging from the merely useless to the actively harmful, occasionally, finding the rare pearl of true wisdom.
 
-It's a valid point that we may learn valuable lessons by moving fast and breaking things. But, must that come at the cost of doing some damage? Is it just a trade-off?
-
-Let's take a brief detour into [Pareto optimality], an economist's way to reason about trade-offs. A system, resource allocation in an economy for instance, is said to be on the Pareto optimal fronteir if an increase in one objective can only be achieved at the cost of a decrease in another objective. X gets richer, but Y gets poorer. More coffee, fewer artichokes. (A fine trade, if you ask me.)
-
-If we are not yet at the fronteir, then we can increase some objective without sacrificing any other - and we should do so. That moves us closer to the fronteir. Moving around on the fronteir is the province of value judgement. My value for coffee over artichokes might be contested by a few very foolish people. But nobody objects to more coffee with no loss of artichokes.
-
-
-## Iteration
-
-You can learn a lot by trying things. Did it work? Were users happy? Was it too slow? The more often you try things, the more you can learn, if you're paying attention.
-
-![Frequency of deployment]({{ "/images/frequency_of_deployment_2014_2015.jpg" | absolute_url }}){:style="margin: 0px 18px 18px 18px; width: 66%"}
-
-What happened in 2015? The frontier moved.
-
-Cloud. Saas (2 aspects)
-GitHub founded in 2008.
-The kind of dev environments available only to elite organizations with teams dedicated to build tooling were now available as free-mium or pay-per-use models.
-
-
-[Continuous Delivery Pipelines: How to Build Better Software Faster][5], Dave Farley's presentation at GOTO 2021.
-
-
-My experience is limited and doesn't include building software as a medical device. It does, however, cover developing software to handle PHI in HIPAA regulated contexts including a hospital, two pharmas, research, telemedicine, and genomics. Previous projects consisted of data ingest, databases, web services, and model retraining and deployment, but no "shrink-wrapped" software.
-
-## Goals
-
-What are the goals of software development process?
-
-### Quality and safety
-
-- Users experience few bugs or downtime
-- Reduce risk of security incidents
-- Handling PHI:
-  - Ethical
-  - Legally compliant
-  - Build trust by being seen as good stewards of PHI
-- Enable sales to and investments from organizations with certification requirements
-
-### Innovation
-
-- Develop new technology, scientific collaboration
-- Use research and data pool to develop new features and products
-- Enable "learning loop" in which a smart product extracts feedback from users that improve the product.
-- Respond quickly to opportunities, react quickly to changing technology, etc.
-
-Over all, we want to build innovative products safely and competitively. These goals are in conflict and must, to some extent, be traded off with each other and with available resources. However, modern software development practice offers tools and techniques that address quality and security concerns while enabling iterative development and short release cycles.
-
+Here's an attempt to extract what matters - at least in my limited experience. Possibly, the best that can be acheived is whatever works reasonably well for now. Every situation is different and constantly changing. So, with expectations suitably lowered...
 
 ## Strategies
 
-What strategies are used in modern software development to help achieve the above goals?
+The goals of any technology organization generally focus on building innovative products efficiently, competitively, and safely. Here's what I've seen work:
 
 - Version control
 - Code review
 - Automated testing
-- Automated deployment
-- Monitoring
-- Containerization
-- Managed components / serverless
+- Continuous deployment
+- Feature flags
+- Logging and monitoring
+- Managed components/infra and containerization
+- Cookie-cutter patterns
+- Direct interaction with users
 
-### CI/CD
+Underlying these strategies are two principles that work together - automation and feedback. To be useful, feeback must come quickly. And automation enables the "quickly". This approach in incremental, iterative, and experimental. Contact with the real world gives the best feedback.
+
+## Continuous deployment
+
+Modern software development teams deploy software to production frequently. Short cycles with smaller steps entail lower risk and enable quicker feedback improving quality and responsiveness to users.
+
+[New Relic's developer survey][9] in 2015 captured the moment when continuous deployment became a mainstream engineering practice.
+
+![Frequency of deployment]({{ "/images/frequency_of_deployment_2014_2015.jpg" | absolute_url }}){:style="margin: 0px 18px 18px 18px; width: 92%"}
+
+In 2014, only 28% managed to deploy weekly or more often. In the following year, 57% of teams deployed at least weekly, 30% multiple times per week.
+
+Did half the industry suddenly decide that moving fast and breaking things was the way to go? Mostly not. The real reason has to do with the cloud and SAAS. The kinds of automation and tooling that previously existed only within elite big-tech orgs became available to everyone.
+
+## The DORA metrics
+
+The DevOps Research and Assessment (DORA) team at Google set out to understand practices that characterize high-performing software engineering teams. They identified [four key metrics that indicate the performance of a software engineering team][14]:
+
+1. Deployment frequency
+2. Lead time for changes
+3. Time to restore
+4. Change failure rate
+
+![DORA metrics]({{ "/images/dora-metrics.jpg" | absolute_url }}){:style="margin: 0px 18px 18px 18px; width: 92%"}
+
+These metrics probably correlate with actual outcomes better than lines of code, but it's important to remember metrics are a means, not an end. “When a measure becomes a target, it ceases to be a good measure.”
+
+## Velocity and Iteration
+
+The key difference between modern practices and older "waterfall" methodology is an emphasis on iteration and feedback rather than upfront effort. The result is that features get to users quickly, while the scope and cost of bugs are minimized. Top-heavy processes that attempt to produce complete, bug-free software before release are slow, expensive, and unresponsive to change. Gates on approval introduce delay and what little feedback they give comes too late in the process to be of benefit.
+
+With tests and visibility in place, moving fast is not more risky but less so. You move fast without breaking things (much) and, when breakage happens, you fix it quickly.
 
 >> “Continuous integration and Continuous development, are the premier examples of the value of automation. CI/CD puts in place guardrails that allow developers to push new code and features that then automatically deploy to production environments. Before CI/CD gained popularity merging code and deploying were a much more cumbersome process. [...] The guardrails that enable CI/CD are version control systems, automated tests, and monitoring tools.” [Atlassian - Software Development: Modern practices and where it’s headed][1]
 
-The key difference from "waterfall" is the emphasis on minimizing the scope and cost of bugs, rather than upfront effort to eliminate bugs, which is subject to increasing cost and diminishing returns.
+In [Continuous Delivery Pipelines: How to Build Better Software Faster][5] (2021) [Dave Farley][16] makes the case for rapid iteration. Again, the conclusion is that with good practices in place, faster iteration leads to better software. When it comes to rolling out new features, finding and fixing bugs, and patching vulnerabilities, sooner is better.
 
-### Cookie-cutter patterns
+## Risk mitigation
 
-Establish architectural patterns for commonly used building blocks:
+What could go wrong? That's a good question to ask. Risks include bugs and security incidents. Handling PII and PHI entails legal and ethical considerations. Trust is hard to build and easy to lose.
 
-- Authentication of users and software
-- Configuration for Azure resources
-- No need to repeatedly review the same patterns
-- Review can be limited to parts that deviate from established pattern or establish new patterns
+### Certification
 
-### Automation
+Certifications like ISO-27001, SOC2, and MDSAP are a source of trust, if somewhat orthogonal to real security and reliability. Certifications are non-negotiable for selling to many large orgs, but they are painful and encourage antiquated and bloated process. The trick is passing the audit without sabotaging your engineering capability.
 
-Certifications require specific sets of controls, scans, and documentation. It's worth exploring whether parts of these requirements can be automatically generated during the build process. For example, automated vulnerability scans are becoming a standard part of CI/CD pipelines.
+It's worth exploring how much compliance can be automated. For example, automated vulnerability scans are becoming a standard part of CI/CD pipelines.
 
+Repeatable cookie-cutter patterns reduce compliance burden. A pattern can undergo review once for security and compliance. Reviewing new services can focus on parts that deviate from established pattern or establish new patterns.
 
-## Triage
-
-How much process is the right amount?
-
-The level of exposure and risk of a software project should dictate appropriate level of process. The heavily regulated process mandated for medical devices is slow, cumbersome, and expensive and should not serve as the model for projects outside this regime.
-
-Projects might be triaged into three levels, roughly high, medium, and low process:
-
-- Medical device
-- Customer facing products
-- Internal tools
-
-Process should be invoked to address specific concerns in proportion to the risk. Where consequences are low, or can be deliberately managed, process can be very light.
-
-
-Capability Maturity Model
-
-Defined and repeatable process. Use of metrics, ill-defined what exactly these are. Continuous improvement. Is having a process that is defined, repeatable, measurable and continuously improving.
-
-## Engineering metrics
-
-The DevOps Research and Assessment (DORA) team at Google designed a six-year program to understand what sets high-performing software engineering teams apart from low-performing software engineering teams. tThey identified four key metrics that indicate the performance of a software engineering team:
-
-1. Deployment frequency
-2. Mean change lead time
-3. Mean time to restore
-4. Change failure rate
-
+The extra processed imposed by these certs are expensive and should be invoked only when it's worth the cost.
 
 ## Developer experience
 
-- self-service, don't make process the blocker.
-- empowering, rather than disabling
-- trust, measures exist because they demonstrably work. Otherwise, they are impediments to be worked around.
+We shouldn't discount the [impact of developer experience on productivity][4]. A tech org should be empowering, rather than disabling. Make everything self-service. Don't make process the blocker. Otherwise, it's just an impediment to be worked around.
+
+Historically, software development has defied attempts at managerial control. [Creative people are driven by autonomy, mastery, and purpose][19]. Software is not like manufacturing a physical product. Code nearly infinitely malliable. Software development is about managing complexity.
+
+The path through a challenge is like stepping stones across a creek. If the stones are too far apart, you fall in; too close together and it's boring. It's too easy. Teachers, mentors, and bosses all exist to help you find steps at the right distance to be interesting without too much risk. Finding these right-sized paths for yourself is a super-power. The reward for working at the right level of challenge is growth. And it's a lot of fun.
+
+[The SPACE of Developer Productivity][2]
 
 
+## Resources
 
+- [‘Engineering' for Software - How to Amplify Creativity][19] by Dave Farley
+
+
+Security
+observability
+reliability
+testability
+scale / perf
+user impact
 
 
 
@@ -138,3 +109,15 @@ The DevOps Research and Assessment (DORA) team at Google designed a six-year pro
 [6]: https://stackoverflow.blog/2021/11/29/the-four-engineering-metrics-that-will-streamline-your-software-delivery/
 [7]: https://microsoft.github.io/code-with-engineering-playbook/
 [8]: https://alexewerlof.medium.com/the-ownership-trio-482a4e5f666d
+[9]: https://newrelic.com/blog/best-practices/data-culture-survey-results-faster-deployment
+[10]: https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration
+[11]: https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics
+[12]: https://www.thoughtworks.com/insights/blog/experience-design/approaches-for-a-better-developer-experience
+[13]: https://www.youtube.com/watch?v=LdOe18KhtT4
+[14]: https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
+[15]: https://sre.google/sre-book/table-of-contents/
+[16]: https://www.davefarley.net/
+[17]: https://fly.io/blog/soc2-the-screenshots-will-continue-until-security-improves/
+[18]: https://sourceless.org/posts/the-continuous-delivery-test.html
+[19]: https://www.youtube.com/watch?v=1Yqw9swkO5c
+[20]: https://queue.acm.org/detail.cfm?id=3454124

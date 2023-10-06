@@ -9,6 +9,23 @@ categories: data-engineering
 A guide to building a data pool and an environment on which to do research.
 
 
+- big picture goals
+- how will goals evolve?
+- how frequently data should be refreshed
+- data sources, quality, how collected? expected invariants in data
+
+
+Learn from other technology companies.
+
+[Data Quality at Airbnb][301][MIDAS process][302]
+
+- Accuracy: Is the data correct?
+- Consistency: Is everybody looking at the same data?
+- Usability: Is data easy to access?
+- Timeliness: Is data refreshed on time, and on the right cadence?
+- Cost Efficiency: Are we spending on data efficiently?
+- Availability: Do we have all the data we need?
+
 
 Components of a modern data stack
 - ingest
@@ -16,6 +33,9 @@ Components of a modern data stack
 - snapshots?
 - models?
 - quality and metrics?
+
+
+Write-audit-publish pattern.
 
 
 
@@ -59,6 +79,7 @@ https://dataengweekly.com/index.html
 - [Apache Airflow][3]
 - [Dagster][4]
 - [Prefect][5]
+- [fivetran][13]
 - [dbt][6]
 - [Great Expectations][7]
 - [Dask][8]
@@ -79,8 +100,25 @@ https://dataengweekly.com/index.html
 [10]: https://dvc.org/
 [11]: https://pandas.pydata.org/
 [12]: https://stackoverflow.blog/2021/09/13/why-your-data-needs-a-qa-process/
+[13]: https://fivetran.com/
 
 [101]: https://talkpython.fm/episodes/show/302/the-data-engineering-landscape-in-2021
 [102]: https://www.pythonpodcast.com/
 [103]: https://www.dataengineeringpodcast.com/
 
+
+[201]: https://www.youtube.com/watch?v=AG56ThOMBwo
+
+[301]: https://medium.com/airbnb-engineering/data-quality-at-airbnb-e582465f3ef7
+[302]: https://medium.com/airbnb-engineering/data-quality-at-airbnb-870d03080469
+
+https://www.getdbt.com/blog/future-of-the-modern-data-stack/
+https://www.blef.fr/
+https://www.dataengineeringweekly.com/
+https://roundup.getdbt.com/
+https://metadataweekly.substack.com/
+https://datatalks.club/
+https://allhandsondata.substack.com/
+https://datastackshow.com/
+https://www.youtube.com/airbytehq
+https://www.youtube.com/c/andreaskayy

@@ -106,6 +106,14 @@ Multiple versions of a model in production
 Version control: data, hyperparameters, models
 
 
+Testing
+
+https://www.giskard.ai/knowledge/how-to-test-ml-models-1-n
+https://www.giskard.ai/knowledge/how-to-test-ml-models-2-n-categorical-data-drift
+https://www.giskard.ai/knowledge/how-to-test-ml-models-3-n-numerical-data-drift
+https://www.giskard.ai/knowledge/how-to-test-ml-models-4-metamorphic-testing
+
+
 
 
 

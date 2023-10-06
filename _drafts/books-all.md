@@ -24,6 +24,7 @@ Tales of Known Space - Larry Niven
 Convergent Series - Larry Niven
 Limits - Larry Niven
 The Shape of Space - Larry Niven
+A World Out of Time - Larry Niven
 Footfall - Larry Niven & Jerry Pournelle
 Oath of Fealty - Larry Niven & Jerry Pournelle
 Inferno - Larry Niven & Jerry Pournelle
@@ -65,6 +66,9 @@ A Scanner Darkly - Philip K. Dick
 The Transmigration of Timothy Archer - Philip K. Dick
 Stand on Zanzibar - John Brunner
 Big Planet - Jack Vance
+Ogre, Ogre - Piers Anthony
+On a Pale Horse - Piers Anthony
+Andromeda Strain - Michael Crichton
 Armor - John Steakley
 Bolo - Keith Laumer
 Berserker - Fred Saberhagen
@@ -161,8 +165,10 @@ Bonfire of the Vanities - Tom Wolfe
 The Book of Disquiet - Fernando Pessoa
 The Fall – Albert Camus
 The Plague - Albert Camus
+The Names - Don DeLillo
 Point Omega – Don DeLillo
 White Noise – Don DeLillo
+Let the Great World Spin - Colum McCann
 Cold Mountain - Charles Frazier
 Station Eleven – Emily St. John Mandel
 The Glass Hotel - Emily St. John Mandel
@@ -249,6 +255,8 @@ The Penguin History of New Zealand - Michael King
 
 ## Non-fiction
 
+Surely You're Joking, Mr. Feynman! - Richard Feynman
+Wild Swans: Three Daughters of China - Jung Chang
 The Tipping Point – Malcolm Gladwell
 The Signal and the Noise – Nate Silver
 Big Data – Kenneth Cukier and Viktor Mayer-Schönberger
@@ -269,7 +277,6 @@ The Perfect Weapon – David Sanger
 The Death of Truth – Michiko Kakutani
 The Fifth Risk – Michael Lewis
 Calling Bullshit - Carl Bergstrom and Jevin West
-Surely You're Joking, Mr. Feynman! - Richard Feynman
 A Brief History of Time - Stephen Hawking
 A Short History of Nearly Everything - Bill Bryson
 Gödel, Escher, Bach - Douglas Hofstadter
@@ -304,4 +311,13 @@ Fluent Python – Luciano Ramalho
 Programming in Haskell – Graham Hutton
 Learn you a Haskell - Miran Lipovača
 Functional Programming in Scala (unfinished)
+Deep Learning with Python - François Chollet
 
+## Text book
+
+Molecular Biology Of The Cell, 2nd Ed. - Alberts
+Introduction to Algorithms, 3rd Ed. (CLRS) - Cormen, Leiserson, Rivest, Stein
+
+
+
+9 + 97 + 7 + 63 + 14 + 7 + 24 + 33 + 19 = 273

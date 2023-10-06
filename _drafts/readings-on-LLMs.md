@@ -116,6 +116,9 @@ RLHF: Reinforcement Learning from Human Feedback
 May 2, 2023 Chip Huyen
 https://huyenchip.com/2023/05/02/rlhf.html
 
+
+Deep reinforcement learning from human preferences
+
 How Rogue AIs may Arise
 Published 22 May 2023 by Yoshua Bengio
 https://yoshuabengio.org/2023/05/22/how-rogue-ais-may-arise/

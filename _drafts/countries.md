@@ -1,53 +1,61 @@
 ## Americas (9)
 
- - U.S.A.
- - Canada
- - Mexico
- - Honduras
- - Costa Rica
- - Bahamas
- - Peru
  - Argentina
+ - Bahamas
+ - Canada
  - Chile
+ - Costa Rica
+ - Honduras
+ - Mexico
+ - Peru
+ - U.S.A.
+
+ (9)
 
 
 ## Europe (17)
 
- - Netherlands
- - Belgium
- - Luxemburg
- - England
- - Germany
- - France
- - Spain
- - Portugal
- - Italy
- - Switzerland
  - Austria
- - Hungary
- - Czech Republic
- - Croatia
+ - Belgium
  - Bosnia
+ - Croatia
+ - Czech Republic
+ - England
+ - France
+ - Germany
  - Greece
+ - Hungary
+ - Italy
+ - Luxemburg
+ - Netherlands
+ - Portugal
+ - Spain
+ - Switzerland
  - Turkey
+
+(17)
 
 
 ## Africa (2)
 
- - Morocco
  - Egypt
+ - Morocco
+
+(2)
 
 
 ## Asia (8)
 
- - Thailand
- - Malaysia
- - Singapore
- - Myanmar
- - Laos
  - Cambodia
- - Japan
  - Hong Kong
+ - Japan
+ - Laos
+ - Malaysia
+ - Myanmar
+ - Singapore
+ - Thailand
+
+(8)
 
 
 ## Pacific (3)
@@ -57,22 +65,24 @@
  - French Polynesia
  - New Zealand
 
+(3)
+
 
 ## Want to go
 
- - Sweden
- - Denmark
- - Norway
- - Scotland
- - Poland
- - China
- - Brazil
  - ABC Islands
- - Bermuda
+ - Azores / Madeira
  - Barbados
- - Indonesia
- - India
- - Nepal
+ - Bermuda
  - Bhutan
- - Madeira / Azores
+ - Brazil
+ - China
+ - Denmark
+ - India
+ - Indonesia
+ - Nepal
+ - Norway
+ - Poland
+ - Scotland
+ - Sweden
  - Tahiti

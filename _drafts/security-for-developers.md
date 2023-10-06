@@ -5,12 +5,33 @@ date:   2021-08-11 09:38 +1300
 categories: ops software-engineering
 ---
 
-Who got hacked this week? In the cat-and-mouse game of security, you can't avoid the impression that the attackers are way out ahead of the defenders, these days.
+Who got hacked this week? In the game of info-sec, you can't avoid the impression that the attackers are way out ahead of the defenders, these days.
 
-Developers can't really escape security, no matter how removed that is from our true specialty. Partially inspired by an episode of [Software Engineering Radio on Secure Coding][4], I'm collecting a few resources on practical application security for the busy developer.
+Developers can't escape security, no matter how far removed from their core specialty. [Security needs to shift left into the software development lifecycle][17]. But, how to think about [Secure Coding][4]? I'm collecting a few resources on practical application security for the busy developer.
+
+
 
 The first place to go is [Open Web Application Security Project (OWASP)][1], where you'll find [guides][14], [videos][12], [cheat sheets][13].
 
+
+Authentication - who are you?
+Authorization - what permissions do you have?
+
+Groups
+Roles
+Permissions
+
+
+[Why Authorization is hard][201] Sam Scott, cofounder and CTO of [Oso][202]
+
+def authorize(u: User, a: Action, r: Resource) -> bool
+
+Authorization Academy
+Concepts. Architecture. Best Practices.
+A series of technical guides for building application authorization.
+
+
+organizations, sharing, ownership, project roles, folders, org charts, impersonation, caretakers, family members, groups, nested groups, custom roles, default roles, permission toggles, public resources, user status, banned users, attribute matching, demographics, usage quotas, subscription based, custom policies
 
 ## What could go wrong?
 
@@ -77,12 +98,30 @@ Run code as service accounts with own privilege, don't run as root
 Set cloud resource quotas
 Authentication (determine identity), authorization (what priviliges)
 
+## Types of Attacks
+Server-side request forgery (also known as SSRF)
+XML external entity injection (also known as XXE)
+Remote code execution (RCE)
+SQL injection SQLi
+
+
+
+Talk from PyCon 2022
+Securing Code with the Python Type System
+Graham Bleaney, Pradeep Kumar Srinivasan
+
 
 
 [protecting your APIs with OAuth2][15]
 [Best practices for REST API security][16]
 
 [The Nuts and Bolts of OAuth 2.0][103]
+
+[Implementing software security in open source][18] How to automate security and build confidence in your code. By Lisa Tagliaferri, PhD
+
+[Why JWTs Suck as Session Tokens][19]
+
+[Container Security Site][20]
 
 
 
@@ -104,6 +143,19 @@ Authentication (determine identity), authorization (what priviliges)
 [15]: https://stackoverflow.blog/2022/04/11/the-complete-guide-to-protecting-your-apis-with-oauth2/
 [16]: https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/
 
+[17]: https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/
+
+[18]: https://github.com/readme/guides/sigstore-software-security
+
+[19]: https://developer.okta.com/blog/2017/08/17/why-jwts-suck-as-session-tokens
+
+[20]: https://www.container-security.site/
+
+
 [101]: https://oauth.net/specs/
 [102]: https://oauth.net/videos/
 [103]: https://www.udemy.com/course/oauth-2-simplified/
+
+[201]: https://www.osohq.com/post/why-authorization-is-hard
+[202]: https://osohq.com
+[203]: https://osohq.com/academy

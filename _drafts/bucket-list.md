@@ -1,25 +1,26 @@
 ## Bucket list
 
-  -  [✓] Live in another country
-  -  [✓] Write scientific papers
   -  [✓] Get married to somebody I love
   -  [✓] Become a parent and raise kids
+  -  [ ] Build my own home
+  -  [ ] Read 1000 books (~300)
+  -  [ ] Write a book
+  -  [ ] Teach a class
+  -  [ ] Contribute significantly to an open source project
+  -  [✓] Write a scientific paper
   -  [✓] Take a hot-air balloon ride
   -  [✓] Run a marathon
+  -  [ ] Run a half-marathon again
   -  [✓] Scuba diving
   -  [✓] Skiing
   -  [~] Sailing
-  -  [ ] Write a book
-  -  [ ] Read 1000 books
-  -  [ ] Teach a class
-  -  [ ] Contribute significantly to an open source project
-  -  [ ] Build my own home
-  -  [ ] Hike the enchantments
   -  [ ] Do a long backpacking trip (pct, jmt, wonderland)
   -  [~] Play a musical instrument
   -  [ ] Write music
-  -  [~] Travel
+  -  [✓] Live in another country
+  -  [~] Travel to 100 countries (39%)
+  -  [ ] Hike the enchantments
   -  [ ] See auroras
+  -  [ ] Bicycle the Atlantic road in Norway
   -  [ ] Live on a boat
   -  [ ] Have a creative work space
-  -  [ ] Run a half-marathon again
