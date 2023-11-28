@@ -102,10 +102,16 @@ After DNS worked, outgoing SSH connections were failing until the folks at Perim
 sudo ifconfig eth0 mtu 1380
 ```
 
+...or on versions of Ubuntu later than 18[*][2004]:
+
+```sh
+ip link set mtu 1200 eth0
+```
 
 [2001]: https://github.com/microsoft/WSL/issues/5256
 [2002]: https://gist.github.com/sivinnguyen/8bc0125b274250683a97e149cf270040
 [2003]: https://github.com/microsoft/WSL/issues/6404
+[2004]: https://superuser.com/a/1591809/484987
 
 ### WSL2 clock skew
 
