@@ -48,9 +48,7 @@ This is a bright spot. [VS-Code][16] is excellent. JetBrains products are, too. 
 
 In the old days, I used [Cygwin][6] to “get that Linux feeling on Windows”. CygWin is still there, but these days, there's also [Windows Subsystem for Linux, aka WSL 2][2]. At one time, you had to [install WSL 1, then upgrade to WSL 2][1]. Thankfully, as of 2023, just head on over to the app store. Once you've installed [WSL][20] and [Ubuntu][21], you've got all the GNU-ish and Linux-y tools your grinchy little hacker heart desires. Pull your dot files off GitHub and away you go. I installed [OhMyZsh][3] and the [powerline font package][7] for an extra layer of nice.
 
-I found [Fluent Terminal][4] first through [this post][8]. Fluent looks sharp, but I ran into issues scrolling back through long terminal sessions. Also, when pasting into IPython sessions, the indenting gets screwed up.
-
-So far, [Windows Terminal][5] seems [more solid][10] and pasting into IPython works as expected, but see below for a long-running issue with domain name resolution.
+[Windows Terminal][5] seems [solid][10]. WSL is a great idea, but it has its issues.
 
 See also:
 
@@ -84,6 +82,13 @@ As Microsoft turned underdog, I've found myself rooting for them. The company's 
 ## Misadventures in Windows-land
 
 ...I'm just complaining now, preserving my travails for the record.
+
+
+### WSL2 Slowdown / slow networking
+
+I experience a [persistent slow-down over time][22], apparently [others have as well][23]. The machine going to sleep and/or coming on and off the VPN seem to make it worse. VS Code takes 10-20 seconds to write a 15k Python file. Rebooting restores snappy performance.
+
+Is this the cure: [Speeding up WSL I/O up than 5x fast + saving a lot of battery life & CPU usage][24]?
 
 ### WSL2 DNS issues
 
@@ -164,3 +169,6 @@ What could they have been thinking? Look at the order of the breadcrumbs. They p
 [19]: https://www.reddit.com/r/osx/comments/aqtgvi/is_it_possible_to_rename_a_desktop/
 [20]: https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R
 [21]: https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW
+[22]: https://github.com/microsoft/WSL/issues/4498
+[23]: https://github.com/microsoft/WSL/issues/4901
+[24]: https://medium.com/@leandrocrs/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
