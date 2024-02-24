@@ -44,6 +44,8 @@ polygenic risk scores
 
 BRCA1/BRCA2
 
+1 in 500 in the general population
+
 risk models
 
 liquid biopsy / cell-free DNA
@@ -74,12 +76,6 @@ https://pubmed.ncbi.nlm.nih.gov/31520277/
 
 
 
-Imaging modalities
-
-Mammo, Tomosynthesis, MRI, ultrasound, contrast enhanced mammo
-
-
-Tomo 3D hasn't been shown to reduce interval cancer (according to Ralph).
 
 
 marketing, politics, science
@@ -133,3 +129,38 @@ Ruth B. Etzioni
 "Among all preclinical cancer cases, 4.5% (95% uncertainty interval [UI], 0.1% to 14.8%) were estimated to be nonprogressive. In a program of biennial screening from age 50 to 74 years, 15.4% (UI, 9.4% to 26.5%) of screen-detected cancer cases were estimated to be overdiagnosed, with 6.1% (UI, 0.2% to 20.1%) due to detecting indolent preclinical cancer and 9.3% (UI, 5.5% to 13.5%) due to detecting progressive preclinical cancer in women who would have died of an unrelated cause before clinical diagnosis."
 
 ----
+
+Reliable quality assurance of X-ray mammography scanner by evaluation the standard mammography phantom image using an interpretable deep learning model
+
+Jang-Hoon Oh, 2022, European Journal of Radiology
+https://doi.org/10.1016/j.ejrad.2022.110369
+
+
+
+## Breast cancer risk assessments
+
+- Tyrer-Cuzick, 6, 7, 8
+- GAIL
+- BRCAPRO
+- Claus
+- NCCN
+
+Companies offering breast cancer risk assessment:
+
+- Change Healthcare - Care Select
+- Cancer IQ
+- Mammo Reporting Solutions
+
+
+## Imaging modalities
+
+- mammography, breast xray
+- tomo
+- ultrasound
+- MRI
+
+Imaging modalities
+
+Mammo, Tomosynthesis, MRI, ultrasound, contrast enhanced mammo
+
+Tomo 3D hasn't been shown to reduce interval cancer (according to Ralph).

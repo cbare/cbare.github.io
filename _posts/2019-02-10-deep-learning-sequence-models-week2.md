@@ -22,7 +22,7 @@ Word embeddings can help with tasks like sentiment analysis, particularly in cas
 
 Interestingly, word embeddings make visible some of the unwanted cultural baggage we're all carrying around with us. See the paper [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings][6].
 
-[Textio][7] is a Seattle company that's made a product out of helping people see the strucuture, desired or undesirable, underneath the language used in job descriptions and elsewhere. *Hey rockstar ninja code-warriors, ready to work hard and play hard?* 🙄
+[Textio][7] is a Seattle company that's made a product out of helping people see the structure, desired or undesirable, underneath the language used in job descriptions and elsewhere. *Hey rockstar ninja code-warriors, ready to work hard and play hard?* 🙄
 
 
 [1]: https://www.deeplearning.ai/deep-learning-specialization/

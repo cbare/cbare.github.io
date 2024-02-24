@@ -5,7 +5,10 @@ data cleaning, management, analysis and visualization
 
 ## Topics
 
- Join and Anti-join
+- Join and Anti-join
+- Join with approximate string matching
+- Rolling join
+- Stratified sampling for each group in sql
 
 
 ## Tidy-verse
@@ -27,6 +30,7 @@ Data Manipulation with R.
 
 
 ## Workflow
+
 Scientific workflow design for mere mortals
 
 Workflows and Provenance: Toward Information Science Solutions for the Natural Sciences
