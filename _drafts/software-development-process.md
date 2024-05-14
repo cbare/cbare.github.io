@@ -52,6 +52,8 @@ The DevOps Research and Assessment (DORA) team at Google set out to understand p
 
 These metrics probably correlate with actual outcomes better than lines of code, but it's important to remember metrics are a means, not an end. “When a measure becomes a target, it ceases to be a good measure.”
 
+indicators of capability
+
 ## Velocity and Iteration
 
 The key difference between modern practices and older "waterfall" methodology is an emphasis on iteration and feedback rather than upfront effort. The result is that features get to users quickly, while the scope and cost of bugs are minimized. Top-heavy processes that attempt to produce complete, bug-free software before release are slow, expensive, and unresponsive to change. Gates on approval introduce delay and what little feedback they give comes too late in the process to be of benefit.
@@ -100,6 +102,30 @@ scale / perf
 user impact
 
 
+[How To Not Die By A Thousand Cuts. Or, How To Think About Software Quality.][21] by Aditya Athalye
+
+
+## Habits and Practices
+
+Adapted from a post by Abi Noda quoting Laura Tacho
+
+- continuous delivery and continuous improvement
+- clear goals and priorities each planning cycle
+- X% slack time in each planning cycle
+- Reduce useless meetings
+- Engineering involved in planning process
+- unified roadmap with engineering-led and business-led projects
+- all features have testing, analytics, docs, and monitoring/alerting
+- less than X% of work needs to be redone
+- spend less than X% of time waiting for decisions from stakeholders
+- accurately estimate timelines
+- find and communicate delays early
+- pragmatism over dogmatism
+
+
+[LinkedIn Developer Productivity and Happiness Framework][22]
+
+
 
 [1]: https://www.atlassian.com/software-development
 [2]: https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/devops-dotnet-webapp
@@ -121,3 +147,5 @@ user impact
 [18]: https://sourceless.org/posts/the-continuous-delivery-test.html
 [19]: https://www.youtube.com/watch?v=1Yqw9swkO5c
 [20]: https://queue.acm.org/detail.cfm?id=3454124
+[21]: https://www.evalapply.org/posts/how-to-not-die-by-a-thousand-cuts/index.html
+[22]: https://linkedin.github.io/dph-framework/

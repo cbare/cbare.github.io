@@ -56,6 +56,12 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 “We become the stories that we tell about ourselves.”
 
+“It's not madness, It's differently sane.”
+
+“I want to stay as close to the edge as I can without going over. Out on the edge you see all kinds of things you can't see from the center.” ― Kurt Vonnegut
+
+“You can never go home again but the truth is you can never leave home, so it's all right.” ― Maya Angelou
+
 
 “The past continues to erupt into the present and remains key to understanding it.”
 - https://www.nytimes.com/2021/06/13/books/review/historical-fiction-jonathan-lee.html
