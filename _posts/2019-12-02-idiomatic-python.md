@@ -17,7 +17,7 @@ Python provides a sparse and carefully-considered set of primitives that compose
   - [Preventing, Finding, and Fixing Bugs On a Time Budget][8]
   - [Python's Class Development Toolkit][7]
 - [The Hitchhiker’s Guide to Python][6] is a handbook of Python best practice.
-- [Fluent Python][1] by Luciano Ramalho is a well-written intermediate-level programming book. Working your way through its chapters will take you from competence to proficiency.
+- [Fluent Python][1] by Luciano Ramalho is a well-written intermediate-level programming book. Working your way through its chapters will take you from competence to proficiency. The first edition is very readable. The second edition, at 850 pages, is more of a reference tome, though still of excellent quality.
 - Chip Huyen's [Python-is-cool][2] is a quick primer on some of Python's unique syntax.
 
 
@@ -50,7 +50,7 @@ def unique(iterable, key=lambda x: x):
 
 ![Python logo]({{ "/images/turnip-twaddler.png" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 12em; height: 16em; position: relative; top: -3em;"}
 
-[Comprehensions][907] are Python's syntactic sugar for _map_ and _filter_ operations. Comprehensions come in different flavors which evaluate to different types, either containers like lists or sets or generators.
+[Comprehensions][907] are Python's syntactic sugar for _map_ and _filter_ operations. Comprehensions come in different flavors which evaluate to different types like lists, sets or generators.
 
 Comprehensions combine well with [itertools][908] and [functools][909] from the standard library to compose pipelines in the style of [functional programming][907].
 
@@ -81,11 +81,15 @@ squares = {x: x**2 for x in range(10)}
 
 ### Conditional expressions
 
-Expressions can be evaluated—turned into a value—in contrast to statements which are executed and don't return a value. Comprehensions enable iteration in the form of expressions. Conditional expressions do the same for branching.
+The [if-elif-else][916] construct in Python is a statement. Conditional _expressions_ return a value.
 
 ``` python
-'ok!' if quux.succeeded else 'failed!'
+message = 'ok!' if quux.succeeded else 'failed!'
 ```
+
+What's the difference? An expression _is_ something; a statement _does_ something. Prefer the conditional expression when you want a value. Prefer an `if-elif-else` for code that performs side-effects.
+
+Comprehensions enable iteration in the form of expressions. Conditional expressions do the same for branching.
 
 
 ### Unpacking, args, and kwargs
@@ -203,19 +207,26 @@ for thing in things:
 
 Single-letter variables are useful in the context of abstract values, for example many Python [math functions][915] take `x` as an input.
 
-|-----------|-----------------------|
-|  Name     |  Meaning              |
-|-----------|-----------------------|
-|  i, j, k  |  indexes              |
-|  n, m     |  counting numbers     |
-|  x, y, z  |  real numbers         |
-|  a, b, c  |  integers             |
-|  e, ex    |  exceptions           |
-|  f, g, h  |  functions            |
-|  p        |  predicate            |
-|  _        |  unused variable      |
-|-----------|-----------------------|
+|-----------|--------------------------------|
+|  Name     |  Meaning                       |
+|-----------|--------------------------------|
+|  i, j, k  |  indexes                       |
+|  n, m     |  counting numbers              |
+|  x, y, z  |  real numbers                  |
+|  a, b, c  |  integers                      |
+|  e, ex    |  exceptions                    |
+|  f, g, h  |  functions                     |
+|  p        |  predicate                     |
+|  _        |  unused variable               |
+|-----------|--------------------------------|
 
+Pedantic code reviewers may insist that terse variable names are always bad. Refer them to the [standard libraries][915].
+
+Avoid naming things after your company, your technology choices, or this week's new hotness. Your company will rebrand, you'll swap out that framework, and buzzwords age in the general direction of embarrassing.
+
+## Write Pythonic code
+
+Python is a pragmatic language with lots of batteries included that helps you get things done. Don't write Java or C# code in Python. You'll write fewer classes and, when you do, [magic methods][202] to provide bits of standard interface. That's one reason Python is one of the most readable languages out there. Fluency with idiomatic Python will help you write code with brevity, clarity and unity that readers will appreciate. Happy hacking!
 
 
 [1]: http://shop.oreilly.com/product/0636920032519.do
@@ -252,3 +263,4 @@ Single-letter variables are useful in the context of abstract values, for exampl
 [913]: https://docs.python.org/3/tutorial/classes.html#generators
 [914]: https://wiki.python.org/moin/Generators
 [915]: https://docs.python.org/3/library/math.html
+[916]: https://docs.python.org/3/tutorial/controlflow.html#if-statements
