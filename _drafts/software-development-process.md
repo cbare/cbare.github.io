@@ -5,15 +5,15 @@ date:   2021-01-19 15:47:00 +1300
 categories: software-engineering
 ---
 
-Assembling a productive software development team is not easy. Nor is converging on a set of practices that generate working code that does something useful. You have to do that in a competitive environment with limited resources. No wonder failure is common.
+Assembling a productive software development team is not easy. Nor is converging on a set of practices that reliably generates working code, code that does something useful. Add to that time pressure, limited resources, and staff turn-over. No wonder failure is common.
 
 Like most engineers, I've fumbled by trial and error through a thicket of advice on process ranging from the merely useless to the actively harmful, occasionally, finding the rare pearl of true wisdom.
 
-Here's an attempt to extract what matters - at least in my limited experience. Possibly, the best that can be acheived is whatever works reasonably well for now. Every situation is different and constantly changing. So, with expectations suitably lowered...
+Here's an attempt to extract what matters - at least in my limited experience. Possibly, the best to be hoped for is whatever works reasonably well for you. Every situation is different and constantly changing. So, with expectations suitably lowered, here we go.
 
 ## Strategies
 
-The goals of any technology organization generally focus on building innovative products efficiently, competitively, and safely. Here's what I've seen work:
+The goals of any technology organization center around building innovative products efficiently, competitively, and safely. Here's what I've seen work:
 
 - Version control
 - Code review
@@ -21,7 +21,7 @@ The goals of any technology organization generally focus on building innovative 
 - Continuous deployment
 - Feature flags
 - Logging and monitoring
-- Managed components/infra and containerization
+- Managed components/infra
 - Cookie-cutter patterns
 - Direct interaction with users
 
@@ -37,7 +37,7 @@ Modern software development teams deploy software to production frequently. Shor
 
 In 2014, only 28% managed to deploy weekly or more often. In the following year, 57% of teams deployed at least weekly, 30% multiple times per week.
 
-Did half the industry suddenly decide that moving fast and breaking things was the way to go? Mostly not. The real reason has to do with the cloud and SAAS. The kinds of automation and tooling that previously existed only within elite big-tech orgs became available to everyone.
+Did half the industry suddenly decide that moving fast and breaking things was the way to go? Mostly not. The real reason has to do with the cloud and SAAS. The kinds of automation and tooling that previously existed only within elite tech orgs became available to everyone.
 
 ## The DORA metrics
 
@@ -50,15 +50,13 @@ The DevOps Research and Assessment (DORA) team at Google set out to understand p
 
 ![DORA metrics]({{ "/images/dora-metrics.jpg" | absolute_url }}){:style="margin: 0px 18px 18px 18px; width: 92%"}
 
-These metrics probably correlate with actual outcomes better than lines of code, but it's important to remember metrics are a means, not an end. “When a measure becomes a target, it ceases to be a good measure.”
-
-indicators of capability
+These metrics are indicators of strong engineering practice, but it's important to remember metrics are a means, not an end. “When a measure becomes a target, it ceases to be a good measure.”
 
 ## Velocity and Iteration
 
 The key difference between modern practices and older "waterfall" methodology is an emphasis on iteration and feedback rather than upfront effort. The result is that features get to users quickly, while the scope and cost of bugs are minimized. Top-heavy processes that attempt to produce complete, bug-free software before release are slow, expensive, and unresponsive to change. Gates on approval introduce delay and what little feedback they give comes too late in the process to be of benefit.
 
-With tests and visibility in place, moving fast is not more risky but less so. You move fast without breaking things (much) and, when breakage happens, you fix it quickly.
+With automated testing and observability in place, moving fast is not more risky but less so. You move fast without breaking things any more often. And when breakage happens, fixes follow quickly.
 
 >> “Continuous integration and Continuous development, are the premier examples of the value of automation. CI/CD puts in place guardrails that allow developers to push new code and features that then automatically deploy to production environments. Before CI/CD gained popularity merging code and deploying were a much more cumbersome process. [...] The guardrails that enable CI/CD are version control systems, automated tests, and monitoring tools.” [Atlassian - Software Development: Modern practices and where it’s headed][1]
 
@@ -76,23 +74,22 @@ It's worth exploring how much compliance can be automated. For example, automate
 
 Repeatable cookie-cutter patterns reduce compliance burden. A pattern can undergo review once for security and compliance. Reviewing new services can focus on parts that deviate from established pattern or establish new patterns.
 
-The extra processed imposed by these certs are expensive and should be invoked only when it's worth the cost.
+The extra process imposed by these certs are expensive and should be invoked only when it's worth the cost.
 
 ## Developer experience
 
 We shouldn't discount the [impact of developer experience on productivity][4]. A tech org should be empowering, rather than disabling. Make everything self-service. Don't make process the blocker. Otherwise, it's just an impediment to be worked around.
 
-Historically, software development has defied attempts at managerial control. [Creative people are driven by autonomy, mastery, and purpose][19]. Software is not like manufacturing a physical product. Code nearly infinitely malliable. Software development is about managing complexity.
+[Creative people are driven by autonomy, mastery, and purpose][19].
 
 The path through a challenge is like stepping stones across a creek. If the stones are too far apart, you fall in; too close together and it's boring. It's too easy. Teachers, mentors, and bosses all exist to help you find steps at the right distance to be interesting without too much risk. Finding these right-sized paths for yourself is a super-power. The reward for working at the right level of challenge is growth. And it's a lot of fun.
 
-[The SPACE of Developer Productivity][2]
+Building software differs from manufacturing a physical product. Code nearly infinitely malliable. Software development is about managing complexity.
 
 
 ## Resources
 
 - [‘Engineering' for Software - How to Amplify Creativity][19] by Dave Farley
-
 
 Security
 observability
@@ -101,6 +98,10 @@ testability
 scale / perf
 user impact
 
+
+[Design Docs at Google][20]
+
+[The SPACE of Developer Productivity][4]
 
 [How To Not Die By A Thousand Cuts. Or, How To Think About Software Quality.][21] by Aditya Athalye
 
@@ -146,6 +147,6 @@ Adapted from a post by Abi Noda quoting Laura Tacho
 [17]: https://fly.io/blog/soc2-the-screenshots-will-continue-until-security-improves/
 [18]: https://sourceless.org/posts/the-continuous-delivery-test.html
 [19]: https://www.youtube.com/watch?v=1Yqw9swkO5c
-[20]: https://queue.acm.org/detail.cfm?id=3454124
+[20]: https://www.industrialempathy.com/posts/design-docs-at-google/
 [21]: https://www.evalapply.org/posts/how-to-not-die-by-a-thousand-cuts/index.html
 [22]: https://linkedin.github.io/dph-framework/
