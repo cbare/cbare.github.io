@@ -2,7 +2,7 @@
 layout: post
 title:  "Extra Heart"
 date:   2022-06-23 07:40:00 +1200
-categories: writting poem
+categories: writing poem
 ---
 
 Extra Heart
