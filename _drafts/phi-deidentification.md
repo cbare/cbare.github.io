@@ -5,9 +5,9 @@ date:   2024-05-20 12:55:00 +1300
 categories: technology healthcare medicine
 ---
 
-Potential benefits of applying technology to healthcare are huge. Due to risk and the cautious nature of the medical system, Healthcare lags in adoption. The state of healthcare data is messy and rife with privacy concerns.
+Potential benefits of applying technology to healthcare are huge but privacy is a big concern.
 
-To make it safer to work with protected health information, HIPAA defines acceptable levels of [de-identification][7]. Techniques for preserving desirable properties while impeding reidentification include:
+To make it safer to work with protected health information, HIPAA defines acceptable standards of [de-identification][7]. The HIPAA Safe Harbor rule defines [18 identifying data fields][15] that must be removed. Techniques for de-identifying while preserving desirable properties include:
 
 - hashing
 - bucketing or binning
@@ -39,6 +39,8 @@ The UCSF version of Philter looks unmaintained. Some good folks have created a f
 
 ### Other options
 
+I was hoping to find a solution based on [spaCy][13] but didn't find something really comparable to Philter. There's a thing called [medspaCy][14] that does NER on medical text, but not de-identification.
+
 - [scrubadub_spacy][2] - PII, not PHI
 - [OpenDeID Deidentification Algorithm][6] BERT model plus rules.
 - [DeID-GPT: Zero-shot Medical Text De-Identification by GPT-4][8]
@@ -58,3 +60,6 @@ The UCSF version of Philter looks unmaintained. Some good folks have created a f
 [10]: https://github.com/SironaMedical/philter-lite
 [11]: https://bakarinstitute.ucsf.edu/
 [12]: https://www.nltk.org/index.html
+[13]: https://github.com/medspacy/medspacy
+[14]: https://spacy.io/
+[15]: https://www.johndcook.com/blog/hipaa-identifiers-explained/
