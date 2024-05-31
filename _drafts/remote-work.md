@@ -103,3 +103,30 @@ Blind + Levels
 
 
 https://www.crossover.com/
+
+
+Jobspresso
+
+Jobspresso features a wide range of curated jobs in tech, marketing, customer support, and more.
+
+Link: http://jobspresso.co
+
+
+Remotely
+
+Find remote jobs at well-known companies like Canva, Grammarly CloudFare, and Figma, and startups.
+
+Link: http://tryremotely.com
+
+
+
+FlexJobs has over 50 remote work categories, with pre-screened positions ranging from freelance gigs, to part-time work, to full-time jobs
+
+Link: http://flexjobs.com
+
+ http://justremote.co
+
+
+authenticjobs.com
+
+remoterocketship.com
