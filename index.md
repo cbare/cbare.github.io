@@ -18,7 +18,7 @@ Formerly:
 * Reverse-engineering the regulation of gene expression at the [Institute for Systems Biology][4].
 * [publications][5] (ORCID: [0000-0003-1006-1491][9]).
 
-This is my **[online notebook][7]** - a collection of stuff possibly related to programming, data-science, machine-learning, deep-learning, natural-language-processing, life-science. On any given topic, I might know what I'm talking about or I might just be curious. Mostly, the latter.
+This is my **[online notebook][7]** - related to programming, data, AI, machine learning, or biotechnology. On any given [topic][11], I might know what I'm talking about or I might just be curious. Mostly, the latter.
 
 Old stuff still lives on the old [Digithead's Lab Notebook][6].
 
@@ -32,3 +32,4 @@ Old stuff still lives on the old [Digithead's Lab Notebook][6].
 [8]: https://www.98point6.com/
 [9]: https://orcid.org/0000-0003-1006-1491
 [10]: https://www.volparahealth.com/
+[11]: /site-index.html

@@ -35,7 +35,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+author:
+  name: J. Christopher Bare
+
 permalink: /:year-:month-:day/:title:output_ext
+
+header_pages:
+  - notebook.md
+  - site-index.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
