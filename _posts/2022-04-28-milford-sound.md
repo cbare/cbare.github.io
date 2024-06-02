@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Milford Track & Queenstown"
-date:   2022-04-28 17:34 +1200
-categories: travel new-zealand
+categories: travel
+tags: new-zealand
 ---
 
 ![Queenstown Panorama]({{ "/images/queenstown-pano.jpg" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}
