@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Books 2021"
-date:   2022-01-17 11:47:00 0000
-categories: books
+title:  "Books 2022"
+categories: Books
 ---
 
-![Curious George reading]({{ "/images/CG_reading.png" | absolute_url }})
+![Books 2022](../images/books-2022.jpeg)
 
 - Termination Shock - Neal Stephenson
 - Pacific - Simon Winchester (audio)
 - Hello World - Hannah Fry (audio)
+- Life - Keith Richards and Jamie Fox (Chapt. 1-5)
 - Gideon the Ninth - Tamsyn Muir
 - The Hitchhiker's Guide to the Galaxy - Douglas Adams (to Henry)
 - Deep Learning with Python, 2nd Ed. - François Chollet
@@ -19,3 +19,7 @@ categories: books
 - Inversions - Iain M. Banks
 - A Memory Called Empire - Arkady Martine (Oct book club)
 - Cloud Cuckoo Land - Anthony Doerr (Nov book club)
+- Figuring - Maria Popova (audio)
+- Wolf Hall - Hilary Mantel (started)
+
+See also, [Books](/2021-12-31/books-2021.html) and [GoodReads](https://www.goodreads.com/user/show/22238686-christopher-bare)
