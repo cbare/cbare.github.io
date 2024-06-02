@@ -2,7 +2,8 @@
 layout: post
 title:  "Generalization in NLP"
 date:   2018-09-09 21:15 -0800
-categories: machine-learning deep-learning
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning deep-learning
 ---
 
 Natural language processing is still at a point closer to Eliza than HAL.

@@ -2,7 +2,8 @@
 layout: post
 title: "Object detection and localization"
 date: 2018-06-16 20:50 -0700
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning python
 ---
 
 [Andrew Ng](https://twitter.com/AndrewYNg)'s class on [deep learning with convolutional neural nets](https://www.coursera.org/learn/convolutional-neural-networks) covers object detection and localization with the YOLO algorithm, non-max suppression and anchor boxes.

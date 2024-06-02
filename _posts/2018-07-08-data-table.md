@@ -2,7 +2,8 @@
 layout: post
 title: "R data.table"
 date: 2018-07-08 21:03 -0700
-categories: R data-science
+categories: Data
+tags: r data-science
 ---
 
 ![data.table logo]({{ "/images/data.table.sticker.png" | absolute_url }}){:style="float: left; margin: 0px 18px 18px 18px;"}

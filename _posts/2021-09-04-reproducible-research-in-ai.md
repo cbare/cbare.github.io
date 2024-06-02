@@ -2,7 +2,8 @@
 layout: post
 title:  "Reproducible Research in AI"
 date:   2021-09-04 14:30:00 +1300
-categories: machine-learning mlops gurus
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning data
 ---
 
 [Joelle Pineau][1], of [Facebook AI Research][2] and McGill University, is an AI researcher studying planning and learning algorithms applied to robotics, health care, games, and conversation. She put together this awesome, if exacting, [reproducibility checklist][4] and ran a [reproducibility challenge at NeurIPS 2019][5]. Read the Nature interview here: [This AI researcher is trying to ward off a reproducibility crisis][3].

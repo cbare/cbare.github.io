@@ -2,7 +2,8 @@
 layout: post
 title:  "Abel Tasman Track"
 date:   2021-01-19 14:55:00 +1300
-categories: travel new-zealand
+category: "Travel and Adventures"
+tags: travel new-zealand
 ---
 
 ![Abel Tasman Anapai]({{ "/images/anapai.jpg" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}

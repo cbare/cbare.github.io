@@ -2,7 +2,7 @@
 layout: post
 title:  "French Composers"
 date:   2020-10-30 21:35:00 +1300
-categories: music
+category: Music
 ---
 
 ![French Composers Timeline]({{ "/images/french-composers-timeline.png" | absolute_url }}){:style="width: 92%; margin: 0px 24px"}

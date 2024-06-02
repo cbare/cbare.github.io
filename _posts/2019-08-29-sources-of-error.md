@@ -2,7 +2,8 @@
 layout: post
 title:  "Sources of Error in Software Development"
 date:   2019-08-29 15:47:00 +0200
-categories: software-engineering programming
+category: Programming
+tags: software-engineering programming
 ---
 
 _“[Writing code isn't the problem; Understanding the problem is the problem.][11]”_

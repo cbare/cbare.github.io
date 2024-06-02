@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Milford Track & Queenstown"
-categories: travel
-tags: new-zealand
+category: "Travel and Adventures"
+tags: travel hiking new-zealand
 ---
 
 ![Queenstown Panorama]({{ "/images/queenstown-pano.jpg" | absolute_url }}){:style="width: 94%; margin: 0px 24px"}

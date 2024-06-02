@@ -2,7 +2,8 @@
 layout: post
 title:  "Searching for Resilience"
 date:   2019-04-15 07:39 -0800
-categories: biotechnology
+category: "Health-tech and Biotechnology"
+tags: biotechnology
 ---
 
 On a deck overlooking Lake Union, the founder of my previous company pitched an idea to a group of us. What if there were people walking around in robust health while carrying a gene thought to condemn them to severe childhood disease? These people should be very sick, but aren't. Finding those people and investigating what's protecting them would be very interesting.

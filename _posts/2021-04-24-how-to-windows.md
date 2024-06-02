@@ -2,7 +2,7 @@
 layout: post
 title:  "How to do Windows"
 date:   2021-04-24 19:51 +1300
-categories: programming
+category: Programming
 ---
 
 ![Windows]({{ "/images/windows-logo.svg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px; width: 25%"}

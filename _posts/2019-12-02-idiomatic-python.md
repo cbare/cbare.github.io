@@ -2,7 +2,8 @@
 layout: post
 title:  "Idiomatic Python"
 date:   2019-12-02 17:20 -0800
-categories: python
+category: Programming
+tags: python
 ---
 
 ![Python logo]({{ "/images/Python-logo-notext.svg" | absolute_url }}){:style="float: right; margin: 0px 18px 18px 18px;"}

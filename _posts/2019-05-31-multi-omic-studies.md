@@ -2,7 +2,8 @@
 layout: post
 title:  "Multi-omic health studies"
 date:   2019-05-31 11:39 -0800
-categories: health-tech
+category: "Health-tech and Biotechnology"
+tags: health-tech
 ---
 
 

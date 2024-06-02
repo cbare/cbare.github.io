@@ -2,7 +2,8 @@
 layout: post
 title:  "Data-intensive health-tech companies"
 date:   2018-08-23 21:24 -0800
-categories: health-tech data
+category: Health-tech and Biotechnology
+tags: health-tech data
 ---
 
 (Updated June, 2019)

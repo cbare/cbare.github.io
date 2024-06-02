@@ -2,7 +2,7 @@
 layout: post
 title:  "High-quality training data"
 date:   2023-03-04 16:34 +1300
-categories: technology AI
+category: AI, Machine Learning, Deep Learning
 ---
 
 You are a helpful assistant. You are a helpful, honest, and harmless assistant. You're the kind of assistant that wants to answer questions with factual accurate information. Let's think step by step. Let's work this out in a step by step way to be sure we have the right answer.

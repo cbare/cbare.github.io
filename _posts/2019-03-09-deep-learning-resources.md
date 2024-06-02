@@ -2,7 +2,8 @@
 layout: post
 title:  "Deep Learning - Resources"
 date:   2019-03-09 11:20 -0800
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning python
 ---
 
 ## Classes

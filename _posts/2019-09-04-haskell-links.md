@@ -2,7 +2,8 @@
 layout: post
 title:  "Learning Haskell"
 date:   2019-09-04 17:20 -0800
-categories: haskell
+category: Programming
+tags: haskell
 ---
 
 ![Haskell logo]({{ "/images/haskell-logo.png" | absolute_url }}){:style="float: right; width: 200px; height 200px; margin: 0px 18px 18px 18px;"}

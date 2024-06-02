@@ -2,7 +2,8 @@
 layout: post
 title:  "Machine Learning Design Patterns"
 date:   2020-11-19 15:47:00 +1300
-categories: machine-learning
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning
 ---
 
 [![Machine Learning Design Patterns]({{ "/images/ml-design-patterns.jpg" | absolute_url }}){:style="float: right; margin: 0px 24px"}][1]

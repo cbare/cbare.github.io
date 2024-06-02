@@ -2,7 +2,8 @@
 layout: post
 title:  "Deep Learning - Sequence Models - Week 2"
 date:   2019-02-10 11:57 -0800
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning python
 ---
 
 ...continuing to work my way through Andrew Ng's [deep learning classes][1] on [Coursera][2]. Week 2 of the [Sequence Models][3] class focuses on word embeddings.

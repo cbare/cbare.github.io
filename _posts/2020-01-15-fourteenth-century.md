@@ -2,7 +2,8 @@
 layout: post
 title:  "The 14th Century"
 date:   2020-01-15 9:15:00 -0800
-categories: history
+categories: History Books
+tags: history books
 ---
 
 [![Map of Europe during the 14th Century]({{ "/images/distant_mirror.jpg" | absolute_url }})](https://www.penguinrandomhouse.com/books/180834/a-distant-mirror-by-barbara-w-tuchman/){:style="float: right; margin: 0px 18px 18px 18px;"}

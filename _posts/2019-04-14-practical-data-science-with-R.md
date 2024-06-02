@@ -2,7 +2,8 @@
 layout: post
 title:  "Practical Data Science with R"
 date:   2019-04-14 15:39 -0800
-categories: machine-learning data-science R
+category: Data
+tags: data-science R
 ---
 
 I started reading the book [Practical Data Science with R, 2nd Edition][1].

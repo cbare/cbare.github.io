@@ -2,7 +2,8 @@
 layout: post
 title: "TensorFlow, deep learning and recurrent neural networks"
 date: 2018-03-10 11:37 -0800
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: tensorflow python
 ---
 
 ![TensorFlow, deep learning and recurrent neural networks]({{ "/images/tensorflow_rnn_wo_phd.png" | absolute_url }})

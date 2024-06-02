@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome"
 date:   2017-12-02 11:51:59 -0800
-categories: blogging
+categories: Writing
 ---
 
 ![Digithead]({{ "/images/digithead.png" | absolute_url }})

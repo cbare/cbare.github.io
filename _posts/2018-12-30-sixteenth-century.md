@@ -2,7 +2,8 @@
 layout: post
 title:  "The Sixteenth Century"
 date:   2018-12-30 13:11 -0800
-categories: history
+categories: History Books
+tags: books history
 ---
 
 # The Sixteenth Century

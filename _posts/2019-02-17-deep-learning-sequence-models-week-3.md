@@ -2,7 +2,8 @@
 layout: post
 title:  "Deep Learning - Sequence Models - Week 3"
 date:   2019-02-17 12:36 -0800
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning python
 ---
 
 Notes on week 3 of the [Sequence Models][3] class, part of Andrew Ng's [deep learning series][1] on [Coursera][2].

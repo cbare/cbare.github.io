@@ -2,7 +2,8 @@
 layout: post
 title:  "Code Review Checklist"
 date:   2021-12-12 19:22:00 +1200
-categories: software-engineering
+category: Programming
+tags: software-engineering
 ---
 
 Good code review has a lot of benefits. Walking through a pull-request is a vector for knowledge transfer. It's a tool for detecting and fixing issues early and maintaining consistency across a code base. It's not easy to do well, but giving thoughtful and constructive code review is one of the most valuable skills you can develop.

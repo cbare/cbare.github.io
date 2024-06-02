@@ -2,7 +2,8 @@
 layout: post
 title:  "Startup Software Engineering"
 date:   2020-02-09 21:01 -0800
-categories: programming
+category: Programming
+tags: software-engineering
 ---
 
 Notes on start-up software engineering.

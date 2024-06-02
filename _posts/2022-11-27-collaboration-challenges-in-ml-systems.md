@@ -2,7 +2,8 @@
 layout: post
 title:  "Collaboration Challenges in Building ML-Enabled Systems"
 date:   2022-11-27 18:15:00 +1300
-categories: machine-learning software-engineering
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning software-engineering
 ---
 
 Notes on: [Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process][1] by Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian Kästner.

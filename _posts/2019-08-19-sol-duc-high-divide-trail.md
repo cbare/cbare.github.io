@@ -2,7 +2,8 @@
 layout: post
 title:  "Sol Duc High Divide Loop Trail"
 date:   2019-08-19 23:20 -0800
-categories: hiking pacific-northwest
+category: "Travel and Adventures"
+tags: hiking pacific-northwest
 ---
 
 In the northwest corner of the [Olympic National Park][2], there's a gem of a hike called the [High Divide - Seven Lakes Basin Loop][1], 19 miles with views stretching from the glaciated peak of Mt. Olympus down into the depths of the Hoh river valley.

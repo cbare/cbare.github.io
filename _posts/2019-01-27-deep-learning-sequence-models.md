@@ -2,7 +2,8 @@
 layout: post
 title:  "Deep Learning - Sequence Models - Week 1"
 date:   2019-01-27 09:50 -0800
-categories: machine-learning python
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning python
 ---
 
 After some delay, I'm getting around to finishing the Andrew Ng series of [deep learning classes][1]. The [Sequence Model][2] class is especially interesting due to the progress being made in [applying deep learning to NLP][3].

@@ -2,7 +2,8 @@
 layout: post
 title: "Parallelizing HTTP requests"
 date: 2018-04-19 18:19 -0800
-categories: python
+categories: Programming
+tags: python
 ---
 
 One of the gotchas when doing microservices is joining across services. Since the database can no longer do that work for you, programmers typically build intermediate endpoints to gather together data and serve it out to clients in a convenient form. But, making too many requests in an intermediate service risks running into time-outs.

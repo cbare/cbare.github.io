@@ -2,7 +2,8 @@
 layout: post
 title: "Neural style transfer"
 date: 2018-06-23 22:47 -0700
-categories: machine-learning
+category: AI, Machine Learning, Deep Learning
+tags: machine-learning
 ---
 
 _Notes from week 4 of [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks):_
