@@ -35,8 +35,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-author:
-  name: J. Christopher Bare
+author: J. Christopher Bare
 
 permalink: /:year-:month-:day/:title:output_ext
 
