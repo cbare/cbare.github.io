@@ -30,6 +30,10 @@ Ben Thompson writes [Stratechery][1108], a blog dedicated to analysis of technol
 
 [Simon Willison][1002] is a co-creator of [Django][1003], creator of [Datasette][1004], and builds open source tools for data journalism.
 
+## Tyler Cowen
+
+
+
 
 - Karen Hao, journalist
 - [Vicki Boykis][1008], machine learning engineer

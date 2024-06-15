@@ -39,6 +39,12 @@ Lots of the examples use either connection strings or [shared access signatures]
 Code running inside Azure should probably use managed identities, as in this [example][107].
 
 
+## Running Python code
+
+How would you deploy a Python code in Azure? Specifically, I like to write APIs in [FastAPI][301]. Confusingly, there are at least 5 different [options for deploying containers in Azure][302]. I wish there was guidance of this form: If you want to do X, the best choice is Y.
+
+
+
 ## Karma
 
 Ever since they became an underdog, I keep rooting for a Microsoft comeback. I'm glad to see Azure doing well and R and Python finding a place in Redmond. I'm hopeful that Microsoft will be a good steward of GitHub. Spending some time as an underdog is good for the soul. Microsoft's reemergence could provide some much-needed balance relative to the other tech giants.
@@ -72,4 +78,6 @@ https://markheath.net/post/user-delegation-sas
 
 https://marileeturscak.com/posts/app-registrations-enterprise-applications-service-principals/
 
-
+[301]: https://fastapi.tiangolo.com/
+[302]: https://learn.microsoft.com/en-us/azure/developer/python/containers-in-azure-overview-python?tabs=vscode-ide#deployment-container-options-in-azure
+[303]: https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview
