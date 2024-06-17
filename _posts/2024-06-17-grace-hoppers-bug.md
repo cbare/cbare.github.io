@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Grace Hopper's Bug"
-category: programming
-tags: art
+categories: Art Programming
+tags: art programming
 ---
 
 ![Grace Hopper's Bug II by Shu-ju Wang](../images/grace-hoppers-bug-2-shu-ju-wang.jpg)
