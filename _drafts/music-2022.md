@@ -1,3 +1,12 @@
+## Discoveries
+
+Karel Boehlee
+Jihye Lee
+
+
+
+
+
 Ahmad Jamal Trio|Ahmad Jamal at the Pershing: But Not for Me
 Ahmad Jamal Trio|The Awakening
 András Schiff|Beethoven: The Piano Sonatas, Volume I
