@@ -35,5 +35,5 @@ gem environment
 
 And, once you have the path to the jekyll executable, add that to the path:
 ```
-export PATH="/usr/local/lib/ruby/gems/3.1.0/gems/jekyll-4.2.0/exe:$PATH"
+export PATH="/usr/local/lib/ruby/gems/3.3.0/gems/jekyll-4.3.3/exe/:$PATH"
 ```
