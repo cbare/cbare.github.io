@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reinforcement Learning"
-categories: AI, Machine Learning, Deep Learning
+category: AI, Machine Learning, Deep Learning
 ---
 
 Reinforcement learning is one of three branches of machine learning. It's useful when we don't have a clear label that we want our model to predict. Rather, we have a reward - a signal about how good or bad were the results of a particular action. For example, winning the game or making a profit is good. Making a bigger profit is better. Crashing the Tesla is bad.
@@ -158,6 +158,7 @@ Q-learning is a model-free algorithm to learn the value of an action in a partic
 - [Deep Reinforcement Learning: Pong from Pixels][2] by Andrej Karpathy
 - [David Silver’s course][3] on RL
 - John Schulman [Deep Reinforcement Learning][4] and [Policy Gradient Methods: Tutorial and New Frontiers][5]
+- [🤗 Deep Reinforcement Learning Course][11]
 
 
 [1]: http://incompleteideas.net/book/the-book-2nd.html
@@ -169,4 +170,5 @@ Q-learning is a model-free algorithm to learn the value of an action in a partic
 [7]: https://mathworks.com/discovery/reinforcement-learning.html
 [8]: https://arxiv.org/pdf/2203.02155
 [9]: https://arxiv.org/abs/2307.11046
-
+[10]: https://aman.ai/primers/ai/deep-rl/
+[11]: https://huggingface.co/learn/deep-rl-course/unit0/introduction?fw=pt
