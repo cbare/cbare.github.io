@@ -101,7 +101,7 @@ But, it gets worse. Consider the uncertainty and incomplete information with whi
     <figcaption style="font-size: small; font-style: italic; text-align: right; margin-right: 4em;">Audrey Durand - Exploration/Exploitation and Bandits</figcaption>
 </figure>
 
-If we assume the environment is unchanging, we can learn an optimal policy - the mapping between state and the next action - and sit back and collect rewards. But what if the dynamics of the environment change over time? Or if competing agents adapt their strategy to counter ours? That
+If we assume the environment is unchanging, we can learn an optimal policy - the mapping between state and the next action - and sit back and collect rewards. But what if the dynamics of the environment change over time? Or if competing agents adapt their strategy to counter ours? The goal of _continual learning_ is for the agent to adapt to non-stationary environments without forgetting previously learned tasks.
 
 ### Explore/Exploit tradeoff
 
