@@ -27,7 +27,7 @@ My former place of employment, Arivale (now deceased) was a start-up based on a 
 
 n = 109
 
-The long list of ventures associated with Michael Snyder include: the [Stanford Center for Genomics and Personalized Medicine][13], [Qbio][14], [January.ai][https://january.ai/].
+The long list of ventures associated with Michael Snyder include: the [Stanford Center for Genomics and Personalized Medicine][13], [Qbio][14], [January.ai](https://january.ai/).
 
 In May of 2019, the [Snyder Lab][12] published [A longitudinal big data approach for precision health][4].
 
