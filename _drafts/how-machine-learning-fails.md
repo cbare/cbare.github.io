@@ -6,7 +6,7 @@ So, you've got some data. Prototype models are looking promising. You might be o
 
 Self-driving cars, replacing radiologists with AI... They haven't happened in the time-frames imagined a few years ago. They may well happen at some point, but not this year or next. The point is that it's quite hard to judge in advance the tractability of a problem. The next increment in performance might be exponentially harder than the previous one.
 
-Framing a problem into a tractable form is an underrated part of machine learning.
+ a problem into a tractable form is an underrated part of machine learning.
 
 ## Data quality
 

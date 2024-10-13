@@ -164,3 +164,11 @@ Imaging modalities
 Mammo, Tomosynthesis, MRI, ultrasound, contrast enhanced mammo
 
 Tomo 3D hasn't been shown to reduce interval cancer (according to Ralph).
+
+
+
+Breast Cancer
+By Lydia Choi, MD, Karmanos Cancer Center
+Reviewed/Revised Jul 2023
+
+https://www.msdmanuals.com/professional/gynecology-and-obstetrics/breast-cancer/breast-cancer

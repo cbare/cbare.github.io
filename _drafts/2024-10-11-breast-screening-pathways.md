@@ -20,7 +20,7 @@ In retrospective simulation, the paper takes the the standard of care in Austral
 - AI band pass: AI makes easy calls, sends harder calls to double read with arbitration
 - AI triage: AI triages between single human reader and double read with arbitration
 
-[![Screening episode flows for the current reader system and AI-integration scenarios.]({{ "images/breast-screening-pathways.webp }})](https://www.nature.com/articles/s41467-024-51725-8/figures/1)
+[![Screening episode flows for the current reader system and AI-integration scenarios.]({{ "/images/breast-screening-pathways.png" | absolute_url }}){:style="width: 86%; margin: 2em 2em;"}](https://www.nature.com/articles/s41467-024-51725-8/figures/1)
 
 The study also models, albeit simply, Human-AI interactions which may be complementary or introduce detrimental bias.
 
