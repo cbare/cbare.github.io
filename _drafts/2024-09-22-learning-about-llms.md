@@ -6,6 +6,8 @@ categories:
     - Learning
 ---
 
+![Yellow lichen]({{ "/images/lichen.jpg" | absolute_url }}){:style="float: right; width: 55%; margin: 0em 0em 2em 2em;"}
+
 Resources for learning about Large Language Models:
 
 ## LLM Agents MOOC
