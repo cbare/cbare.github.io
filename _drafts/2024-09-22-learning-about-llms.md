@@ -28,6 +28,15 @@ Led by Hamel Husain, [Mastering LLMs][1] was a [paid course][6] that ran earlier
 [Sebastian Raschka][8]'s latest book is [Build a Large Language Model From Scratch][7]. He also released [Building LLMs from the Ground Up: A 3-hour Coding Workshop][9].
 
 
+## Papers
+
+- [What We’ve Learned From A Year of Building with LLMs][105] A practical guide to building successful LLM products.
+- [Large Language Models: A Survey][107] Shervin Minaee, Tomas Mikolov, Narjes Nikzad, Meysam Chenaghlu, Richard Socher, Xavier Amatriain, Jianfeng Gao
+- [A Primer On The Inner Workings Of Transformer-Based Language Models][101]
+- [The Elements of Differentiable Programming][104] Mathieu Blondel, Vincent Roulet
+- [Towards Conversational Diagnostic AI][109] AIME paper from Google
+
+
 
 [1]: https://parlance-labs.com/education/
 [2]: https://llmagents-learning.org/f24
@@ -38,3 +47,9 @@ Led by Hamel Husain, [Mastering LLMs][1] was a [paid course][6] that ran earlier
 [7]: https://www.manning.com/books/build-a-large-language-model-from-scratch
 [8]: https://sebastianraschka.com/
 [9]: https://www.youtube.com/watch?v=quh7z1q7-uc
+
+[101]: https://arxiv.org/pdf/2405.00208
+[104]: https://arxiv.org/abs/2403.14606
+[105]: https://applied-llms.org/
+[107]: https://arxiv.org/abs/2402.06196
+[109]: https://arxiv.org/pdf/2401.05654
