@@ -88,3 +88,6 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 “Get your knowledge quickly and then use it. If you can use it you will retain it.”
 ― Alfred North Whitehead
+
+New Zealand physicist Ernest Rutherford is quoted as saying, “If your experiment needs statistics, you ought to have done a better experiment.”
+

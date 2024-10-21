@@ -7,20 +7,22 @@ tags: biology cancer
 
 Information flows in the cell from DNA to RNA to protein and ultimately to phenotype. The project of modern biology is to understand each of those steps in sufficient detail to predict future outcomes and intervene in beneficial ways. Predicting, preventing, or curing disease is just one example.
 
-In recent months, a truckload of tasty research papers has been published based on data from advanced proteomic technologies. Proteins are a critical piece of the puzzle because they are the machinery of the cell. While the genome gives information on potentialities and predispositions, what might happen, proteins are a window into what's happening right now.
+Proteins are a critical piece of the puzzle because they are the machinery of the cell. While the genome gives information on potentialities and predispositions, what might happen, proteins are a window into what's happening right now.
+
+In recent months, a truckload of tasty research papers has been published based on proteomics data, many based on the UK Biobank's phenominal dataset. Several of these studies make use of an immune assay to measure circulating proteins from a Swedish company called Olink. Back in a prior life, I got a peak at the impressively specific data Olink is able to generate.
 
 ## History
 
 ![Arivale]({{ "/images/Arivale_Logo-300x134.jpg" | absolute_url }})
 {:style="float: right; margin: 18px 18px 18px 18px; width: 204px; height: 85px;"}
 
-A couple of jobs and 6-ish years ago, I sat in the Dexter Horton building at a company called Arivale. The premise was to monitor human health like [aerospace engineers monitor airliner engines][7]. 
+About 6-ish years ago, and in a different world, a company called [Arivale][1001] occupied a couple floors of the Dexter Horton building in Seattle. Arivale's premise was to monitor human health like [aerospace engineers monitor airliner engines][7]. In my time there, rotating through software engineering and research roles, I was impressed with the level of positive energy up and down the company.
 
-The company wasn't destined to make it off the runway, which is a sad tale for another time. But, the hope was that gathering [personal, dense, dynamic data clouds][9] from genetics, blood, saliva and microbiome at multiple time points would allow each participant to be an n-of-1 experiment in healthier living. Cynics called it an expensive way to get people to eat right and exercise and they weren't entirely wrong. But, we did assemble a very rich data set and the research team did some nice work.
+The company wasn't destined to make it off the runway, which is a tale for another time. But, the hope was that gathering [personal, dense, dynamic data clouds][9] from genetics, blood, saliva and microbiome at multiple time points would allow each participant to be an n-of-1 experiment in healthier living. Cynics called it an expensive way to get people to eat right and exercise and they weren't wrong. But, we did assemble a very rich data set and the research team did some nice work.
 
-The Arivale cohort contained lots of boringly healthy people. Good on 'em, but it's the sick data points that are the interesting ones. More valuable still are the rare glimpses that show the transition from healthy to sick.
+The Arivale cohort contained lots of boringly healthy people. Good on 'em, but it's the sick data points that are the informative ones. More valuable still are the rare glimpses that show the transition from wellness to disease.
 
-Our researchers caught a few of those sneaky time points using proteomics technology from a Swedish biotech company called Olink. In 2020, after Arivale's demise, they published [Untargeted longitudinal analysis of a wellness cohort identifies markers of metastatic cancer years prior to diagnosis][2].
+Our researchers caught a few of those elusive data points using proteomics technology from Olink. In 2020, after Arivale's demise, they published [Untargeted longitudinal analysis of a wellness cohort identifies markers of metastatic cancer years prior to diagnosis][2].
 
 <figure>
     <img
@@ -36,6 +38,7 @@ While the _n_ was too small for big claims, the findings hint that you might be 
 - [CEACAM5][8] functions in cell-cell adhesion and has known association with cancer.
 - [DLK1][14] has a role as a regulator of cell growth and neuroendocrine differentiation.
 - [ERBB2][15] is a synonym for HER2, a human epidermal growth factor receptor that promotes cell growth and is often overactive in breast cancer.
+- [CALCA][17] codes for peptide hormones calcitonin, CGRP, and katacalcin via splice variants. Stimulates vasodilation and angiogenesis.
 
 
 ## Olink
@@ -45,41 +48,37 @@ While the _n_ was too small for big claims, the findings hint that you might be 
 
 [Olink][16] calls it's proteomic technology [PEA for proximity extension assay][4]. (Extra points for the Gregor Mendel reference.) The company spun out of Ulf Landegren's lab at Uppsala University.
 
-Their method works by growing up a pair of different antibodies to a particular target and binding each antibody with an DNA oligonucleotide. The two oligo's are complimentary, so if both antibodies bind, the strands anneal and you have a double-stranded DNA bar code. Amplifying and reading those bar codes results in a quantitative measure of relative abundance.
+Olink's method works by growing up a pair of different antibodies to a particular target and binding each antibody with an DNA oligonucleotide. The two oligo's are complimentary, so if both antibodies bind, the strands anneal and you have a double-stranded DNA bar code. Amplifying and reading those bar codes results in a quantitative measure of relative abundance.
 
 ![Olink]({{ "/images/blood-proteins/pea-technology.png" | absolute_url }})
-{:style="margin: 1em; width: 66%;"}
+{:style="margin: 1em 2em 1em 0em; width: 33%; float: left;"}
 
+Affinity-based proteomics is expensive, but cheaper than mass-spectrometry. The catch is you have to know what you're looking for.
 
+In the old days there were 15 panels of 96 proteins per panel, focusing on functional categories like cardiovascular, immunity, oncology, neurology, inflammation, and metabolism. The UK Biobank used a newer generation, Olink Explore 3072, to measure 2,923 unique proteins.
 
-- Olink blood protein panels
-- antibody linked to a short strand of DNA
-    - uniquely barcodes each identified protein
-    - can be read out quantitatively
-- 15 panels of 96 proteins per panel
-    - Cardiovascular (3)
-    - Immuno-Oncology (2)
-    - Neurology (2)
-    - Oncology (2)
-    - Inflammation (1)
-    - Biological Process (5)
-
-- Thermo Fisher acquired Olink for $3.1 billion, transaction completed in July 2024.
-
-
-Affinity-based proteomics is cheap (relative to mass-spectrometry) and scalable. The catch is you have to know what you're looking for.
-
+This past year, Thermo Fisher acquired Olink for $3.1 billion. The transaction completed in July 2024.
 
 ## UK Biobank
 
-As Arivale demonstrated, building a big -omic data set with venture capital is hard. They probably don't have the patience to sustain the effort long enough. Verily has the benefit of Google's deep pockets.
+The UK Biobank is one of the most valuable research datasets in human biology. The project began registering participants in 2006 and since that time has collected from 500,000 volunteers data on genetics, lifestyle, medical history, nutrition, clinical labs, and imaging.
+
+It's an effort whose scale and duration will not easily be replicated.
+
+![alt text](../images/blood-proteins/proteomics-final-v4.png){:style="margin: 1em 0em 1em 2em; width: 80%;"}
+
+
+
+
+As Arivale demonstrated, building a multi-omic data set with venture capital is hard. Even with the benefit of Google's deep pockets, Verily has signed on as a [partner in All of Us][404].
+
 
 
 
 “plasma proteomic measures can infer age, sex, BMI, blood groups, and renal and liver function with high predictive accuracy” [[Sun et al][10]]
 
 
-
+Getting a large enough _n_ and joining up with the right kinds of additional data.
 
 
 
@@ -92,7 +91,7 @@ Nautilus Biotechnology
 
 
 
-
+from 54,219 UKB participants using the antibody-based Olink Explore 3072 PEA, measuring 2,941 protein analytes and capturing 2,923 unique proteins
 
 
 [Cell-free DNA analysis in current cancer clinical trials: a review][903]
@@ -133,8 +132,9 @@ Nautilus Biotechnology
     - cancer
   - aging
 
-- Beyond UKBB
-  - 
+- Next steps
+  - multiple time points - diff within and individual
+  - model the combines images, genome, proteins, cell-free dna, standard clinical labs, outputs when to get your next screening mammogram.
 
 ## Papers
 
@@ -149,12 +149,24 @@ https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/dataset-of-thousand
 
 ### Disease
 
+![alt text](../images/blood-proteins/blood-protein-predictive-performance.png)
+
+
 [Blood protein assessment of leading incident diseases and mortality in the UK][11] Gadd et al, Nature Aging, 2024
 
 Blood proteins predict the risk of many diseases years before onset
 https://www.nature.com/articles/s41591-024-03145-w
 
+
+
+![alt text](../images/blood-proteins/predtictive-comparisons.png)
+![alt text](../images/blood-proteins/predictive-comparisons-key.png)
+
 ### Cancer
+
+
+![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
+
 
 [Identifying proteomic risk factors for cancer][1]
 Keren Papier et al 15 May 2024
@@ -168,17 +180,30 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10354027/
 
 [Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation][12] Mälarstig et al, Nature Communications, 2023
 
+![alt text](../images/blood-proteins/volcano-plot-breast-cancer-risk.png)
+
+Given the costs of breast screening programs, in dollars and unpleasantness, the world could really use a very smart model that took in some combination of images, clinical labs, genome, proteins, cell-free dna, etc. and plops out a risk profile with a recommendation on when to get your next mammogram.
+
+Thus, I was dissappointed to see the small gains in predictive ability for breast cancer. Could a more sophisticated model pull out a stronger signal? That's the question.
+
+I'd rather see the data speaking loudly without statistical jiggery-pokery, but maybe [Mendelian randomization][] is just too much for my walnut-sized brain.
+
+None the less, they find five circulating proteins that pass statistical evaluation and have plausible indications of involvement with breast cancer.
+
 #### Lung Cancer
 
 The blood proteome of imminent lung cancer diagnosis
 https://www.nature.com/articles/s41467-023-37979-8
 
+![Identification of 36 protein biomarkers associated with risk of imminent lung cancer diagnosis among 731 cases and 731 matched controls](../images/blood-proteins/biomarkers-lung-cancer.png)
 
 ### Aging
 
 
 Proteomic aging clock predicts mortality and risk of common age-related diseases in diverse populations
 Argentieri et al, Nature Medicine, 2024
+
+![Predicting age from proteins](../images/blood-proteins/prot-age.png)
 
 
 
@@ -214,6 +239,7 @@ Similar to cell-free nucleic acid
 [14]: https://www.genecards.org/cgi-bin/carddisp.pl?gene=DLK1
 [15]: https://www.uniprot.org/uniprotkb/P04626/entry
 [16]: https://olink.com/
+[17]: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CALCA
 
 
 [201]: https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma
@@ -223,6 +249,8 @@ Similar to cell-free nucleic acid
 
 [401]: https://www.projectbaseline.com/
 [402]: https://allofus.nih.gov/
+[403]: https://www.ukbiobank.ac.uk/
+[404]: https://verily.com/perspectives/powering-all-of-us-with-the-nih-vanderbilt-university-and-the-broad-institute
 
 [501]: https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/uk-biobank-launches-one-of-the-largest-scientific-studies
 [502]: https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/dataset-of-thousands-of-proteins-marks-landmark-step-for-research-into-human-health
@@ -231,3 +259,5 @@ Similar to cell-free nucleic acid
 [901]: https://www.resolutionbio.com/
 [902]: https://grail.com/
 [903]: https://www.nature.com/articles/s41416-021-01696-0
+
+[1001]: https://cbare.github.io/2019-05-31/multi-omic-studies.html
