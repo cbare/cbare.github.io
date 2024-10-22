@@ -1,11 +1,14 @@
-# J. Christopher Bare
+---
+layout: post
+title:  "J. Christopher Bare"
+category: resume
+---
 
 - **Email**: {middlename}{lastname} at gmail
 - **Location**: Wellington, New Zealand / Seattle, WA
 - **LinkedIn**: [linkedin.com/in/j-christopher-bare](https://linkedin.com/in/j-christopher-bare)  
 - **GitHub**: [github.com/cbare](https://github.com/cbare)
 
----
 
 ## Skills
 
@@ -14,7 +17,6 @@ Software engineer focused on data and machine learning.
 - **Skills**: Python, SQL, Snowflake, AWS, Azure, Git, Bash, Docker, APIs, machine learning, data pipelines, CI/CD, automated testing, code review.
 - **Other experience**: Keras, Tensorflow, scikit-learn, R, JavaScript, React, Redux, Java, Azure, Spark, Scala, Haskell, Clojure, Scheme, 6502 assembler.
 
----
 
 ## Professional Experience
 
@@ -58,7 +60,6 @@ Software engineer focused on data and machine learning.
 - Created an [interactive visualization of gene expression](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-382). Java, Swing, SQLite, R.
 - Implemented [Firegoose](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-456), a Firefox browser extension for data exchange between desktop and web applications. Javascript, Java, Web services, Microformats.
 
----
 
 ## Education
 
@@ -73,7 +74,6 @@ Machine learning, deep learning, natural language processing, data engineering, 
 **Pennsylvania State University** – University Park, PA  
 *Jun. 1989 - Aug. 1992*
 
----
 
 ## Selected Publications
 
@@ -85,6 +85,5 @@ Machine learning, deep learning, natural language processing, data engineering, 
 
 [More publications](https://scholar.google.com/citations?user=EEZ5DLgAAAAJ&hl=en).
 
----
 
 *Last updated: October 2024.*
