@@ -60,6 +60,9 @@ Software engineer focused on data and machine learning.
 - Created an [interactive visualization of gene expression](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-382). Java, Swing, SQLite, R.
 - Implemented [Firegoose](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-456), a Firefox browser extension for data exchange between desktop and web applications. Javascript, Java, Web services, Microformats.
 
+### Prior experience
+
+- Software development for applications in genomics, social media, e-commerce, pharmaceuticals, and biomedical research.</a> Java, Swing, SQL, JavaScript.
 
 ## Education
 
@@ -81,10 +84,13 @@ Machine learning, deep learning, natural language processing, data engineering, 
 - [**Prediction of human population responses to toxic compounds by a collaborative competition**](https://www.nature.com/articles/nbt.3299). Eduati et al., *Nature Biotechnology*, 2015.
 - [**Simulation Studies as Designed Experiments: The Comparison of Penalized Regression Models in the “Large p, Small n” Setting**](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107957). Neto et al., *PLOS One*, 2014.
 - [**Global optimization of somatic variant identification in cancer genomes with a global community challenge**](http://www.nature.com/ng/journal/v46/n4/full/ng.2932.html). Boutros et al., *Nature Genetics*, 2014.
+- [**Architecture for interoperable software in biology**](http://bib.oxfordjournals.org/content/15/4/626)
+  Bare et al., *Briefings in bioinformatics*, 2012
 - [**Parallel evolution of transcriptome architecture during genome reorganization**](https://genome.cshlp.org/content/21/11/1892)
   Yoon et al., *Genome Research*, 2011
 - [**Integration and visualization of systems biology data in context of the genome**](http://www.biomedcentral.com/1471-2105/11/382/) Bare et al., *BMC Bioinformatics*, 2010
 - [**Prevalence of transcription promoters within archaeal operons and coding sequences**](http://www.nature.com/msb/journal/v5/n1/synopsis/msb200942.html) Koide et al., *Molecular Systems Biology*, 2009
+- [**The Firegoose: two-way integration of diverse data from different bioinformatics web resources with desktop applications**](http://www.biomedcentral.com/1471-2105/8/456) Bare et al., *BMC Bioinformatics*, 2007
 
 
 [More publications](https://scholar.google.com/citations?user=EEZ5DLgAAAAJ&hl=en).
