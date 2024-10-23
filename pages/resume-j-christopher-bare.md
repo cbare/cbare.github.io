@@ -89,7 +89,7 @@ Machine learning, deep learning, natural language processing, data engineering, 
 - [**Parallel evolution of transcriptome architecture during genome reorganization**](https://genome.cshlp.org/content/21/11/1892)
   Yoon et al., *Genome Research*, 2011
 - [**Integration and visualization of systems biology data in context of the genome**](http://www.biomedcentral.com/1471-2105/11/382/) Bare et al., *BMC Bioinformatics*, 2010
-- [**Prevalence of transcription promoters within archaeal operons and coding sequences**](http://www.nature.com/msb/journal/v5/n1/synopsis/msb200942.html) Koide et al., *Molecular Systems Biology*, 2009
+- [**Prevalence of transcription promoters within archaeal operons and coding sequences**](https://www.embopress.org/doi/full/10.1038/msb.2009.42) Koide et al., *Molecular Systems Biology*, 2009
 - [**The Firegoose: two-way integration of diverse data from different bioinformatics web resources with desktop applications**](http://www.biomedcentral.com/1471-2105/8/456) Bare et al., *BMC Bioinformatics*, 2007
 
 
