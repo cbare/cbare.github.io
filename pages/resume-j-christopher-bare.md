@@ -81,7 +81,11 @@ Machine learning, deep learning, natural language processing, data engineering, 
 - [**Prediction of human population responses to toxic compounds by a collaborative competition**](https://www.nature.com/articles/nbt.3299). Eduati et al., *Nature Biotechnology*, 2015.
 - [**Simulation Studies as Designed Experiments: The Comparison of Penalized Regression Models in the “Large p, Small n” Setting**](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0107957). Neto et al., *PLOS One*, 2014.
 - [**Global optimization of somatic variant identification in cancer genomes with a global community challenge**](http://www.nature.com/ng/journal/v46/n4/full/ng.2932.html). Boutros et al., *Nature Genetics*, 2014.
-- [**Network portal: a database for storage, analysis and visualization of biological networks**](http://nar.oxfordjournals.org/content/42/D1/D184.short). Turkarslan et al., *Nucleic acids research*, 2014.
+- [**Parallel evolution of transcriptome architecture during genome reorganization**](https://genome.cshlp.org/content/21/11/1892)
+  Yoon et al., *Genome Research*, 2011
+- [**Integration and visualization of systems biology data in context of the genome**](http://www.biomedcentral.com/1471-2105/11/382/) Bare et al., *BMC Bioinformatics*, 2010
+- [**Prevalence of transcription promoters within archaeal operons and coding sequences**](http://www.nature.com/msb/journal/v5/n1/synopsis/msb200942.html) Koide et al., *Molecular Systems Biology*, 2009
+
 
 [More publications](https://scholar.google.com/citations?user=EEZ5DLgAAAAJ&hl=en).
 
