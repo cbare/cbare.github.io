@@ -4,10 +4,10 @@ title:  "J. Christopher Bare"
 category: resume
 ---
 
-- **Email**: {middlename}{lastname} at gmail
-- **Location**: Wellington, New Zealand / Seattle, WA
-- **LinkedIn**: [linkedin.com/in/j-christopher-bare](https://linkedin.com/in/j-christopher-bare)  
-- **GitHub**: [github.com/cbare](https://github.com/cbare)
+- {middlename}{lastname} at gmail
+- Wellington, New Zealand / Seattle, WA
+- [linkedin.com/in/j-christopher-bare](https://linkedin.com/in/j-christopher-bare)  
+- [github.com/cbare](https://github.com/cbare)
 
 
 ## Skills
