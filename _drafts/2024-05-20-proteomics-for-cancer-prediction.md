@@ -5,11 +5,18 @@ category: Health-tech and Biotechnology
 tags: biology cancer
 ---
 
-Information flows in the cell from DNA to RNA to protein and ultimately to phenotype. The project of modern biology is to understand each of those steps in sufficient detail to predict future outcomes and intervene in beneficial ways, for example predicting, preventing, or curing disease.
+Information flows in the cell from DNA to RNA to protein. These steps interact with the environment ultimately yielding phenotype. The project of modern biology is to understand each of those steps in sufficient detail to predict future outcomes and intervene in beneficial ways, for example predicting, preventing, or curing disease.
 
-Proteins are a critical piece of the puzzle because they are the machinery of the cell. While the genome gives information on potentialities and predispositions - what might happen - proteins are a window into what's happening right now.
+Proteins are a critical piece of the puzzle because they are the machinery of the cell, the tiny biochemical pumps, valves, motors, and assembly lines. The genome is a library of blueprints. It gives information on potentialities and predispositions - what might happen.Proteins are a window into what's happening right now.
 
-In recent months, a truckload of tasty research papers has been published based on data produced by an immune assay that measures circulating proteins from a Swedish company called Olink. Data of this kind has recently been added to the UK Biobank's phenominal dataset. Back in a prior life, I got a preview of the impressively specific data Olink is able to generate.
+In recent months, a truckload of tasty research papers has been published based on data produced by a quantitative protein assay from a Swedish company called Olink. Data of this kind has recently been added to the UK Biobank's phenominal dataset. Back in a prior life, I got a preview of the impressively specific data Olink is able to generate.
+
+Promises to help:
+- better understanding of biology and disease.
+- predict
+- diagnose molecular subtypes.
+- partition patients in responders and non-responders with respect to particular therapies
+- drug discovery
 
 ## History
 
@@ -22,7 +29,9 @@ The company wasn't destined to make it off the runway, but the hope was that gat
 
 The Arivale cohort contained lots of boringly healthy people. Good on 'em, but it's the sick data points that are the informative ones. More valuable still are the rare glimpses that show the transition from wellness to disease. Arivale scientists caught a few of those elusive data points using proteomics technology from Olink. In 2020, after Arivale's demise, they published [Untargeted longitudinal analysis of a wellness cohort identifies markers of metastatic cancer years prior to diagnosis][2].
 
-[![Untargeted longitudinal analysis of a wellness cohort identifies markers of metastatic cancer years prior to diagnosis](../images/blood-proteins/paper-markers-of-metastatic-cancer.png)][2]
+[![Untargeted longitudinal analysis of a wellness cohort identifies markers of metastatic cancer years prior to diagnosis](../images/blood-proteins/paper-markers-of-metastatic-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}][2]
+
+While the _n_ was small, the findings hint that you might be able to see a cancer diagnosis coming months or years in advance.
 
 <figure>
     <img
@@ -33,13 +42,12 @@ The Arivale cohort contained lots of boringly healthy people. Good on 'em, but i
     </figcaption>
 </figure>
 
-While the _n_ was small, the findings hint that you might be able to see a cancer diagnosis coming months or years in advance. Notably, the outlier proteins have very plausible links to cancer:
+Notably, the outlier proteins have very plausible links to cancer:
 
 - [CEACAM5][8] functions in cell-cell adhesion and has known association with cancer.
 - [DLK1][14] has a role as a regulator of cell growth and neuroendocrine differentiation.
 - [ERBB2][15] is a synonym for HER2, a human epidermal growth factor receptor that promotes cell growth and is often overactive in breast cancer.
 - Splice variants of [CALCA][17] code for peptide hormones calcitonin, CGRP, and katacalcin involved in stimulating vasodilation and angiogenesis.
-
 
 ## Olink
 
@@ -61,25 +69,53 @@ This past year, Thermo Fisher acquired Olink for $3.1 billion. The transaction c
 
 ## UK Biobank
 
-The UK Biobank is one of the most valuable research datasets in human biology. The project began registering participants in 2006 and since that time has collected from 500,000 volunteers data on genetics, lifestyle, medical history, nutrition, clinical labs, and imaging.
+The UK Biobank is one of the most valuable research datasets in human biology. The project began registering participants in 2006 and since that time has collected from 500,000 volunteers data on genetics, medical history, activity, lifestyle, nutrition, clinical labs, and imaging.
+
+The UK Biobank is an effort whose scale and duration will not easily be replicated. It owes its existence to a lucky combination of farsighted private and government funders, and a centralized healthcare system. As Arivale demonstrated, building a multi-omic data set with venture capital is tricky. Even with the benefit of Google's deep pockets, Verily has signed on as a [partner in All of Us][404]. The size of the cohort, data across multiple dimensions, and generous access for researchers make the UK Biobank a [globally important resource][301].
+
+### UKB-PPP
+
+[![alt text](../images/blood-proteins/proteomics-final-v4.png){:style="margin: 1em 0em 1em 2em; width: 80%;"}][501]
+
+The UKB-PPP (Pharma Proteomics Project) is a precompetitive consortium of 13 biopharmaceutical companies funding the generation of multiplex, population-scale proteomic data using Olink's proteomic assay technology. The paper that announces the dataset, [Plasma proteomic associations with genetics and health in the UK Biobank][10] by Sun and Whelan et al. describes the dataset like this:
+
+> “We conducted proteomic profiling on blood plasma samples collected from 54,219 UKB participants using the antibody-based Olink Explore 3072 PEA, measuring 2,941 protein analytes and capturing 2,923 unique proteins. This included a randomly selected subset of 46,595 UKB participants at the baseline visit (randomly selected baseline), 6,376 individuals at baseline selected by the UKB-PPP consortium members (consortium selected) and 1,268 individuals who participated in the COVID-19 repeat-imaging study at multiple visits.”
+
+One imagines pharma operatives sitting around in a smoke-filled room negotiating their selections like some strange kind of baseball draft. Maybe it's interesting that the study population is enriched for lupus, Parkinson's, pulmonary heart disease, spinal muscular atrophy, interstitial pulmonary disease, and renal failure. I'd like to see how the drug developers will take this data, relate it to genomics and biochemical pathways, enrich it with their own private research, and inform their thinking about potential drug targets and candidate molecules.
+
+I looked for the per-sample costs, but couldn't find a dollar figure. Budget information may not be public, but it can't have come cheaply. It's amazing that this dataset is available. The sponsoring companies are:
+
+- Alnylam,
+- Amgen
+- AstraZeneca
+- Biogen
+- Bristol Myers Squibb
+- Calico
+- Genentech/Roche Group
+- GSK
+- The Janssen Pharmaceutical Companies of Johnson & Johnson
+- Novo Nordisk
+- Pfizer
+- Regeneron
+- Takeda.
+
+Press blurbs about the UKB-PPP project:
+
+- [UK Biobank launches one of the largest scientific studies measuring circulating proteins, to better understand the link between genetics and human disease][501] (Dec 2020)
+- [Largest dataset of thousands of proteins marks landmark step for research into human health][502] (Oct 2023)
+
+
+## Papers
+
+The paper [Plasma proteomic associations with genetics and health in the UK Biobank][10] (Sun & Whelan et al, Nature, October 2023), quoted above, describes the dataset and explores the gene-to-protein step.
 
 
 
-![alt text](../images/blood-proteins/proteomics-final-v4.png){:style="margin: 1em 0em 1em 2em; width: 80%;"}
-
-
-
-Th UK Biobank is an effort whose scale and duration will not easily be replicated. As Arivale demonstrated, building a multi-omic data set with venture capital is hard. Even with the benefit of Google's deep pockets, Verily has signed on as a [partner in All of Us][404].
-
-Getting a large enough _n_ and joining up with the right kinds of additional data.
-
-British National Health Service
 
 
 “plasma proteomic measures can infer age, sex, BMI, blood groups, and renal and liver function with high predictive accuracy” [[Sun et al][10]]
 
 
-[UK Biobank: a globally important resource for cancer research][301]
 
 
 - UK Biobank PPP
@@ -89,13 +125,11 @@ British National Health Service
 
 
 
-## Proteomics papers
-
 
 Largest dataset of thousands of proteins marks landmark step for research into human health
 https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/dataset-of-thousands-of-proteins-marks-landmark-step-for-research-into-human-health
 
-![alt text](../images/blood-proteins/paper-sun-whelan.png)
+![alt text](../images/blood-proteins/paper-sun-whelan.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 from 54,219 UKB participants using the antibody-based Olink Explore 3072 PEA, measuring 2,941 protein analytes and capturing 2,923 unique proteins
 
@@ -108,22 +142,29 @@ from 54,219 UKB participants using the antibody-based Olink Explore 3072 PEA, me
 
 ### Genetics
 
-[Plasma proteomic associations with genetics and health in the UK Biobank][10], Sun & Whelan et al, Nature, October 2023. 
+Proteomics is shedding light on the linkage between a genetic variant and a biological process, on the steps between DNA and phenotype. Protein quantitative trait loci, pQTLs, are locations on the genome associated with variations in protein expression.
+
+The promise of population-scale proteomics is to build a bridge between genetic variants and biological process. The intermediate steps might be inferred through observing changes in levels of proteins detectable in blood plasma. GWAS finds association between genetic variants and traits of interest. Finding pQTLs starts to fill in the causal picture where before there was only association, thus distinguishing between variants that are involved with disease and those that are merely correlated.
+
+mendelian randomization
+
+
+
 
 ### Disease
 
-![alt text](../images/blood-proteins/paper-blood-protein-disease-mortality.png)
+![Blood protein assessment of leading incident diseases and mortality in the UK](../images/blood-proteins/paper-blood-protein-disease-mortality.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 ![alt text](../images/blood-proteins/blood-protein-predictive-performance.png)
 
 
 [Blood protein assessment of leading incident diseases and mortality in the UK][11] Gadd et al, Nature Aging, 2024
 
-Blood proteins predict the risk of many diseases years before onset
+[Blood proteins predict the risk of many diseases years before onset][18]
 https://www.nature.com/articles/s41591-024-03145-w
 
 
-![alt text](../images/blood-proteins/paper-proteomic-risk.png)
+![alt text](../images/blood-proteins/paper-proteomic-risk.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 ![alt text](../images/blood-proteins/predtictive-comparisons.png)
 ![alt text](../images/blood-proteins/predictive-comparisons-key.png)
@@ -133,7 +174,7 @@ https://www.nature.com/articles/s41591-024-03145-w
 [Identifying proteomic risk factors for cancer][1]
 Keren Papier et al 15 May 2024
 
-![alt text](../images/blood-proteins/paper-proteomic-risk-factors-for-cancer.png)
+![alt text](../images/blood-proteins/paper-proteomic-risk-factors-for-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 ![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
 {:style="margin: 1em 0em 1em 2em; width: 20%;"}
@@ -157,7 +198,7 @@ Given the costs of breast screening programs, in dollars and unfun procedures, t
 
 With this in mind, I was disappointed to see the small lift in predictive ability for breast cancer. It's better when the data speaks loud-and-clear without statistical jiggery-pokery, but could a more sophisticated model pull out a stronger signal? That's the question addressed in this paper:
 
-![Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation](../images/blood-proteins/paper-circulating-plasma-proteins-in-breast-cancer.png)
+![Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation](../images/blood-proteins/paper-circulating-plasma-proteins-in-breast-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 [Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation][12] Mälarstig et al, Nature Communications, 2023
 
@@ -167,7 +208,7 @@ Using a technique called [Mendelian randomization][], they find five circulating
 
 #### Lung Cancer
 
-![The blood proteome of imminent lung cancer diagnosis](../images/blood-proteins/paper-blood-proteome-of-lung-cancer.png)
+![The blood proteome of imminent lung cancer diagnosis](../images/blood-proteins/paper-blood-proteome-of-lung-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 The blood proteome of imminent lung cancer diagnosis
 https://www.nature.com/articles/s41467-023-37979-8
@@ -182,7 +223,7 @@ This is from a different data set, but I include it for two reasons. First, beca
 Proteomic aging clock predicts mortality and risk of common age-related diseases in diverse populations
 Argentieri et al, Nature Medicine, 2024
 
-![alt text](../images/blood-proteins/paper-proteomic-aging.png)
+![alt text](../images/blood-proteins/paper-proteomic-aging.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 ![Predicting age from proteins](../images/blood-proteins/prot-age.png)
 
@@ -190,8 +231,9 @@ Argentieri et al, Nature Medicine, 2024
 
 ## Closing thoughts
 
-Other players and technologies SomaLogic, Nautilus Biotechnology
-aptomers
+Other players with different technologies include SomaLogic, Nautilus Biotechnology
+aptamers vs antibodies
+See this [2020 analysis of the proteomics space from a VC point of view][904].
 
 Similar to cell-free nucleic acid
 
@@ -230,7 +272,11 @@ As a clinical test, taking a vial of blood is much less unpleasant than tissue b
 
 
 
+## References
 
+- [UK Biobank: a globally important resource for cancer research][301]
+- [Cell-free DNA analysis in current cancer clinical trials: a review][903]
+- [Genetics meets proteomics: perspectives for large population-based studies] Suhre et al. 2020 nature reviews genetics 
 
 
 
@@ -252,6 +298,7 @@ As a clinical test, taking a vial of blood is much less unpleasant than tissue b
 [15]: https://www.uniprot.org/uniprotkb/P04626/entry
 [16]: https://olink.com/
 [17]: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CALCA
+[18]: https://www.nature.com/articles/s41591-024-03145-w
 
 
 [201]: https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma
@@ -271,5 +318,6 @@ As a clinical test, taking a vial of blood is much less unpleasant than tissue b
 [901]: https://www.resolutionbio.com/
 [902]: https://grail.com/
 [903]: https://www.nature.com/articles/s41416-021-01696-0
+[904]: https://axial.substack.com/p/axial-discovery-olink-and-proteomics
 
 [1001]: https://cbare.github.io/2019-05-31/multi-omic-studies.html
