@@ -62,7 +62,7 @@ Software engineer focused on data and machine learning.
 
 ### Prior experience
 
-- Software development for applications in genomics, social media, e-commerce, pharmaceuticals, and biomedical research.</a> Java, Swing, SQL, JavaScript.
+- Software development for applications in genomics, social media, e-commerce, pharmaceuticals, and biomedical research. Java, Swing, SQL, JavaScript.
 
 ## Education
 
