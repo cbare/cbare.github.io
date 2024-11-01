@@ -37,3 +37,11 @@ learning focussed
 
 https://dynomight.net/better-personalities/
 
+
+AI Based Emotion Detection for Textual Big Data: Techniques and Contribution
+by Sheetal Kusal 1,Shruti Patil 2,*ORCID,Ketan Kotecha 2,*ORCID,Rajanikanth Aluvalu 3ORCID andVijayakumar Varadarajan 4
+https://www.mdpi.com/2504-2289/5/3/43
+
+
+The Feelings Wheel, created by Dr. Gloria Willcox
+https://www.calm.com/blog/the-feelings-wheel

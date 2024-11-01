@@ -14,6 +14,7 @@ In recent months, a truckload of tasty research papers has been published based 
 Promises to help:
 - better understanding of biology and disease.
 - predict
+- test all the things at once.
 - diagnose molecular subtypes.
 - partition patients in responders and non-responders with respect to particular therapies
 - drug discovery
@@ -85,7 +86,7 @@ One imagines pharma operatives sitting around in a smoke-filled room negotiating
 
 I looked for the per-sample costs, but couldn't find a dollar figure. Budget information may not be public, but it can't have come cheaply. It's amazing that this dataset is available. The sponsoring companies are:
 
-- Alnylam,
+- Alnylam
 - Amgen
 - AstraZeneca
 - Biogen
@@ -97,7 +98,7 @@ I looked for the per-sample costs, but couldn't find a dollar figure. Budget inf
 - Novo Nordisk
 - Pfizer
 - Regeneron
-- Takeda.
+- Takeda
 
 Press blurbs about the UKB-PPP project:
 
@@ -142,7 +143,7 @@ from 54,219 UKB participants using the antibody-based Olink Explore 3072 PEA, me
 
 ### Genetics
 
-Proteomics is shedding light on the linkage between a genetic variant and a biological process, on the steps between DNA and phenotype. Protein quantitative trait loci, pQTLs, are locations on the genome associated with variations in protein expression.
+Proteomics is shedding light on the linkage between genetic variants and biological traits, on the steps between DNA and phenotype. Protein quantitative trait loci, pQTLs, are locations on the genome associated with variations in protein expression. (See [Nature's explainer for QTLs][601].)
 
 The promise of population-scale proteomics is to build a bridge between genetic variants and biological process. The intermediate steps might be inferred through observing changes in levels of proteins detectable in blood plasma. GWAS finds association between genetic variants and traits of interest. Finding pQTLs starts to fill in the causal picture where before there was only association, thus distinguishing between variants that are involved with disease and those that are merely correlated.
 
@@ -150,21 +151,29 @@ mendelian randomization
 
 
 
-
 ### Disease
 
-![Blood protein assessment of leading incident diseases and mortality in the UK](../images/blood-proteins/paper-blood-protein-disease-mortality.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
-
-![alt text](../images/blood-proteins/blood-protein-predictive-performance.png)
-
-
-[Blood protein assessment of leading incident diseases and mortality in the UK][11] Gadd et al, Nature Aging, 2024
-
-[Blood proteins predict the risk of many diseases years before onset][18]
-https://www.nature.com/articles/s41591-024-03145-w
+For several diseases, proteomic predictive models beat standard clinical assays and can, in some cases, predict disease years in advance.
 
 
 ![alt text](../images/blood-proteins/paper-proteomic-risk.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
+
+[Proteomic signatures improve risk prediction for common and rare diseases][19], Carrasco-Zanini, J. et al., Nature Medicine, 2024
+
+![alt text](../images/blood-proteins/blood-protein-predictive-performance.png){:style="width: 80%; margin: 1em 4em;"}
+
+
+![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
+{:style="margin: 1em 0em 1em 2em; width: 20%;"}
+
+Paywalled Nature Research briefing
+[Blood proteins predict the risk of many diseases years before onset][18]
+
+
+
+![Blood protein assessment of leading incident diseases and mortality in the UK](../images/blood-proteins/paper-blood-protein-disease-mortality.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
+
+[Blood protein assessment of leading incident diseases and mortality in the UK][11] Gadd et al, Nature Aging, 2024
 
 ![alt text](../images/blood-proteins/predtictive-comparisons.png)
 ![alt text](../images/blood-proteins/predictive-comparisons-key.png)
@@ -175,9 +184,6 @@ https://www.nature.com/articles/s41591-024-03145-w
 Keren Papier et al 15 May 2024
 
 ![alt text](../images/blood-proteins/paper-proteomic-risk-factors-for-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
-
-![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
-{:style="margin: 1em 0em 1em 2em; width: 20%;"}
 
 
 
@@ -195,6 +201,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10354027/
 #### Breast Cancer
 
 Given the costs of breast screening programs, in dollars and unfun procedures, the world could really use a very smart model to guide screening and further workup to where provide most benefit. Imagine feeding in to such a model images, clinical labs, genome, proteins, cell-free dna, and whatever else we can throw at it. Gears spin and out pops a risk profile that might inform when you get your next screening or whether you want to move on to biopsy.
+
+Carrasco-Zanini, J. et al. found that:
+“Proteins outperformed polygenic risk scores for all of these diseases, except for breast cancer.”
+
 
 With this in mind, I was disappointed to see the small lift in predictive ability for breast cancer. It's better when the data speaks loud-and-clear without statistical jiggery-pokery, but could a more sophisticated model pull out a stronger signal? That's the question addressed in this paper:
 
@@ -215,7 +225,7 @@ https://www.nature.com/articles/s41467-023-37979-8
 
 ![Identification of 36 protein biomarkers associated with risk of imminent lung cancer diagnosis among 731 cases and 731 matched controls](../images/blood-proteins/biomarkers-lung-cancer.png)
 
-This is from a different data set, but I include it for two reasons. First, because lung cancer is one of the disease areas where circulating proteins are most informative. Also, because the figure itself is highly informative. Some thought and care went into creating this figure and I appreciate that.
+This is from a different data set, but I include it for two reasons. Lung cancer is one of the disease areas where circulating proteins are most informative. Also, please step back and appreciate the thought and care that went into creating this figure. Compared to the other two volcano plots, this one shows how its done.
 
 ### Aging
 
@@ -227,21 +237,40 @@ Argentieri et al, Nature Medicine, 2024
 
 ![Predicting age from proteins](../images/blood-proteins/prot-age.png)
 
+[Multi-Omic Biological Age Estimation and Its Correlation With Wellness and Disease Phenotypes: A Longitudinal Study of 3,558 Individuals][20] Earls et al., Journals of Gerontology, 2019
+
+![Multi-Omic Biological Age Estimation](../images/blood-proteins/earls-biological-age.jpeg){:style="width: 80%; margin: 1em 4em;"}
+
+Scatter plots of biological age vs chronological age estimated using each data type individually and all data types in aggregate.
 
 
 ## Closing thoughts
+
+
+potential for the early identification of at-risk individuals, targeted prevention, timely diagnosis and treatment.
+
+
 
 Other players with different technologies include SomaLogic, Nautilus Biotechnology
 aptamers vs antibodies
 See this [2020 analysis of the proteomics space from a VC point of view][904].
 
-Similar to cell-free nucleic acid
+
+Variability across alternative proteomic technologies
+need for validation in ethnically diverse populations
+need for longitudinal data.
+
+
+Measuring at different time points lets you take the "diff" of a person vs themselves at an earlier time. A percent change might be more informative than an absolute level.
+
+
+Similar to cell-free nucleic acid, polygenic risk scores.
 
 How used? predictive vs diagnostic
 
 medical system doesn't make great use of predictive information
 
-Limitations: some diseases have more reason to affect blood proteins than others. 
+Limitations: some diseases have more reason to affect blood proteins than others.
 
 Arivale vision still in future
 
@@ -253,7 +282,7 @@ Arivale vision still in future
 
 
 
-Mapping biological influences on the human plasma proteome beyond the genome
+[Mapping biological influences on the human plasma proteome beyond the genome][13]
 Carrasco-Zanini et al, Nature Metabolism, 2024
 
 
@@ -299,7 +328,8 @@ As a clinical test, taking a vial of blood is much less unpleasant than tissue b
 [16]: https://olink.com/
 [17]: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CALCA
 [18]: https://www.nature.com/articles/s41591-024-03145-w
-
+[19]: https://www.nature.com/articles/s41591-024-03142-z
+[20]: https://doi.org/10.1093/gerona/glz220
 
 [201]: https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/translation/a/intro-to-gene-expression-central-dogma
 [202]: https://www.msdmanuals.com/home/fundamentals/genetics/genes-and-chromosomes
@@ -313,6 +343,8 @@ As a clinical test, taking a vial of blood is much less unpleasant than tissue b
 
 [501]: https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/uk-biobank-launches-one-of-the-largest-scientific-studies
 [502]: https://www.ukbiobank.ac.uk/learn-more-about-uk-biobank/news/dataset-of-thousands-of-proteins-marks-landmark-step-for-research-into-human-health
+
+[601]: https://www.nature.com/scitable/topicpage/quantitative-trait-locus-qtl-analysis-53904/
 
 
 [901]: https://www.resolutionbio.com/

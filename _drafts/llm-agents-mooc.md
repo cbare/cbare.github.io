@@ -38,6 +38,10 @@ Ben Mann
 
 
 
+[LLM Powered Autonomous Agents][6], by Lilian Weng from June, 2023
+
+
+
 
 
 [1]: https://parlance-labs.com/education/
@@ -45,3 +49,4 @@ Ben Mann
 [3]: https://dawnsong.io/
 [4]: https://jungyhuk.github.io/
 [5]: https://rdi.berkeley.edu/llm-agents-hackathon/
+[6]: https://lilianweng.github.io/posts/2023-06-23-agent/
