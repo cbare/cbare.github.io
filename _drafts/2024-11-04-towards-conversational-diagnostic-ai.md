@@ -30,9 +30,9 @@ The inner loop of generation and reflection feeds into the outer loop of fine-tu
 
 ## Evaluation
 
-As language models get more advanced, evaluation converges toward the way humans evaluate each other. In this case, the inspiration was a standardized evaluation framework used to assess medical professionals in the UK, Canada, and Australia, adapted to a text-only primary care interview.
+As language models get more advanced, evaluation converges toward the way humans evaluate each other. In this case, the inspiration was OSCE, a standardized evaluation framework used to assess medical professionals in the UK, Canada, and Australia, adapted to a text-only primary care interview.
 
-![Randomized study design](../images/amie-paper/randomized-study-design.png)
+![Randomized study design](../images/amie-paper/randomized-study-design.png){:style="margin: 1.5em 0.5em;"}
 
 > “We designed and conducted a blinded remote Objective Structured Clinical Examination (OSCE) with validated simulated patient actors interacting with AMIE or Primary Care Physicians (PCPs) via a text interface. Across multiple axes corresponding to both specialist physician (28 out of 32) and patient actor (24 out of 26) perspective, AMIE was rated as superior to PCPs while being non-inferior on the rest.”
 
@@ -47,28 +47,28 @@ Privacy concerns and the tendency of LLMs to memorize and regurgitate their trai
 
 ![Comparison of rankings before and after self-play](../images/amie-paper/comparison-self-play.png)
 
-Looks to me like there is some lift from self-critique, but it's limited. I'm guessing this is because the model is grading own howework. In contrast, a game provides ground-truth about who played a better game. In RLHF, the human preferences are new information. In this scenario, there's not really a source of new information, except maybe the grading rubric. Given a that, the model can learn by reflection which of its own outputs is more aligned with the rubric and thus learn to prefer those outputs over others.
+Looks to me like there is some lift from self-critique, but not tons. I'm guessing this is because the model is grading its own howework. In contrast, a game provides ground-truth about who played a better game. In RLHF, the human preferences are new information. In the AMIE scenario, it the sources new information are the vignette generator and the grading rubric. The vignette generation adds diversity. And the model can learn by reflection which of its own outputs are more aligned with the rubric and thus to prefer those outputs over others. But neither of these feels as impactful as who won or lost a game.
 
 The lesson here is to look for sources of ground truth or new information that can be injected into the process at every iteration.
 
 ### Acting under uncertainty
 
-Computer science and medicine differ in their approach to uncertainy. Traditional computer science traffics in the discrete, logical, and binary. In contrast, a medical practitioner is swimming in uncertainty all the time and must act urgently without full information. One of the reasons that machine learning is hard is that ML forces CS people to deal with uncertainty and reason probabilistically.
+Computer science and medicine differ in their approach to uncertainty. Traditional computer science traffics in the discrete, logical, and binary. In contrast, a medical practitioner is swimming in uncertainty all the time and must act urgently without full information. One of the reasons that machine learning is hard is that ML forces CS people to deal with uncertainty and reason probabilistically.
 
 Differential diagnosis is a ranked list of possible causes for a set of observed symptoms. A physician might mentally assign a qualitative probability to each and in considering next steps will weight severity, urgency, available diagnostic tests and their costs and invasiveness to the patient.
 
 
 ## Conclusion
 
-People worry that the internet is being pumped full of AI generated junk content and future generations of models trained on that will be progressively degraded. The inner loop demonstates that a small but non-zero benefit can be had by selectively filtering and refining synthetic training data. So, perhaps all is not lost.
+People worry that the internet is being pumped full of AI generated junk content and future generations of models trained on that will be progressively degraded. The inner loop demonstrates that a small but non-zero benefit can be had by selectively filtering and refining synthetic training data. So, perhaps all is not lost.
 
-The iterative improvement is a powerful idea. The lesson is that each iteration needs to add new information. How would collection of ground truth be engineered in the context of medical dialog? Whether the model get's it right or wrong, both paths need to be instrumented and data collected. That feedback has to come from a human-in-the-loop, in this case a medical doctor. I can see organizations like the Mayo Clinic or Kaiser pulling that off more than I can imagine Google doing it.
+The iterative improvement is a powerful idea. The lesson is that each iteration needs to add new information. How would collection of ground truth be engineered in the context of medical dialog? Whether the model gets it right or wrong, both paths need to be instrumented for data collection. That feedback has to come from a human-in-the-loop, in this case a medical doctor. I can see organizations like the Mayo Clinic or Kaiser pulling that off more than I can imagine Google doing it.
 
 How would you go about designing a process that throws off the right kind of training data to create a self-improving learning loop?
 
 ## More
 
-Just a few months later, Google returns with a new multimodel base model, Gemini
+Just a few months later, Google returns with a new multimodal base model, Gemini
 
 - [Capabilities of Gemini Models in Medicine][3], April 2024
 - [Advancing Multimodal Medical Capabilities of Gemini][4], May 2024
