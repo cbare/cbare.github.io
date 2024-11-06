@@ -8,7 +8,7 @@ I like building, solving problems, supporting researchers, and organizing data. 
 
 Let's explore how we can work together.
 
-- [my resume](https://cbare.github.io/pages/resume-j-christopher-bare.html)
+- [my resume](https://cbare.github.io/pages/resume-j-christopher-bare)
 - [linkedin.com/in/j-christopher-bare/](https://www.linkedin.com/in/j-christopher-bare/)
 
 Contact at {middlename}{lastname} at gmail or via [linkedin](https://www.linkedin.com/in/j-christopher-bare/).

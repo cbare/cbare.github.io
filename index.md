@@ -7,7 +7,7 @@ title: J. Christopher Bare
 
 Building software tools that enhance the ability to create and discover. Machine learning and software engineering applied to life-sciences and human health.
 
-[Let's build together!](/pages/work-with-me.md)
+[Let's build together!](/pages/work-with-me)
 
 Currently:
 * Building data pipelines to help better understand breast cancer screening and risk at [Volpara][10].
