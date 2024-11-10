@@ -21,9 +21,9 @@ The fine-tuning strategy is modeled on self-play, which is how DeepMind trained 
 
 ![AMIE system design](../images/amie-paper/amie-system-design.png)
 
-In the inner loop, we have agents asked to play the role of patient, doctor, and critic. The patient and doctor engage in dialog to elicit symptoms, arrive at a differential diagnosis, and devise a care-plan. The critic provides feedback on the dialog and suggests ways it could be improved. All agents are AMIE with different prompts.
+In the inner loop, agents play the role of patient, doctor, and critic. The patient and doctor engage in dialog to elicit symptoms, arrive at a differential diagnosis, and devise a care-plan. The critic provides feedback on the dialog and suggests ways it could be improved. All agents are AMIE with different prompts. The inner loop of generation and reflection feeds into the outer loop of fine-tuning.
 
-The inner loop of generation and reflection feeds into the outer loop of fine-tuning, which the paper describes as follows:
+The paper describes the process as follows:
 
 > “AMIE is a conversational medical AI optimised for diagnostic dialogue. AMIE is instruction fine-tuned with a combination of real-world and simulated medical dialogues, alongside a diverse set of medical reasoning, question answering, and summarization datasets. Notably, we designed a self-play based simulated dialogue environment with automated feedback mechanisms to scale AMIE’s capabilities across various medical contexts and specialities. Specifically, this iterative self-improvement process consisted of two self-play loops: (1) An “inner” self-play loop, where AMIE leveraged in-context critic feedback to refine its behavior on simulated conversations with an AI patient agent; (2) An “outer” self-play loop where the set of refined simulated dialogues were incorporated into subsequent fine-tuning iterations. During online inference, AMIE used a chain-of-reasoning strategy to progressively refine its response conditioned on the current conversation to arrive at an accurate and grounded reply to the patient in each dialogue turn.”
 
@@ -51,11 +51,19 @@ Looks to me like there is some lift from self-critique, but not tons. I'm guessi
 
 The lesson here is to look for sources of ground truth or new information that can be injected into the process at every iteration.
 
+
 ### Acting under uncertainty
 
 Computer science and medicine differ in their approach to uncertainty. Traditional computer science traffics in the discrete, logical, and binary. In contrast, a medical practitioner is swimming in uncertainty all the time and must act urgently without full information. One of the reasons that machine learning is hard is that ML forces CS people to deal with uncertainty and reason probabilistically.
 
 Differential diagnosis is a ranked list of possible causes for a set of observed symptoms. A physician might mentally assign a qualitative probability to each and in considering next steps will weight severity, urgency, available diagnostic tests and their costs and invasiveness to the patient.
+
+
+## Error analysis
+
+The rubric presented in the paper is very detailed, so you can see how well the model did _in aggregate_ on several aspects of clinical dialog. But, I found myself wondering about the mistakes. What does it look like when the model goes off the rails? What are the worst mistakes the model made? I'd like to see how the model performed in cases where the patient's responses were garbled, unreliable, or intentionally deceptive as in a drug seeking patient.
+
+I'd like to see more error analysis in AI papers in general. It would cut through some of the hype, ground the discussion in reality, and set expectations on what kinds of failures we should anticipate.
 
 
 ## Conclusion
