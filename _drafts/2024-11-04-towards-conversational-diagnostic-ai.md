@@ -56,14 +56,14 @@ The lesson here is to look for sources of ground truth or new information that c
 
 Computer science and medicine differ in their approach to uncertainty. Traditional computer science traffics in the discrete, logical, and binary. In contrast, a medical practitioner is swimming in uncertainty all the time and must act urgently without full information. One of the reasons that machine learning is hard is that ML forces CS people to deal with uncertainty and reason probabilistically.
 
-Differential diagnosis is a ranked list of possible causes for a set of observed symptoms. A physician might mentally assign a qualitative probability to each and in considering next steps will weight severity, urgency, available diagnostic tests and their costs and invasiveness to the patient.
+Differential diagnosis is a ranked list of possible causes for a set of observed symptoms. A physician might mentally assign a qualitative probability to each and in considering next steps will weight severity, time contraints, available interventions and diagnostics and their costs, reliability, and invasiveness. Acting urgently under uncertainty is what makes medicine hard.
 
 
 ## Error analysis
 
 The rubric presented in the paper is very detailed, so you can see how well the model did _in aggregate_ on several aspects of clinical dialog. But, I found myself wondering about the mistakes. What does it look like when the model goes off the rails? What are the worst mistakes the model made? I'd like to see how the model performed in cases where the patient's responses were garbled, unreliable, or intentionally deceptive as in a drug seeking patient.
 
-I'd like to see more error analysis in AI papers in general. It would cut through some of the hype, ground the discussion in reality, and set expectations on what kinds of failures we should anticipate.
+I'd like to see more error analysis in AI papers in general. It would cut through some of the hype, ground our thinking in reality, and set expectations on what kinds of failures we should anticipate.
 
 
 ## Conclusion
