@@ -17,7 +17,7 @@ Note that this paper was published in very early 2024 based on Palm2, Google's f
 
 ## Inner and outer training loops
 
-The fine-tuning strategy is modeled on self-play, which is how DeepMind trained the model that [beat the world champion go player][]. The design has an inner loop in which novel clinical scenarios or vignettes are assembled using "search" and used to generate new patient-doctor dialogs.
+The fine-tuning strategy is modeled on self-play, which is how DeepMind trained the model that [beat the world champion go player][302]. The design has an inner loop in which novel clinical scenarios or vignettes are assembled using "search" and used to generate new patient-doctor dialogs.
 
 ![AMIE system design](../images/amie-paper/amie-system-design.png)
 
@@ -90,3 +90,4 @@ For more on the paper, check out the interview with two of the authors on the Co
 [4]: https://arxiv.org/abs/2405.03162
 
 [301]: https://www.98point6.com/
+[302]: https://blog.google/around-the-globe/google-asia/8-years-later-a-world-go-champions-reflections-on-alphago/
