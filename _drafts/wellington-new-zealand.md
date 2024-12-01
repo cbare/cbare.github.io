@@ -48,6 +48,8 @@ Bedlam & Squalor
 Dan Hayles
 Louisa Williamson
 Seth Boy
+Mike Costeloe (trumpet)
+Hikurangi Schaverien-Kaa (d)
 New Zealand Symphony
 
 

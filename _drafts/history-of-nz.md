@@ -7,11 +7,11 @@ categories: history new-zealand
 
 ### Origins
 
-Māori legend says that Māui hauled a tremendous fish up from the sea using a magic fish hook. The fish became the North Island, 'Te Ika a Māui'. The South Island was the canoe from which Māui and his brothers were fishing, 'Te Waka a Māui' (Māui’s canoe). The Kaikōura Peninsula is where Māui stood and Stewart Island is the anchor of the canoe.
+Māori legend says that Māui hauled a tremendous fish up from the sea using a magic hook. The fish became the North Island, 'Te Ika a Māui'. The South Island was the canoe from which Māui and his brothers were fishing, 'Te Waka a Māui' (Māui’s canoe). The Kaikōura Peninsula is where Māui stood and Stewart Island is the anchor of the canoe.
 
 {{ "/images/maui-fp12.jpg" | absolute_url }}
 
-According to the traditional story, Kupe discovered New Zealand, sailing large double-hulled canoe named Mātāwhaorua from the mythical homeland of Hawaiki. Kupe's wife, Kuramārōtini, spotted a cloud, signifying the presence of land from which derives the name Aotearoa, “the land of the long white cloud”. Later, a fleet of seven canoes carried the ancestors of the various Iwi, or Māori tribes, to New Zealand.
+According to the traditional story, Kupe discovered New Zealand, sailing large double-hulled canoe named Mātāwhaorua from the mythical homeland of Hawaiki. Kupe's wife, Kuramārōtini, spotted a cloud, signifying the presence of land from which we get the name Aotearoa, “the land of the long white cloud”. Later, a fleet of seven canoes carried the ancestors of the various Iwi, or Māori tribes, to New Zealand.
 
 Modern historians conclude, based on genetic and linguistic evidence, that Polynesian settlers from the Cook, Society, and Austral islands arrived in New Zealand during the 1200s towards the end of the Polynesian expansion across the Pacific.
 

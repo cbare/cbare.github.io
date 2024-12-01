@@ -29,8 +29,13 @@ vulnerable, needs a high-level protector
 Even with support from the top, culture change is hard. You hear a lot of talk and then nothing much happens. Maybe, it's just a slow process. Maybe the right expectation is for it to happen so slowly that it's hard to percieve, thus avoiding trigging the organizational immune system.
 
 
-[Work in dysfunctional Orgs]
+[Work Somewhere Dysfunctional][3] by Marianne Bellotti
+
+
+[Your Organization Probably Doesn't Want To Improve Things][]
 
 [Skilled Pragmatists][1]
 
 [1]: https://cutlefish.substack.com/p/tbm-271-the-biggest-untapped-opportunity
+[2]: https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/
+[3]: https://bellmar.medium.com/work-somewhere-dysfunctional-54fe5793b7a5

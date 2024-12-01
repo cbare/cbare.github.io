@@ -62,6 +62,11 @@ Rod Youngs / drums
 
 
 
+The Garden Suite by Nitai Hershkovits & Daniel Dor is a unique piece of music. Maybe if Frank Zappa and Aphex Twin had collaborated on the soundtrack to a Studio Ghibli film, it might sound something like this.
+
+
+
+
 [1]: https://www.gregreitan.com/
 [2]: https://sunnysiderecords.com/site/release_detail?id=1208
 [3]: https://www.daveohiggins.com/ohiggins-luft

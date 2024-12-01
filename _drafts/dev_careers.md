@@ -16,11 +16,6 @@ Expect requirements to change. They usually do. You can't beat direct contact wi
 
 
 
-
-
-
-
-
 ## Technology career paths
 
 Deep technical expertise
@@ -37,8 +32,11 @@ https://bitfieldconsulting.com/golang/career
 - How much autonomy will I have?
 - What happens between a 1-line change and production?
 - Will I have direct access to stakeholders, especially end users.
-- Suuport for learning and career goals
+- Support for learning and career goals
 
+
+- Ask what the 6-month goals are and success criteria for those goals. Ask recruiters who to ask that question.
+- Ask non-technical interviewers how they feel about working with the engineering org.
 
 ### How to spot toxicity
 

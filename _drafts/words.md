@@ -91,3 +91,7 @@ https://twitter.com/vlad_mihalcea/status/1282199525562753025
 
 New Zealand physicist Ernest Rutherford is quoted as saying, “If your experiment needs statistics, you ought to have done a better experiment.”
 
+
+“No man ever steps in the same river twice, for it's not the same river and he's not the same man.”
+― Heraclitus
+
