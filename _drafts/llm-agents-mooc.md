@@ -6,6 +6,7 @@ categories:
     - Learning
 ---
 
+![Berkeley Campanile](../images/UC-Berkeley-campanile.png)
 
 The [Large Language Model Agents MOOC, Fall 2024][2] led by [Dawn Song][3] Professor, UC Berkeley and [Xinyun Chen][4] Research Scientist, Google DeepMind.
 
