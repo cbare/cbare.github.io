@@ -8,7 +8,7 @@ categories:
 
 ![Berkeley Campanile](../images/UC-Berkeley-campanile.png)
 
-The [Large Language Model Agents MOOC, Fall 2024][2] led by [Dawn Song][3] Professor, UC Berkeley and [Xinyun Chen][4] Research Scientist, Google DeepMind.
+The [Large Language Model Agents MOOC, Fall 2024][2] led by [Dawn Song][3], Professor, UC Berkeley, and [Xinyun Chen][4], Research Scientist, Google DeepMind.
 
 The class is taught seminar-style with:
 
@@ -17,7 +17,7 @@ The class is taught seminar-style with:
 - 3 lab assignments
 - [LLM Agents Hackathon][5]
 
-There's some similarity and cross-over with the [LLM fine-tuning lectures led by Hamel Husain][1] with the LLM Agents class being more weighted towards academics and research papers.
+There's some similarity and crossover with the [LLM fine-tuning lectures led by Hamel Husain][1]. That series was focused on practitioners, while the Berkeley offering is more weighted towards academics and research papers.
 
 
 ## Lecture Highlights
@@ -36,7 +36,7 @@ Sampling multiple reasoning paths for the same problem and choosing the most com
 
 ### LLM Agent frameworks
 
-Different speakers introducted frameworks designed to help build systems combining LLMs, data sources, code, and human agents.
+Different speakers introduced frameworks designed to help build systems combining LLMs, data sources, code, and human agents.
 
 - Autogen: An Open-Source Programming Framework for Agentic AI
 - LLamaIndex: Build AI Knowledge Assistants over your enterprise data
@@ -48,7 +48,7 @@ Graham Neubig poses this question: “What's the delta between software, machine
 
 ### Data Pyramid
 
-Jim Fan of NVidia described a data pyramid in the context of robotics that I think generalizes really well to all of machine learning. At the top of the pyramid you have expensive data, "real world" data in which you're accepting some risk to acquire, or perhaps hiring experts to hand-annotate. In the next tier, you have simulation. On the bottom you have low quality bulk data from the internet.
+Jim Fan of NVIDIA described a data pyramid in the context of robotics that I think generalizes really well to all of machine learning. At the top of the pyramid you have expensive data, "real world" data in which you're accepting some risk to acquire, or perhaps hiring experts to hand-annotate. In the next tier, you have simulation. On the bottom you have low-quality bulk data from the internet.
 
 ### Anthropic's Responsible Scaling Policy
 
@@ -60,7 +60,7 @@ Ben Mann of Anthropic presented _Measuring Agent capabilities and Anthropic’s 
 
 Students were asked to use an LLM-Agentic framework, Autogen, to summarize reviews of American restaurant chains. The basic concept of Autogen is to factor workflows into conversations between agents, which might be code, human interaction, or models. 
 
-That seems very sound, but I found the way autogen maps tools use onto a conversation very strange. One agent suggests the function call and the other actually makes the call and returns the results to the first. I came in with the expectation that an agent has a job, that job entails using some tools. Go do the job, use the tools needed, and come back when it's done. It took a while to wrap my brain around the separation between suggesting and executing the tool.
+That seems very sound, but I found the way Autogen maps tools use onto a conversation very strange. One agent suggests the function call and the other actually makes the call and returns the results to the first. I came in with the expectation that an agent has a job, that job entails using some tools. Go do the job, use the tools needed, and come back when it's done. It took a while to wrap my brain around the separation between suggesting and executing the tool.
 
 ### Red teaming LLMs
 
@@ -70,7 +70,7 @@ The two labs related to attacking and defending LLMs were super-fun. To convince
 
 The [LLM Agents Hackathon][301] wraps up on December 17th, 2024 @11:59PM PST.
 
-I wanted to do a medication chatbot - RAG on prescription drugs. The problem with that is that current language models know a lot about prescription drugs. It's hard to come up with questions that the frontier models don't consistently answer perfectly. Here are some resources:
+I wanted to do a medication chatbot — RAG on prescription drugs. The problem with that is that current language models know a lot about prescription drugs. It's hard to come up with questions that the frontier models don't consistently answer perfectly. Here are some resources:
 
 - [Accuracy of a chatbot in answering questions that patients should ask before taking a new medication][202]
 - [PharmaBulaBot: A Chatbot to Answer Drug Questions Based on Information from Pharmaceutical Package Inserts][203]
