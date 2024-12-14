@@ -20,7 +20,7 @@ Build your first system quickly, then iterate
 
 1. Set up train, dev, and test sets
 2. Define metric
-3. Build quick and dirty initial model
+3. Build quick and dirty baseline model
 4. Bias / Variance analysis
 5. Error analysis
 

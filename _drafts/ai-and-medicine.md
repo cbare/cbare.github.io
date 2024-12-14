@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "AI and medicine"
-date:   2019-06-10 9:15:00 -0800
 categories: machine-learning deep-learning health-tech
 ---
 

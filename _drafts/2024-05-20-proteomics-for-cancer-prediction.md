@@ -75,7 +75,7 @@ Placing plasma proteins in context with to this already incredibly rich resource
 
 ### UKB-PPP
 
-[![alt text](../images/blood-proteins/proteomics-final-v4.png){:style="margin: 1em 0em 1em 2em; width: 80%;"}][501]
+[![UK Biobank Pharma Proteomics Project](../images/blood-proteins/proteomics-final-v4.png){:style="margin: 1em 0em 1em 2em; width: 80%;"}][501]
 
 The UKB-PPP (Pharma Proteomics Project) is a precompetitive consortium of 13 biopharmaceutical companies funding the generation of multiplex, population-scale proteomic data using Olink's proteomic assay technology. The paper that announces the dataset, [Plasma proteomic associations with genetics and health in the UK Biobank][10] by Sun and Whelan et al. describes the dataset and selection of patients in these words:
 
@@ -116,79 +116,62 @@ They provide an overview of the dataset and explore the relation between genetic
 
 ### Genetics
 
-The Sun & Whelan paper maps genetic associations for the 2,923 protein levels. Protein quantitative trait loci, pQTLs, are locations on the genome associated with variations in protein expression. (See [Nature's explainer for QTLs][601].)
+The Sun & Whelan paper maps associations between 2,923 protein levels and protein quantitative trait loci. pQTLs are locations on the genome statistically associated with variations in protein expression. (See [Nature's explainer for QTLs][601].)
 
-GWAS studies find association between genetic variants and traits of interest. Proteins are an intermediate step that starts to build a bridge between genetic variants and biological process. Combining pQTLs with protein functional annotation and pathways starts to fill in the causal picture where before there was only association, thus distinguishing between variants that are involved with disease and those that are merely correlated.
+GWAS studies find association between genetic variants and traits of interest. Proteins are an intermediate step that starts to build a bridge between genetic variants and biological processes. Combining pQTLs with protein functional annotation and pathways starts to fill in the mechanistic picture, thus helping to distinguish correlation from causation.
 
-One statistical tool that helps get at causality is Mendelian randomization. MR uses genetic variation as a natural experiment to test whether a particular trait, for example a protein biomarker, actually causes a disease or is just correlated with it. I take the statisticians word for it that this helps control for the influence of confounders.
+One statistical tool that helps get at causality is Mendelian randomization. MR uses genetic variation as a natural experiment to test whether a particular trait, for example a protein biomarker, actually causes a disease or is just correlated with it. I'll have to take the statisticians word for it that this helps control for the influence of confounders.
 
 
 ### Disease
 
-For several diseases, proteomic predictive models beat standard clinical assays and can, in some cases, predict disease years in advance.
+[Blood proteins predict the risk of many diseases years before onset][18] (paywalled). Using proteomics this way is comparable to polygenic risk scores with the crucial difference that pharmaceutical or lifestyle interventions might be visible.
 
+[![Proteomic signatures improve risk prediction for common and rare diseases](../images/blood-proteins/paper-proteomic-risk.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}][19] _Carrasco-Zanini, J. et al., Nature Medicine, 2024_
 
-
-
-
-- UK Biobank PPP
-  - insight into the biology of aging and disease
-  - risk prediction
-  - drug targets
-
-
-
-
-
-
-
-![alt text](../images/blood-proteins/paper-proteomic-risk.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
-
-[Proteomic signatures improve risk prediction for common and rare diseases][19], Carrasco-Zanini, J. et al., Nature Medicine, 2024
-
-![alt text](../images/blood-proteins/blood-protein-predictive-performance.png){:style="width: 80%; margin: 1em 4em;"}
-
-
-![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
-{:style="margin: 1em 0em 1em 2em; width: 20%;"}
-
-Paywalled Nature Research briefing
-[Blood proteins predict the risk of many diseases years before onset][18]
-
-
+![Blood protein predictive performance](../images/blood-proteins/blood-protein-predictive-performance.png){:style="width: 80%; margin: 1em 4em;"}
 
 ![Blood protein assessment of leading incident diseases and mortality in the UK](../images/blood-proteins/paper-blood-protein-disease-mortality.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
-
-[Blood protein assessment of leading incident diseases and mortality in the UK][11] Gadd et al, Nature Aging, 2024
 
 ![alt text](../images/blood-proteins/predtictive-comparisons.png)
 ![alt text](../images/blood-proteins/predictive-comparisons-key.png)
 
+*Papers*
+
+- [Proteomic signatures improve risk prediction for common and rare diseases][19] _Carrasco-Zanini, J. et al., Nature Medicine, 2024_
+- [Blood protein assessment of leading incident diseases and mortality in the UK][11] _Gadd et al, Nature Aging, 2024_
+
+
 ### Cancer
 
-[Identifying proteomic risk factors for cancer][1]
-Keren Papier et al 15 May 2024
+Cancer might make itself visible in proteomics data in a few different ways. Production of certain proteins, maybe indicative of cell type, might be upregulated. Apoptosis might lead to circulating shrapnel of various kinds including proteins. The host immune or inflammatory response should also show up.
 
 ![alt text](../images/blood-proteins/paper-proteomic-risk-factors-for-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
+The paper [Identifying proteomic risk factors for cancer][1] _Keren Papier et al 15 May 2024_ includes analysis of 4,921 incident malignant cancer cases among the 44,645 UK Biobank proteomics participants, with a mean follow-up of 12 years.
 
+> “New multiplex proteomics methods allow for the simultaneous measurement of thousands of proteins, many of which have not previously been assessed for their associations with risk across multiple cancer sites.“
 
-“However, new multiplex proteomics methods allow for the simultaneous measurement of thousands of proteins, many of which have not previously been assessed for their associations with risk across multiple cancer sites.“
+<!-- 
+![alt text](../images/blood-proteins/blood-proteins-delta-c-index-cancers.png)
+{:style="margin: 1em 0em 1em 2em; width: 20%;"}
+-->
 
-44,645 UK Biobank participants
-4921 incident malignant cancer cases
-
+Proteome signatures might be developed that could classify cancer subtypes.
 
 Next generation pan-cancer blood proteome profiling using proximity extension assay
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10354027/
 
 
 
+
 #### Breast Cancer
 
-Given the costs of breast screening programs, in resources and unfun procedures, the world could really use a very smart model to guide screening and further workup to the patients that would benefit most. Imagine feeding images, clinical labs, genome, proteins, cell-free dna, etc. to such a model. Gears spin and out pops a risk profile that might inform when you get your next screening or whether you want to move on to biopsy or not.
+Given the costs of breast screening programs, in resources and unfun procedures, the world could really use a very smart model to guide screening and further workup to the patients that would benefit most. A personalized risk profile might inform when you get your next screening or whether to biopsy.
 
-With this in mind, I was disappointed to see the relatively small lift in predictive ability proteins are able to provide for breast cancer. Carrasco-Zanini, J. et al. found that, “Proteins outperformed polygenic risk scores for all of these diseases, except for breast cancer.” Could a more sophisticated model pull out a stronger signal?
+Sadly, proteins provide a disappointingly small lift in predictive ability for breast cancer. Carrasco-Zanini, J. et al. found that, “Proteins outperformed polygenic risk scores for all of these diseases, except for breast cancer.” This makes a certain amount of sense given that breast tissue doesn't have much reason to dump proteins into the blood stream.
+
+But, could a more sophisticated model pull out a stronger signal?
 
 ![Evaluation of circulating plasma proteins in breast cancer using Mendelian randomisation](../images/blood-proteins/paper-circulating-plasma-proteins-in-breast-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
@@ -201,6 +184,8 @@ Using [Mendelian randomization][], they find five circulating proteins that pass
 
 #### Lung Cancer
 
+This is from a different data set, but I include it for a few reasons. Lung cancer is one of the disease areas where circulating proteins are most informative. Our friend CEACAM5 reappears. Also, please appreciate the care that went into creating this figure. Compared to the other two volcano plots, this one shows _how its done_.
+
 ![The blood proteome of imminent lung cancer diagnosis](../images/blood-proteins/paper-blood-proteome-of-lung-cancer.png){:style="width: 80%; margin: 1em 4em; filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));"}
 
 The blood proteome of imminent lung cancer diagnosis
@@ -208,10 +193,7 @@ https://www.nature.com/articles/s41467-023-37979-8
 
 ![Identification of 36 protein biomarkers associated with risk of imminent lung cancer diagnosis among 731 cases and 731 matched controls](../images/blood-proteins/biomarkers-lung-cancer.png)
 
-This is from a different data set, but I include it for a few reasons. Lung cancer is one of the disease areas where circulating proteins are most informative. Our friend CEACAM5 reappears. Also, please appreciate the care that went into creating this figure. Compared to the other two volcano plots, this one shows _how its done_.
-
 ### Aging
-
 
 Proteomic aging clock predicts mortality and risk of common age-related diseases in diverse populations
 Argentieri et al, Nature Medicine, 2024
