@@ -6,7 +6,7 @@ categories:
     - Learning
 ---
 
-![Berkeley Campanile](../images/UC-Berkeley-campanile.png)
+![Berkeley Campanile](../images/UC-Berkeley-campanile.png) _Image by [jngai58](https://www.flickr.com/photos/john_n_berk_pics_xyz/51096342158/)_
 
 The [Large Language Model Agents MOOC, Fall 2024][2] led by [Dawn Song][3], Professor, UC Berkeley, and [Xinyun Chen][4], Research Scientist, Google DeepMind.
 
@@ -48,7 +48,9 @@ Graham Neubig poses this question: “What's the delta between software, machine
 
 ### Data Pyramid
 
-Jim Fan of NVIDIA described a data pyramid in the context of robotics that I think generalizes really well to all of machine learning. At the top of the pyramid you have expensive data, "real world" data in which you're accepting some risk to acquire, or perhaps hiring experts to hand-annotate. In the next tier, you have simulation. On the bottom you have low-quality bulk data from the internet.
+![Data Pyramid](../images/data-pyramid.png){:style="float: right; width: 22%; margin: 0em 4em;"}
+
+Jim Fan of NVIDIA described a data pyramid in the context of robotics that I think generalizes really well to all of machine learning. At the top of the pyramid you have expensive data, "real world" data which you're accepting some risk to acquire or perhaps hiring experts to hand-annotate. In the next tier, you have simulation. On the bottom you have low-quality bulk data from the internet.
 
 ### Anthropic's Responsible Scaling Policy
 
