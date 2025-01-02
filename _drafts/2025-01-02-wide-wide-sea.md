@@ -1,26 +1,32 @@
 ---
 layout: post
-title:  "The Wide Wide Sea by Hampton Sides"
-category: history
-tags: pacific
+title:  "The Wide Wide Sea"
+category: Books
+tags: pacific history
 ---
 
 Captain James Cook was described as, “A grave, steady man,” by lawyer and author James Boswell. Cook trained under Quakers and “had by all accounts absorbed their values - temperance, frugality, modesty, truthfulness, a ferocious work ethic, and a disdain for arrogance and ostentation.”
 
 ![Portrait of Captain James Cook](../images/wide-wide-sea/capt-james-cook-portrait.jpg)
 
-Hampton Sides’ [_The Wide Wide Sea: Imperial Ambition, First Contact and the Fateful Final Voyage of Captain James Cook_][1] is the story of Cook's third voyage. It's also the story of an extremely capable man starting to decline in middle age, a travelogue of adventures through harrowing storms and seductive tropical paradises, and a re-examination of the plagues visited upon unsuspecting locals by the arrival of Europeans. _The Wide Wide Sea_ made many lists of the best books of 2024 and I thoroughly enjoyed it, not least because the itinerary hits several far-flung places in the world where I've spent time.
+[_The Wide Wide Sea: Imperial Ambition, First Contact and the Fateful Final Voyage of Captain James Cook_][1] by Hampton Sides is the story of Cook's third voyage. It's a travelogue of adventures through harrowing storms and seductive tropical paradises, but also the story of an extremely capable man starting to decline in middle age and a re-examination of the plagues and misfortunes visited upon unsuspecting locals by the arrival of Europeans. _The Wide Wide Sea_ made many lists of the best books of 2024 and I thoroughly enjoyed it, not least because the itinerary hits several far-flung places in the world where I've spent time.
 
 ![Navigational Instruments](../images/wide-wide-sea/C0173450-navigational-instruments.jpg)
 {:style="float: right; margin: 1em 0 1em 1em; width: 42%"}
 
-Cook got his start as a skilled surveyor and marine chart maker, a technician with the emerging technologies of the day. To an 18th century explorer, the tools of the trade were sailing ships, charts, compass, sextant, trigonometry, and, on Cook’s third voyage, the first marine chronograph for determining longitude. Equally important was Cook's insistence on shipboard hygiene and healthy diet. The role of Vitamin C was unknown at the time, but eating cress, sauerkraut, and orange extract helped the crew stave off scurvy.
+Cook got his start as a skilled surveyor and marine chart maker, in other words, he was a technician with the emerging technologies of the day. To an 18th century explorer, the tools of the trade were sailing ships, charts, compass, sextant, trigonometry, and, on Cook’s third voyage, the first marine chronograph for determining longitude. Equally important was Cook's insistence on shipboard hygiene and healthy diet. The role of Vitamin C was unknown at the time, but eating cress, sauerkraut, and orange extract helped the crew stave off scurvy.
 
-These technologies, along with firearms, formed the basis for the interlinked enterprises of global exploration, commerce, colony, and empire. There are beautiful moments of first contact, as when the Mowachaht people of Nootka Sound sing in greeting to the sailors who then break out horns to reply with songs of their own. In Alaska, Cook's men performed a flag-planting ceremony to make an absurd claim of possession on behalf of the Crown while indigenous warriors watched suspiciously. These warriors might well have fought and overwhelmed the Europeans. This raises the question: should they have? This episode ends without violence, but the Europeans, fearful of just such a reaction, too often display a jumpy readiness at the trigger.
+These technologies, along with firearms, formed the basis for the interlinked enterprises of global exploration, commerce, colony, and empire. On Cook’s voyage was an experiment in globalization with decidedy mixed results. There are beautiful moments of first contact, as when the Mowachaht people of Nootka Sound sing in greeting to the sailors who then break out horns to reply with songs of their own. In Alaska, Cook's men performed a flag-planting ceremony to make an absurd claim of possession on behalf of the Crown while indigenous warriors watched suspiciously. These warriors might well have fought and overwhelmed the Europeans. This raises the question: should they have? This episode ends without violence, but the Europeans, fearful of just such a reaction, too often display a jumpy readiness at the trigger.
 
 One goal of the voyage was to resettle the native polynesian Mai, who had traveled to England aboard the HMS Adventure and spent three years making himself popular in British society. To accompany Mai, King George sent plants and livestock intended to improve the lives of the islanders. The true mission, which was to be kept secret until the ships reached Tahiti, was to search for the Western entrance to the fabled North-West Passage.
 
-![Portrait of Omai](../images/wide-wide-sea/Joshua_Reynolds_-_Portrait_of_Omai.jpg)
+<figure style="width: 94%">
+    <img
+      src="/images/wide-wide-sea/Joshua_Reynolds_-_Portrait_of_Omai.jpg"
+       alt="Portrait of Omai"
+      >
+    <figcaption style="font-size: small; font-style: italic;">Portrait of Omai, a South Sea Islander who travelled to England with the second expedition of Captain Cook – Sir Joshua Reynolds, 1776</figcaption>
+</figure>
 
 In the islands of the Pacific, we see Cook as a budding amateur anthropologist, witnessing Tahitian pre-battle rites and documenting indigenous peoples in his diary. In the process of visiting New Zealand, Tahita, and Hawaii, Cook begins to appreciate the epic scale of the Polynesian migration.
 
@@ -44,7 +50,13 @@ The book has its share of cerulean harbors overhung with tropical greenery, but 
 
 Sides suggests that Cook, himself, was not at his best during his third voyage. Cook fails to inspect the workmanship done to refit the Resolution. The caulking is done so poorly that the ship leaks like a sieve. Cook makes tactical blunders, keeps a slightly paranoid level of secrecy, and has fits of uncontrolled temper. In Hawaii, he makes a fatal error in judgment. Cook is such a reticent character that we never learn whether he was aware of this diminishing or what might have been its cause.
 
-![Kalaniopuu welcomes Cook by Herb Kawainui Kāne](../images/wide-wide-sea/Herb-Kane_King-Kalaniopuu-Welcomes-Cook.jpg)
+<figure style="width: 94%">
+    <img
+      src="/images/wide-wide-sea/Herb-Kane_King-Kalaniopuu-Welcomes-Cook.jpg"
+       alt="Captain Cook’s ship the Resolution in Kealakekua Bay, Hawaii"
+      >
+    <figcaption style="font-size: small; font-style: italic;">Kalaniopuu welcomes Cook by Herb Kawainui Kāne</figcaption>
+</figure>
 
 Sides meets head-on the controversy surrounding the colonial merchantile project and shows that reservations we have today have existed from the start. Cook’s expeditions were part of a system, a structure of financing, technology, and skilled practitioners organized into roles, and in turn a component in the larger economic and geopolitical system of great power competition. Cook's travels are being critically reappraised in light of the ambiguous legacy left behind by receding colonial ambitions. But, that doesn't change the fact these voyages embody an irrepressible instinct to explore that is universally human.
 
@@ -107,7 +119,8 @@ The political climate early in the 18th century is one of competition between Eu
 
 The Seven Years War (1756-1763), also known as the French and Indian War, stripped France of its possessions on the North American continent. William Pitt the Elder masterminded what is often referred to as the first global war, components of which were fought in America, Europe, and India. During this conflict, James Cook helped map the St. Lawrence river.
 
-The Spanish, meanwhile, considered the Pacific their own. The Galleon trade between Manila and Acapulco had been in operation for over a century.
+The Spanish, meanwhile, considered the Pacific their own. The Galleon trade between Manila and Acapulco had been in operation for over a century. The chart below from 1751 shows a group of Islands at the same latitude as the Hawaiian Islands, but too far east. The southernmost and largest island was named “La
+Mesa” (the table), which seems to point to Hawaii. Nearby were “La Desgraciada” (the unfortunate), possibly Maui, and three smaller islands labeled “Los Mojas” which might be a screwed up version of “Los Monjes” (the monks), which could be Kahoolawe, Lanai and Molokai.
 
 ![Map of Spanish trade routes in the Pacific 1751](../images/wide-wide-sea/1751_Anson_Map_of_Baja_California_and_the_Pacific,_Trade_Routes_from_Acapulco_to_Manila_-_Geographicus_-_MerduSud-anson-1751.jpg)
 
@@ -131,6 +144,7 @@ The Spanish, meanwhile, considered the Pacific their own. The Galleon trade betw
 - 1771: Mission San Gabriel Arcángel established in California
 - 1772: British East India Company takes control of Bengal 
 - 1773: Bail-out of British East India Corporation
+- 1774: Louis XVI (age 19) and Marie Antoinette (age 18) become King and Queen of France.
 - 1775 to 1783: American Revolution
 - 1776: Adam Smith publishes The Wealth of Nations
 - 1776: First improved steam engines installed by James Watt
@@ -149,6 +163,7 @@ The Spanish, meanwhile, considered the Pacific their own. The Galleon trade betw
 - [Illusions of empire: Amartya Sen on what British rule really did for India][3] by Amartya Sen, The Guardian, June 2021
 - [How to kill a god: the myth of Captain Cook shows how the heroes of empire will fall][4] by Anna Della Subin, The Guardian, Jan 2022
 - [The East India Company: The original corporate raiders][5] by William Dalrymple, The Guardian, March 2015
+- [Timeline of Captain Cook’s third voyage][7]
 - Captain George Vancouver in Alaska and the North Pacific by James K Barnett, 2017
 - Madness, Betrayal and the Lash: The Epic Voyage of Captain George Vancouver by Stephen R. Bown, 2008
 
@@ -162,3 +177,4 @@ The Spanish, meanwhile, considered the Pacific their own. The Galleon trade betw
 [4]: https://www.theguardian.com/news/2022/jan/18/how-to-kill-a-god-captain-cook-myth-shows-how-heroes-of-empire-will-fall
 [5]: https://www.theguardian.com/world/2015/mar/04/east-india-company-original-corporate-raiders
 [6]: https://www.npr.org/2024/04/03/1242508406/the-wide-wide-sea-revisits-capt-james-cooks-fateful-final-voyage
+[7]: https://www.captaincooksociety.com/cooks-voyages/third-pacific-voyage
