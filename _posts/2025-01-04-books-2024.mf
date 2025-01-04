@@ -6,12 +6,14 @@ category: Books
 
 ![La Liseuse by Jean-Jacques Henner](/images/henner-liseuse-RF1839-lewandowski.webp)
 
+Seneca said, “_distringit librorum multitudo_”, meaning “the abundance of books is distraction”. But, what a pleasant distraction.
+
 - Wildwood - Colin Meloy (parts 2 & 3) (with Henry)
 - Liberation Day - George Saunders
 - God, Human, Animal, Machine - Meghan O'Gieblyn
 - Starter Villain - John Scalzi
 - Designing Machine Learning Systems - Chip Huyen
-- [Stoner](/2024-05-01-stoner.md) - John Williams
+- [Stoner](/2024-05-01/stoner.md) - John Williams
 - She's a Killer - Kirsten McDougall
 - Birnam Wood - Eleanor Catten
 - Deep Learning Book - Ian Goodfellow (Ch. 1-5)

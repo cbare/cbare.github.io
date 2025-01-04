@@ -125,6 +125,7 @@ Mesa” (the table), which seems to point to Hawaii. Nearby were “La Desgracia
 ![Map of Spanish trade routes in the Pacific 1751](../images/wide-wide-sea/1751_Anson_Map_of_Baja_California_and_the_Pacific,_Trade_Routes_from_Acapulco_to_Manila_-_Geographicus_-_MerduSud-anson-1751.jpg)
 
 
+- 1497 to 1499: Vasco de Gama voyage to India
 - 1519 to 1522: Magellan expedition in which Malay Enrique of Malacca may have became the first person to make a trip around the world
 - 1519 to 1521: Hernando Cortés defeats the Aztecs
 - 1532: Francisco Pizarro defeats the Inca
