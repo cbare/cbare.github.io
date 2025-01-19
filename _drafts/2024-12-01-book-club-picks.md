@@ -9,7 +9,7 @@ Potential book club picks for 2025
 - James by Percival Everett, 4.52, 303 pages
 - Player Piano, Kurt Vonnegut Jr., (1952) 3.90, 341 pages
 - In Ascension by Martin MacInnes, 3.78, 496 pages
-- R.F. Kuang
+- Babel - R.F. Kuang, 4.17, 544 pages
 - Peter Watts
 - Georges Perec
 - Ted Chiang - Exhalation
@@ -43,6 +43,28 @@ The Ministry of Time, by Kaliane Bradley
 The Wide Wide Sea by Hampton Sides
 Your Face Belongs to Us, by Kashmir Hill
 
+Final book slate:
+
+- Orbital, by Samantha Harvey (2023), 207 pages
+- The Wide Wide Sea, by Hampton Sides (2024), 408 pages
+- Neal Stephenson - Polostan, 4.02, 303 pages
+- Playground by Richard Powers, 4.28 381 pages
+- Player Piano, Kurt Vonnegut Jr., (1952) 3.90, 341 pages
+- Babel - R.F. Kuang, 4.17, 544 pages
+- I'm Starting to Worry About This Black Box of Doom, by Jason K Pargin (2024), 400 pages
+- Erasure, by Percival Everett (2001), 280 pages
+- Tomorrow, and Tomorrow, and Tomorrow, by Gabrielle Zevin (2022), 401 pages
+- Solaris, by Stanislaw Lem (1961), 204 pages
+- Hum, by Helen Phillips, 272 pages
+
+207 + 408 + 303 + 381 + 341 + 544 + 400 + 280 + 401 + 204 + 272 = 3741 pages
+
+Other books:
+
+3 shades of blue, 496 pages
+Revolutionary Spring, 1152 pages
+Embarrassment of Riches, 720 pages
+Deep learning book
 
 https://www.nytimes.com/2024/06/18/books/review/caledonian-road-andrew-ohagan.html
 https://www.theguardian.com/books/2024/mar/24/caledonian-road-by-andrew-ohagan-review-the-dickens-of-our-post-brexit-pandemic-age
