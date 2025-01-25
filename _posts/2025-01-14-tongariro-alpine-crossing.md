@@ -4,7 +4,11 @@ title:  "Tongariro Alpine Crossing"
 category: Travel and Adventures
 ---
 
-The [Tongariro Alpine Crossing][1] is a challenging 20km one-way hike through volcanic landscape. The trail climbs 765m (~2510 ft.) from the trail head at the end of Mangatepopo road up to the Red Crater summit and then down over 1000m to the pickup point at Ketetahi. Three volcanoes sit at the center of New Zealand's North Island. _Tongariro_ is farthest North. _Ruapehu_ to the South is the highest at 2,797m (9176 ft.). Between them is conical _Ngauruhoe_, also known as Mount Doom. See [Google Maps][2].
+The [Tongariro Alpine Crossing][1] is a challenging 20km one-way hike through volcanic landscape. The trail climbs 765m (~2510 ft.) from the trail head at the end of Mangatepopo road up to the Red Crater summit and then down over 1000m to the pickup point at Ketetahi.
+
+![Togariro crossing trail map](../images/tongariro/tongariro-trail-map.png)
+
+Three volcanoes sit at the center of New Zealand's North Island. _Tongariro_ is farthest North. _Ruapehu_ to the South is the highest at 2,797m (9176 ft.). Between them is conical _Ngauruhoe_, also known as Mount Doom. See [Google Maps][2].
 
 ![Ruapehu](../images/tongariro/ruapehu.jpeg)
 
@@ -16,9 +20,11 @@ We picked a blue sky day. You'll want to check [NIWA weather forcast for the Red
 
 The trail is tough. It's steep going up and coming down. The lower sections have lots of wood-framed steps. The upper section of trail the leads up to the Red Crater summit, at 1868m (6129 ft.), is crumbly gravel and fine powder dust. My fitbit said I took over 35,000 steps.
 
-![The descent looking towards Lake Taupo](../images/tongariro/lake-taupo.jpeg)
+![Elevation](../images/tongariro/elevation.png)
 
 At Ketetahi, there's a shady shelter to wait in. The day I was there, buses came to the pickup at 2:30, 4, and sometime later for the stragglers. If we made the 4 o'clock, you can too. You'll be showered and sitting down to dinner at a very civilized hour.
+
+![The descent looking towards Lake Taupo](../images/tongariro/lake-taupo.jpeg)
 
 ## Ohakune
 
