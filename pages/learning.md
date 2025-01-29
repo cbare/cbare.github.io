@@ -22,7 +22,7 @@ There's always more to learn.
 2020 | [Functional Programming in Haskell][10] ([r][205])| [Jeremy Singer][11] & [Wim Vanderbauwhede][12] | FutureLearn / University of Glasgow
 2019 | [Tensorflow][9]                                   | Laurence Moroney | Coursera / deeplearning.ai
 2019 | [Applied Functional Programming in Haskell][8] ([r][204])    | Wouter Swierstra | Utrecht University
-2018 | [Deep Learning][7]                                | Andrew Ng                          | Coursera / deeplearning.ai
+2018 | [Deep Learning][7] ([r][210])                     | Andrew Ng                          | Coursera / deeplearning.ai
 2016 | Building the Data Pipeline                        | Jason Kolter                       | UW
 2015 | [Scalable Machine Learning][6]                    | Anthony D. Joseph                  | Edx / UC Berkeley
 2015 | [Introduction to Big Data with Apache Spark][5]   | Ameet Talwalkar                    | EdX / UC Berkeley
@@ -77,3 +77,4 @@ There's always more to learn.
 [207]: https://github.com/cbare/NLP-with-deep-learning
 [208]: https://github.com/cbare/ai-420
 [209]: https://github.com/cbare/llm-agents-mooc-2024
+[210]: https://github.com/cbare/notes-on-deep-learning
