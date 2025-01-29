@@ -13,21 +13,22 @@ Not content with an undergraduate degree from Penn State and an MS from Universi
 There's always more to learn.
 
 -----|---------------------------------------------------|----------------|--------------------------
-2024 | [Large Language Model Agents][31]         | [Dawn Song][33], [Xinyun Chen][34] | UC Berkeley
+2024 | [Large Language Model Agents][31]      ([r][209]) | [Dawn Song][33], [Xinyun Chen][34] | UC Berkeley
 2024 | [DLRL Summer School][24]                          |                | [Vector Institute][23]
-2023 | [AIML 420 Artificial Intelligence][22]            | Heitor Murilo Gomes, Fangfang Zhang, Yi Mei | [Victoria University of Wellington][21]
-2022 | [Fast.ai][26]                                     | [Jeremy Howard][25]  | [Fast.ai][26]
+2024 | [CS224N: Natural Language Processing with Deep Learning][35] ([r][207]) | Christopher Manning | Stanford
+2023 | [AIML 420 Artificial Intelligence][22] ([r][208]) | Heitor Murilo Gomes, Fangfang Zhang, Yi Mei | [Victoria University of Wellington][21]
+2022 | [Fast.ai][26]  ([r][206])                              | [Jeremy Howard][25]  | [Fast.ai][26]
 2021 | [Deeplearning.ai Natural Language Processing][13] | Younes Bensouda Mourri & Łukasz Kaiser | Coursera / deeplearning.ai
-2020 | [Functional Programming in Haskell][10]           | [Jeremy Singer][11] & [Wim Vanderbauwhede][12] | FutureLearn / University of Glasgow
+2020 | [Functional Programming in Haskell][10] ([r][205])| [Jeremy Singer][11] & [Wim Vanderbauwhede][12] | FutureLearn / University of Glasgow
 2019 | [Tensorflow][9]                                   | Laurence Moroney | Coursera / deeplearning.ai
-2019 | [Applied Functional Programming in Haskell][8]    | Wouter Swierstra | Utrecht University
+2019 | [Applied Functional Programming in Haskell][8] ([r][204])    | Wouter Swierstra | Utrecht University
 2018 | [Deep Learning][7]                                | Andrew Ng                          | Coursera / deeplearning.ai
 2016 | Building the Data Pipeline                        | Jason Kolter                       | UW
 2015 | [Scalable Machine Learning][6]                    | Anthony D. Joseph                  | Edx / UC Berkeley
 2015 | [Introduction to Big Data with Apache Spark][5]   | Ameet Talwalkar                    | EdX / UC Berkeley
-2014 | [Introduction to Functional Programming][4]       | Erik Meijer                        | EdX / Delft University of Technology
-2014 | Statistical Learning                              | Robert Tibshirani & Trevor Hastie  | Stanford
-2013 | [Data Analysis][3]                                | Jeff Leek                          | Coursera / Johns Hopkins
+2014 | [Introduction to Functional Programming][4] ([r][201])| Erik Meijer                        | EdX / Delft University of Technology
+2014 | Statistical Learning ([r][203])                    | Robert Tibshirani & Trevor Hastie  | Stanford
+2013 | [Data Analysis][3] ([r][202])                         | Jeff Leek                          | Coursera / Johns Hopkins
 2012 | [Functional Programming Principles in Scala][2]   | Martin Odersky | Coursera / École Polytechnique Fédérale de Lausanne
 2012 | [Probabilistic Graphical Models][1]               | Daphne Koller  | Coursera / Stanford
 2011 | Machine Learning                                  | Andrew Ng      | Coursera / Stanford
@@ -55,6 +56,7 @@ There's always more to learn.
 [31]: https://llmagents-learning.org/f24
 [33]: https://dawnsong.io/
 [34]: https://jungyhuk.github.io/
+[35]: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1244/
 
 
 [101]: http://digitheadslabnotebook.blogspot.com/2011/10/stanford-machine-learning-class.html
@@ -64,3 +66,14 @@ There's always more to learn.
 [105]: http://digitheadslabnotebook.blogspot.com/2014/01/online-class-on-statistical-learning.html
 [106]: http://digitheadslabnotebook.blogspot.com/2015/01/haskell-class-wrap-up.html
 [107]: http://digitheadslabnotebook.blogspot.com/2015/07/scalable-machine-learning-with-spark.html
+
+
+[201]: https://github.com/cbare/FP101x
+[202]: https://github.com/cbare/data-analysis-class
+[203]: https://github.com/cbare/statistical-learning-class
+[204]: https://github.com/cbare/afp-school
+[205]: https://github.com/cbare/flhaskell
+[206]: https://github.com/cbare/fastai-class
+[207]: https://github.com/cbare/NLP-with-deep-learning
+[208]: https://github.com/cbare/ai-420
+[209]: https://github.com/cbare/llm-agents-mooc-2024
