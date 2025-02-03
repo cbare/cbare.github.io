@@ -4,10 +4,11 @@ title:  "Techniques of Suppression and Counterstrategies"
 category: Working in Tech
 ---
 
-
 I've worked in lots organizations with fairly typical levels of dysfunction and in one that could in fairness be described as toxic. From that, I took away a personal appreciation for the effect, positive or negative, the social climate of a workplace has on its members.
 
 Human beings are a tribal animal and as such our instincts are to form groups and establish hierarchy within them. Those instincts can work in our favor when they appeal to our better nature or can be exploited to manipulate us and work against our interests.
+
+![alt text](../images/a-long-tale.png)
 
 How do you identify and assess toxicity in a workplace or any other group? How and why is that kind environment created and maintained? As individuals, can we actively contribute to a better environment? If _the man_ is keeping us down, we don't have to passively accept it. We can observe how it works, push back, and try to improve the system in which we operate.
 
@@ -60,10 +61,11 @@ By identifying and countering dominance techniques, individuals can take control
 
 These oppressive strategies exist because they benefit someone. Prestige is a zero-sum game, at least in its shallow forms. Prizes, awards, and titles mean little if everyone gets one. For every winner, there has to be losers - the also-rans, the red shirts. You can stand out by diminishing those around you.
 
-In a better form, social reinforcement can be more of a virtuous cycle. The best bring up the rest. Others build on our successes and we on theirs. This kind of shared flourishing results in something deeper than a charade of prestige. We influence and are influenced by those around us. When a group guides its members toward being their best selves, that [character building][3] lifts everyone. The whole becomes greater than the sum of its parts. In the rare best case, everyone is riffing off of each other like jazz musicians in 1950's New York or mathematicians at Göttingen.
+In a better form, social reinforcement can be more of a virtuous cycle. The best bring up the rest. Others build on our successes and we on theirs. This kind of shared flourishing results in something deeper than a charade of prestige. We influence and are influenced by those around us. When a group guides its members toward being their best selves, that [character building][3] lifts everyone. In the rare best case, everyone is riffing off of each other like jazz musicians in 1950's New York or mathematicians at Göttingen. This is what Brian Eco calls scenius, which he defines as “the intelligence and intuition of a whole cultural scene.”
 
-If you find yourself in a toxic environment, my advice is to leave. But, every organization has some level of dysfunction. Creating the kind of working life we want takes effort. If we want a good working environment, we have to play a part in making it good and doing the maintenance. Falling into negative behaviors is easy and contagious. We have to choose to interact in a positve way and expect the same of those around us.
+If you find yourself in a toxic environment, my advice is to leave. But, every organization has some level of dysfunction. Creating the kind of working life we want takes effort. If we want a good working environment, we have to play a part in making it good and doing the maintenance. Falling into negative behaviors is easy and contagious. With enlightened self-interest, we have to choose to interact in a positive way and expect the same of those around us.
 
 [1]: https://arligttalat.nu/wp-content/uploads/2024/08/ENSU-bekraftartekniker.pdf
 [2]: https://en.wikipedia.org/wiki/Master_suppression_techniques
 [3]: https://www.nytimes.com/2025/01/09/opinion/character-building-education.html
+[4]: https://austinkleon.com/2023/09/12/maps-of-scenius/
