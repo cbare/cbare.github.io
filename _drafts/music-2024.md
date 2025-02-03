@@ -71,7 +71,7 @@ A lot of great music came out this past year. Below is a list of those that, for
 - _Fruit Galaxy_ - standards
 - _Complex Emotions_ - The Bad Plus: I especially like the song _French Horns_ from the new guitar-driven Bad Plus.
 - _Now I See The Light_ - Toe
-- _Continuum_ - Víkingur Ólafsson: Icelandic pianist Víkingur Ólafsson followed up a 2023 recording of - Bach's _Goldberg Variations_ with a 6-song EP of selected Bach pieces titled _Continuum_.
+- _Continuum_ - Víkingur Ólafsson: Icelandic pianist Víkingur Ólafsson followed up a 2023 recording of - Bach's _Goldberg Variations_ with a 6-song EP of selected Bach pieces. To all who caught Ólafsson's tour last year, I am deeply envious.
 - _Standards_ - Yotam Silberstein
 
 ### Dorian Dumont
@@ -81,7 +81,7 @@ If you've had a years-long obsession with Aphex Twin covers on accoustic instrum
 
 ## Following threads, new Discoveries
 
-Following the connections to discover new music is fun, even if it's not necessarily new, just new to me. For example, Seattle native pianist Aaron Parks played on saxophonist Dayna Stephens’ 2015 album _Reminiscent_ who plays on _Minority_ and _Infant Eyes_ on Victor Gould’s [In Our Time][4], which is an album that just keeps growing on me. Victor Gould is in Black Art Jazz Collectie with trumpet player Jeremy Pelt.
+Following the connections to discover new music is fun, even if it's not necessarily new, just new to me. For example, Seattle native pianist Aaron Parks played on saxophonist Dayna Stephens’ 2015 album _Reminiscent_ who plays on _Minority_ and _Infant Eyes_ on Victor Gould’s [In Our Time][4], which is an album that just keeps growing on me. Victor Gould is in Black Art Jazz Collective who released the very solid _Truth to Power_ in 2024.
 
 Robert Glasper and Nicholas Britell collaborated on the soundtrack to an HBO series called “The Winning Time Sessions”. Apparently, the show is about basketball, a sport I was so bad at, my middleschool coach told me to go back to my skateboard. These bite-sized groove-oriented tracks will help you bang out some code. A short click away, you'll find Britell’s tender soundtrack for “If Beale Street Could Talk”.
 
@@ -89,7 +89,7 @@ I've been a math rock nerd for some time, falling hard for Tricot, Rega, Toe, Co
 
 ### O'Higgins & Luft
 
-Saxophonist Dave O’Higgins & guitarist Rob Luft recorded an album of Monk and Coltrane covers in 2018 and followed that up with _Pluto_ in 2022.
+Saxophonist Dave O’Higgins & guitarist Rob Luft recorded an excellent album of Monk and Coltrane covers in 2018 and followed that up with the equally good _Pluto_ in 2022.
 
 ![Pluto by O'Higgins & Luft](../images/music/pluto-ohiggins-and-luft.png)
 
