@@ -14,6 +14,10 @@ _“Our lives here are inexpressibly trivial and momentous at once...”_
 
 _“A human being was not made to stand still.”_
 
+For those wondering where the plot is, it's right here:
+
+![24 hours of Earth orbits](../images/books/orbital-plot.png)
+
 A love letter to our home planet, “a celebration of the Earth [...] with a pang of loss.” I don't care if you call it a novel or a poem, just do yourself a favor and read it. _Orbital_ is beautiful.
 
 ## More about _Orbital_
