@@ -43,3 +43,4 @@ To experience scenius in a small way, all you need is a few people being togethe
 [2]: https://www.theguardian.com/music/2010/apr/28/brian-eno-brighton-festival
 [3]: https://kk.org/thetechnium/scenius-or-comm/
 [4]: https://austinkleon.com/2023/09/12/maps-of-scenius/
+[5]: https://www.newyorker.com/magazine/2014/07/07/ambient-genius

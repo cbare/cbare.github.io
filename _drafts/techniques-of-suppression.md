@@ -18,7 +18,7 @@ The term “[master suppression techniques][2]” was introduced by Norwegian ps
 
 To some degree, these domination techniques are default human behaviors that we fall into without thinking. It takes conscious effort to push back against the worst in our natures. When leaders practice these dark patterns of behavior and, by example, give others license to do the same, things get ugly.
 
-It's important to realize that the same environment can be experienced differently by different people. If you're in the _in_ group, you're having a different experience from those in the _out_ group. Your mileage may vary along dimensions of experience, skillset, gender, ethnicity, personality, etc. An environment that's great for seniors might be bad for juniors, great for engineering but bad for data science.
+It's important to realize that the same environment can be experienced differently by different people. If you're in the _in_ group, you're having a different experience from those in the _out_ group and vice versa. Your mileage may vary along dimensions of experience, skillset, gender, ethnicity, personality, etc. An environment that's great for seniors might be bad for juniors, great for engineering but bad for data science.
 
 The *Empowerment Network at Stockholm University* proposes **counterstrategies** to combat dominance techniques and **affirmation techniques** to promote healthier social climates. Their work was done in the context of women in the workplace, but really applies to any group of humans. Below is a translation (thanks GPT4o) and summary of their paper _[Bekräftartekniker och motstrategier - sätt att bemöta maktstrukturer och förändra sociala klimat][1]_, lightly edited by me.
 
