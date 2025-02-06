@@ -1,3 +1,22 @@
+---
+layout: post
+title:  "Music 2022"
+category: Music
+tags: music
+---
+
+As tracked by Last.fm, I listened to 11,509 tracks by 850 different artists.
+
+<figure style="float: right; margin-left: 2em; margin-bottom: 2em; height: 50%; width: 50%; ">
+  <a href="https://www.last.fm/user/cbare/library/albums?from=2022-01-01&rangetype=year" target="_blank">
+    <img
+      src="/images/music/music-2022-counts.png"
+      alt="Tracks listened in 2022"
+      >
+  </a>
+</figure>
+
+
 ## Discoveries
 
 
@@ -27,6 +46,8 @@ Pascal Rogé
 
 Joey Alexander
 Origin
+
+![New listening 2022](../images/music/listening-2022-new.png)
 
 
 ## Collecting covers of Aphex Twin songs
