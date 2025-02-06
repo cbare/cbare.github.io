@@ -118,7 +118,7 @@ Glad to see that I was 9% more obscure in 2024 than my already obscure self of 2
 
 ## Happy 2025
 
-Whether the coming year finds us hiding underground from the all seeing eye of Skynet or we transcend our Earthly bonds and become beings of light in rapturous singularity, happy listening in 2025.
+Whether the coming year finds us hiding underground from the all seeing eye of Skynet or transcending our Earthly bonds to become beings of light in rapturous singularity, happy listening in 2025.
 
 
 [1]: https://www.gregreitan.com/
