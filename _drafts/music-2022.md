@@ -5,7 +5,7 @@ category: Music
 tags: music
 ---
 
-As tracked by Last.fm, I listened to 11,509 tracks by 850 different artists.
+During 2022, as tracked by Last.fm, I listened to 11,509 tracks by 850 different artists.
 
 <figure style="float: right; margin-left: 2em; margin-bottom: 2em; height: 50%; width: 50%; ">
   <a href="https://www.last.fm/user/cbare/library/albums?from=2022-01-01&rangetype=year" target="_blank">

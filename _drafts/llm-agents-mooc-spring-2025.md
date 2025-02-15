@@ -110,7 +110,7 @@ Goal: An AI that "trains" itself as much as possible
 - Evaluates whether it gets them right ("self-rewarding")
 - Updates itself based on what it understood
 
-Research question: can this help it become superhuman?
+Research question: can this help it become superhuman? Can an LLM improve itself by assigning rewards to its own outputs and optimizing?
 
 
 

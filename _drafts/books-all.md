@@ -25,6 +25,8 @@ Convergent Series - Larry Niven
 Limits - Larry Niven
 The Shape of Space - Larry Niven
 A World Out of Time - Larry Niven
+The Magic Goes Away - Larry Niven
+Inconstant Moon - Larry Niven
 Footfall - Larry Niven & Jerry Pournelle
 Oath of Fealty - Larry Niven & Jerry Pournelle
 Inferno - Larry Niven & Jerry Pournelle
@@ -77,7 +79,9 @@ Hospital Station - James White
 So Bright the Vision - Clifford D. Simak
 Light - M. John Harrison
 The Peace War - Vernor Vinge
+Xenocide - Orson Scott Card
 Wetware - Rudy Rucker
+Dangerous Visions - Harlan Ellison
 Eon - Greg Bear
 The Windup Girl - Paolo Bacigalupi
 The Handmaid's Tale - Margaret Atwood
@@ -97,6 +101,7 @@ Stories of Your Life and Others – Ted Chiang
 Borne – Jeff Vandermeer
 Neuromancer - William Gibson
 Mona Lisa Overdrive - William Gibson
+Virtual Light - William Gibson
 Idoru - William Gibson
 Spook Country - William Gibson
 Pattern Recognition - William Gibson
@@ -113,7 +118,7 @@ Use of Weapons - Iain Banks
 Excession - Iain Banks
 Look to Windward - Iain Banks
 Matter - Iain Banks
-The Algebraistc - Iain Banks
+The Algebraist - Iain Banks
 Wasp Factory - Iain Banks
 The Alienist - Caleb Carr
 
@@ -161,6 +166,7 @@ Victory - Joseph Conrad
 Lolita - Vladimir Nabokov
 A Clockwork Orange - Anthony Burgess
 Invisible Cities - Italo Calvino
+The Unbearable Lightness of Being - Milan Kundera
 Fierce Invalids Home from Hot Climates - Tom Robbinss
 Still Life with Woodpecker - Tom Robbins
 Bonfire of the Vanities - Tom Wolfe
@@ -175,7 +181,6 @@ Cold Mountain - Charles Frazier
 Station Eleven – Emily St. John Mandel
 The Glass Hotel - Emily St. John Mandel
 Love in the Time of Cholera - Gabriel García Márquez
-The Unbearable Lightness of Being - Milan Kundera
 Dubliners - James Joyce
 The Call of the Wild - Jack London
 Tomcat in Love - Tim O'Brien
@@ -248,6 +253,7 @@ The Sleepwalkers – Christopher Clark
 Logavina Street – Barbara Demick
 Agents of Empire – Noel Malcolm
 Sapiens – Yuval Harari
+Homo Deus - Yuval Harari
 The Silk Roads – Peter Frankopan
 SPQR – Mary Beard
 The Lunar Men - Jenny Uglow
@@ -259,6 +265,7 @@ The Penguin History of New Zealand - Michael King
 
 Surely You're Joking, Mr. Feynman! - Richard Feynman
 Wild Swans: Three Daughters of China - Jung Chang
+The Joy Luck Club - Amy Tan
 The Tipping Point – Malcolm Gladwell
 The Signal and the Noise – Nate Silver
 Big Data – Kenneth Cukier and Viktor Mayer-Schönberger
