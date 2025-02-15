@@ -8,16 +8,17 @@ category: Books
 
 _“All your dreams of adventure and freedom and discovery culminate...and then you go nowhere but round and round with the same old thoughts going round and round with you.”_
 
-_Orbital_ by Samamtha Harvey is a beautiful and contemplative book. It's a book in which nothing much happens, part of a growing subgenre of such books. The book reaches its climax when all the characters are asleep. Yet, the book covers some important topics - birth, death, new love blossoming, old love fading, climate change, the insignificance of humans and of humanity in total, political division, religion, simple bonds of shared experience... all the important topics.
+_Orbital_ by Samamtha Harvey is a beautiful and contemplative book. It's part of a growing subgenre of books in which nothing much happens, but takes to another level by coming to a climax when all the characters are asleep. Even so, the book covers a lot of territory - birth, death, religion, new love blossoming, old love fading, climate change, the insignificance of individuals and even of humanity in general, political division, simple bonds of shared experience... _all_ the important topics.
 
 _“Our lives here are inexpressibly trivial and momentous at once...”_
+
+_“A human being was not made to stand still.”_
+
+Those looking for a space book brimming with technical detail will not find it here. The focus is on the interior, an examination of our world from the outside that is inside our heads.
 
 For those wondering where the plot is, it's right here:
 
 ![24 hours of Earth orbits](../images/books/orbital-plot.png)
-
-_“A human being was not made to stand still.”_
-
 
 ## A book of vivid images
 
