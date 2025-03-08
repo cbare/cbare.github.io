@@ -48,11 +48,7 @@ Google DeepMind
 
 ![Large language model agents](llm-agents-1.jpg)
 
-Solving real world tasks typically involves a trial-and-error process.
-
-Leveraging external tools and retrieving from external knowledge expand LLM's capabilities.
-
-Agentic workflows facilitate complex tasks.
+Solving real world tasks typically involves a trial-and-error process. Leveraging external tools and retrieving from external knowledge expand LLM's capabilities. Agentic workflows facilitate complex tasks.
 
 - Task decomposition
 - allocation of subtasks to specialized modules
@@ -110,8 +106,62 @@ Goal: An AI that "trains" itself as much as possible
 - Evaluates whether it gets them right ("self-rewarding")
 - Updates itself based on what it understood
 
+![RLHF vs DPO](../images/ai/rlhf-vs-dpo.jpg)
+
 Research question: can this help it become superhuman? Can an LLM improve itself by assigning rewards to its own outputs and optimizing?
 
+### Self-rewarding LMs
+
+#### Observations:
+
+- LLMs can improve if given good judgements on response quality
+- LLMs can provide good judgements
+
+#### Train a self-rewarding language model that:
+
+- Has instruction following capability
+- Has evaluation capability, i.e., given a user instruction, one or more responses, can judge the quality of responses, aka LLM-as-judge
+
+...then this model can go through an iterative process of data creation/curation training on new data. And, get better at both instruction following and
+evaluation in each cycle.
+
+![Self-rewarding language models](../images/ai/self-rewarding-language-models.jpg)
+
+
+## Lecture 3: On Reasoning, Memory, and Planning of Language Agents
+
+Yu Su, Ohio State University
+
+![Language agent framework](../images/llm-agents/yu-su-language-agents-framework.jpg)
+
+Memory is important for human mem
+
+### HippoRAG
+
+Uses a learned associative concept map as an index for non-parametric (in context) learning. Large embedding models perform at least as well.
+
+###
+
+Can LLMs learn composition reasoning?
+
+Barack's wife is Michelle. Michelle was born in 1964. When was Barack's wife born?
+
+Comparison?
+
+Trump is 78. Biden is 82. Who is younger?
+
+### Planning
+
+Simplified definition: Given a goal G, decide a sequence of actions (a_0, a_1, ..., a_n) that will lead to a state that passes the goal test g(•).
+
+General trends in planning settings for language agents
+
+- Increasing expressiveness in goal specification, e.g., in natural language as opposed to formal language
+- Substantially expanded or open-ended action space
+- Increasing difficulty in automated goal test
+
+
+Language Agents tutorial: https://language-agent-tutorial.github.io/
 
 
 [1]: https://llmagents-learning.org/sp25
