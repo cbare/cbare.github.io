@@ -46,7 +46,7 @@ Notes on [Advanced Large Language Model Agents, Spring 2025][1], an online class
 [Xinyun Chen][4]
 Google DeepMind
 
-![Large language model agents](llm-agents-1.jpg)
+![Large language model agents](../images/llm-agents/llm-agents.jpg)
 
 Solving real world tasks typically involves a trial-and-error process. Leveraging external tools and retrieving from external knowledge expand LLM's capabilities. Agentic workflows facilitate complex tasks.
 
@@ -82,7 +82,7 @@ Rather than counting, we can instead select the response with the highest log pr
 
 She showed a nice example of clustering LLM output in the context of code generation.
 
-![LLM Code Generations](llm-code-generation.jpg)
+![LLM Code Generations](../images/llm-agents/llm-code-generation.jpg)
 
 
 #### Tree of thought
@@ -134,21 +134,21 @@ Yu Su, Ohio State University
 
 ![Language agent framework](../images/llm-agents/yu-su-language-agents-framework.jpg)
 
-Memory is important for human mem
 
-### HippoRAG
+### Memory
 
-Uses a learned associative concept map as an index for non-parametric (in context) learning. Large embedding models perform at least as well.
+Memory is central to human learning. We recognize patterns and associations relevant to the current context. [HippoRAG][301] uses a learned associative concept map as an index for non-parametric (in context) learning. Large embedding models perform at least as well. 
 
-###
+### Reasoning
 
-Can LLMs learn composition reasoning?
+Can LLMs learn compositional and comparative reasoning?
 
-Barack's wife is Michelle. Michelle was born in 1964. When was Barack's wife born?
+Examples:
 
-Comparison?
+- Barack's wife is Michelle. Michelle was born in 1964. When was Barack's wife born?
+- Trump is 78. Biden is 82. Who is younger?
 
-Trump is 78. Biden is 82. Who is younger?
+[Grokked transformers are implicit reasoners][302]: extended training far beyond overfitting enables reasoning without prompting or fine-tuning.
 
 ### Planning
 
@@ -162,6 +162,104 @@ General trends in planning settings for language agents
 
 
 Language Agents tutorial: https://language-agent-tutorial.github.io/
+
+
+## Lecture 4: Open Training Recipes for Reasoning in Language Models
+
+[Hanna Hajishirzi][401], University of Washington, Allen AI Institute Ai2
+
+It's critical for research that there be open frontier models with training process that is transparent and reproducible. Ai2 has produced produced open pretrained LLMs: OLMo, OLMo2, OLMoE and an open post-training process called Tulu. HH's talk is on open recipes for training LLMs and reasoning models.
+
+### Overview of open recipe for training LLMs and reasoning models
+
+![Open training recipe](../images/llm-agents/tulu-post-training-recipe.png)
+
+### Data curation
+
+Training sets for proprietary models are kept secret, not least due to use of copyrighted material. Open models require a training set free of legal conflicts.
+
+![Datasets graphics](../images/llm-agents/tulu-datasets-graphic.jpg)
+
+![Datasets table](../images/llm-agents/tulu-datasets.jpg)
+
+### Open post training recipe
+
+Post training consists of three strategies - instruction fine-tuning, preference tuning (RLHF or RLAIF), and reinforcement learning with verifiable feedback (RLVF).
+
+![Open post-training recipe](../images/llm-agents/tulu-post-training-process.jpg)
+
+### Preference tuning
+
+Preference tuning takes a base model oriented to document completion and improves its ability to follow instructions, hold a conversation, and perform reasoning tasks.
+
+#### Proximal policy optimization
+
+Proximal Policy Optimization (PPO; Schulman et al., 2017) first trains a reward model and then uses RL to optimize the policy to maximize those rewards.
+
+$$
+\max_{\pi_{\theta}} \mathbb{E}_{x \sim \mathcal{D}, y \sim \pi_{\theta}(y \mid x)} \left[ r_{\phi}(x, y) \right] 
+- \beta \mathbb{D}_{\text{KL}} \left[ \pi_{\theta}(y \mid x) \,||\, \pi_{\text{ref}}(y \mid x) \right]
+$$
+
+#### Direct policy optimization
+
+Direct Preference Optimization (DPO; Rafailov et al., 2024) directly optimizes the policy on the preference dataset; no explicit reward model.
+
+$$
+\mathcal{L}_{\text{DPO}}(\pi_{\theta}; \pi_{\text{ref}}) = 
+- \mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}} 
+\left[ \log \sigma \left( \beta \log \frac{\pi_{\theta}(y_w \mid x)}{\pi_{\text{ref}}(y_w \mid x)} 
+- \beta \log \frac{\pi_{\theta}(y_l \mid x)}{\pi_{\text{ref}}(y_l \mid x)} \right) \right]
+$$
+
+#### SimPO
+
+SimPO (Meng et al., 2024) does not use a reference model.
+
+$$
+\mathcal{L}_{\text{SimPO}}(\pi_{\theta}) = 
+- \mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}} 
+\left[ \log \sigma \left( \frac{\beta}{|y_w|} \log \pi_{\theta}(y_w \mid x) 
+- \frac{\beta}{|y_l|} \log \pi_{\theta}(y_l \mid x) - \gamma \right) \right]
+$$
+
+#### GRPO
+
+Group relative policy optimization (GRPO) was introduced in the DeepSeek R1 paper. For each question 𝑞, GRPO samples a group of outputs {𝑜1, 𝑜2, …, 𝑜𝐺} from the old policy $$\pi_{\theta_{\text{old}}}$$ and then optimizes the policy model $$\pi_{\theta}$$ by maximizing the following objective:
+
+$$
+\mathcal{J}_{GRPO}(\theta) = \mathbb{E} \left[ \frac{1}{G} \sum_{i=1}^{G} 
+\min \left( \frac{\pi_{\theta}(o_i \mid q)}{\pi_{\theta_{\text{old}}}(o_i \mid q)} A_i, 
+\text{clip} \left( \frac{\pi_{\theta}(o_i \mid q)}{\pi_{\theta_{\text{old}}}(o_i \mid q)}, 1 - \epsilon, 1 + \epsilon \right) A_i \right) 
+\right] - \beta \mathbb{D}_{\text{KL}} \left( \pi_{\theta} \| \pi_{\text{ref}} \right)
+$$
+
+$$
+A_i = \left( \frac{r_i - \bar{r}}{\sigma_r} \right)
+$$
+
+Or, as a loss to be more comparable to the other preference tuning losses:
+
+$$
+\mathcal{L}_{GRPO}(\theta) = - \mathbb{E} \left[ \frac{1}{G} \sum_{i=1}^{G} \hat{A_i} \right] + \beta \mathbb{D}_{\text{KL}} \left( \pi_{\theta} \| \pi_{\text{ref}} \right)
+$$
+
+...where $$\hat{A_i}$$ is the _clipped policy advantage_ of the _ith_ output in the group.
+
+Each output is assigned a reward $$r_i$$, and the rewards are normalized by subtracting the mean and dividing by the standard deviation. This  group-based reward normalization is more efficient by eliminating the need for a separate value function, and appears effective in practice.
+
+I'm still working on understanding GRPO, so don't take this as gospel.
+
+### Mid-training
+
+Given the observation that post-training yields larger improvements on more capable base models, how do we go about trying to improve reasoning capabilities of base models? A mid-training stage can be inserted at the end of pre-training that trains on next-token prediction on curated high-quality data including human curated reasoning traces, and math and coding with a verifiably correct answer.
+
+
+## Lecture 5: Coding Agents and AI for Vulnerability Detection
+
+Charles Sutton, Google DeepMind
+
+
 
 
 [1]: https://llmagents-learning.org/sp25
@@ -179,6 +277,11 @@ Language Agents tutorial: https://language-agent-tutorial.github.io/
 [18]: https://arxiv.org/abs/2310.01714
 [19]: https://arxiv.org/abs/2203.11171
 [20]: http://incompleteideas.net/IncIdeas/BitterLesson.html
+
+[301]: https://arxiv.org/abs/2405.14831
+[302]: https://arxiv.org/abs/2405.15071
+
+[401]: https://homes.cs.washington.edu/~hannaneh/
 
 
 
