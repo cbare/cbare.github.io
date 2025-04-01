@@ -164,6 +164,7 @@ General trends in planning settings for language agents
 Language Agents tutorial: https://language-agent-tutorial.github.io/
 
 
+
 ## Lecture 4: Open Training Recipes for Reasoning in Language Models
 
 [Hanna Hajishirzi][401], University of Washington, Allen AI Institute Ai2
@@ -255,9 +256,158 @@ I'm still working on understanding GRPO, so don't take this as gospel.
 Given the observation that post-training yields larger improvements on more capable base models, how do we go about trying to improve reasoning capabilities of base models? A mid-training stage can be inserted at the end of pre-training that trains on next-token prediction on curated high-quality data including human curated reasoning traces, and math and coding with a verifiably correct answer.
 
 
+
 ## Lecture 5: Coding Agents and AI for Vulnerability Detection
 
-Charles Sutton, Google DeepMind
+[Charles Sutton][501], Google DeepMind
+
+### Evaluating coding agents
+
+[SWE-bench][502] is a dataset that tests systems' ability to solve GitHub issues automatically. The dataset collects 2,294 Issue-Pull Request pairs from 12 popular Python repositories. Evaluation is performed by unit test verification using post-PR behavior as the reference solution.
+
+[SWE-agent][503] lets your language model of choice (e.g. GPT-4o or Claude Sonnet 3.5) autonomously use tools to fix issues in real GitHub repositories, crack cybersecurity challenges, etc.
+
+### The ReACT loop
+
+Repeat until timeout, error, or success
+- LLM generates text given current trajectory
+- Run tools from LLM output
+- Append tool output to trajectory
+
+[Passerine][504] Google's coding agent for bug fixes.
+
+### AI For computer security
+
+LLMs playing capture the flag. Agentic techniques seem particularly natural fit. Lists datasets and a few challenge competitions.
+
+
+## Lecture 6: Web Agents
+
+Ruslan Salakhutdinov, CMU/Meta
+
+Rus spoke on multimodal autotonomous AI agents for performing tasks on the web. The agents were trained and evaluated in mock environments, with mock shopping, search, etc.
+
+Tree search benefits accuracy in these contexts, but is slow and suffers from hard-to-undo actions. Synthetic data can also help - use Llama to generate and verify synthetic agentic tasks.
+
+### Common vs rare cases
+
+A general principle, maybe: Training techniques that work well for common cases where there are lots of labeled examples to train on differ from techniques that work well in rare cases.
+
+Examples:
+
+- Synthetic data can cover whole problem space evenly. Human-curated real world data covers limited parts of the problem space.
+- CBOW vs skip-grams in word2vec: skip-grams seem to be helpful for rare words.
+
+### Multistep tasks
+
+AI Agents are brittle to multistep tasks due to compounding errors. If they go wrong, they have difficulty recovering. Work needed on self-correction and recovery.
+
+### Common failure modes
+
+- long horizon reasoning and planning
+- getting stuck looping or oscillating
+- correctly performing tasks then undoing them
+- stopping exploration or execution too early
+
+### Attacks
+
+An attack on web agent is to hide instructions in HTML comments, figure captions, etc.
+
+### Reinforcement learning framing
+
+POMDP - Partially observable Markov decision process.
+
+$$
+\mathcal{E} = {\mathcal{S}, \mathcal{A}, \mathcal{O}, \mathcal{T}}
+$$
+
+$$
+\mathcal{S}: state
+$$
+
+$$
+\mathcal{A}: actions
+$$
+
+$$
+\mathcal{O}: observations
+$$
+
+$$
+\mathcal{T}: Transition function
+$$
+
+$$
+\mathcal{T}: \mathcal{S} \times \mathcal{A} \rightarrow \mathcal{S}'
+$$
+
+
+
+
+
+## Lecture 7: Multimodal Agents
+
+Caiming Xiong, Salesforce AI Research
+
+Another talk on multimodal agents for doing computer-based tasks. **OSWorld** is a virtual machine environment in which agents can perform tasks like coding, data analysis, making slides, manipulating images, and editing documents. Tasks come with evaluation scripts, a process they call execution-based evaluation.
+
+### Data Challenges for Agent Training
+
+- Agent models require expensive human annotation to collect agent trajectory data.
+- This contrasts with LLMs, which leverage existing text corpora.
+- Human annotation is time-consuming, costly, and limits scalability.
+- The cost and complexity of human annotation make it difficult to collect diverse and large-scale agent trajectory data.
+
+Why not let models synthesize? What they did is agent trajectory synthesis via guiding
+replay with web tutorials.
+
+CoTA: Chains-of-Thought-and-Action
+
+
+
+## Lecture 8: AlphaProof - When RL meets Formal Maths
+
+Thomas HUBERT, Google DeepMind
+
+
+Mathematics is a root node of intelligence. Being good at math requires:
+
+- Reasoning & Planning
+- Generalisation & Abstraction
+- Knowledge & Creativity
+- Open ended & Unbounded complexity
+- Even an eye for beauty
+
+Formalisation in Mathematics provides:
+
+- Rigor and clarity
+- Efficiency and Communication
+- Abstraction and Generalisation
+- Unification
+- Created new fields
+
+### Lean
+
+Lean is a programming language, theorem prover, and interactive proof assistant. It is a digital programmable formalism for mathematics that aims to be general and unified.
+
+### Reinforcement learning
+
+Following in the footsteps of AlphaGo and AlphaFold, they hope to RL their way to superhuman math ability.
+
+“If an agent can learn to master an environment tabula rasa, then you demonstrably have a system that is discovering and learning new knowledge by itself.”
+
+He gives the following recipe for making a system superhuman:
+
+- Scaled up trial and error
+- Grounded feedback signal
+- Search
+- Curriculum
+
+Lean gives us an environment in which to scale up trial and error with a grounded feedback signal - perfect proof verification.
+
+Given a had problem, they generate many variants of the problem, some of which will be easier to solve. They use “test-time RL” to iterate from easier variants of the problem towards the original hard problem. Not sure I got this part.
+
+The slides have a couple of very cool demos, which he skipped over. Maybe I can find those online somewhere.
 
 
 
@@ -283,5 +433,7 @@ Charles Sutton, Google DeepMind
 
 [401]: https://homes.cs.washington.edu/~hannaneh/
 
-
-
+[501]: https://homepages.inf.ed.ac.uk/csutton/
+[502]: https://www.swebench.com/
+[503]: https://swe-agent.com/latest/
+[504]: https://arxiv.org/abs/2501.07531v1
