@@ -41,6 +41,7 @@ Notes on [Advanced Large Language Model Agents, Spring 2025][1], an online class
 - [The Bitter Lesson][20] by Rich Sutton
 
 
+
 ## Lecture 1: _Inference-Time Techniques for LLM Reasoning_
 
 [Xinyun Chen][4]
@@ -94,8 +95,6 @@ Using the LLM to compare or rank candidate solution, or prioritize exploration o
 - increase depth to refine the final solution over many steps
 
 
-
-
 ## Lecture 2: _Learning to Self-Improve & Reason with LLMs_
 
 Jason Weston, Meta & NYU
@@ -126,6 +125,7 @@ Research question: can this help it become superhuman? Can an LLM improve itself
 evaluation in each cycle.
 
 ![Self-rewarding language models](../images/ai/self-rewarding-language-models.jpg)
+
 
 
 ## Lecture 3: On Reasoning, Memory, and Planning of Language Agents
@@ -281,6 +281,7 @@ Repeat until timeout, error, or success
 LLMs playing capture the flag. Agentic techniques seem particularly natural fit. Lists datasets and a few challenge competitions.
 
 
+
 ## Lecture 6: Web Agents
 
 Ruslan Salakhutdinov, CMU/Meta
@@ -340,9 +341,6 @@ $$
 $$
 \mathcal{T}: \mathcal{S} \times \mathcal{A} \rightarrow \mathcal{S}'
 $$
-
-
-
 
 
 ## Lecture 7: Multimodal Agents
@@ -410,6 +408,75 @@ Given a had problem, they generate many variants of the problem, some of which w
 The slides have a couple of very cool demos, which he skipped over. Maybe I can find those online somewhere.
 
 
+## Lecture 9: Language models for autoformalization and theorem proving
+
+Kaiyu Yang, Meta FAIR
+
+LLMs are frequently evaluated on math and coding tasks because they are important examples of reasoning and are relatively easy to evaluate. Math and code are deeply connected. See: [Epoch AI's FrontierMath][9001] benchmark.
+
+### Training LLMs for math
+
+![SFT for math models](../images/llm-agents/training-math-llms.jpg)
+
+- Supervised Finetuning on mathematical date - math overflow pages or papers from arXiv.
+- SFT on problems with step-by-step solutions.
+- SFT on problems with tool-integrated solutions.
+- RL on problems with verifiable solutions but no intermediate steps.
+
+### Lean Dojo
+
+Kaiyu Yang was first author on [LeanDojo: Theorem Proving with Retrieval-Augmented Language Models][9002] (2023), in which they use vector similarity retrieval from a library of lemmas.
+
+![Proof search](../images/llm-agents/proof-search.jpg)
+
+### Autoformalization
+
+Bridging between informal and formal mathematical expressions. See: [AlphaGeometry: An Olympiad-level AI system for geometry][9003] and [Autoformalizing Euclidean Geometry][9004] in which they translate 48 problems from Book 1 of Euclid's Elements into Lean.
+
+Challenges in autoformalization:
+
+- Human written proofs are full of holes - reasoning gaps
+- Evaluation is difficult
+
+These are doable within limited domains, but how do you generalize across domains?
+
+
+[9001]: https://epoch.ai/frontiermath
+[9002]: https://arxiv.org/abs/2306.15626
+[9003]: https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/
+
+
+## Lecture 10: Bridging Informal and Formal Mathematical Reasoning
+
+Sean Welleck, CMU
+
+Sean introduces Lean-STaR which is an RL system to train LMs to produce mathematical proofs by interleaving informal thoughts and steps in the proof, sampling lots of coninuations of the proof, and getting reward signal from Lean's proof verification.
+
+![Automated Theorem Prover workflow](../images/ai/automated-theorem-proving.jpg)
+
+Two approaches:
+
+- Draft-sketch-prove
+- LeanHammer
+
+A hammer theorem prover is a tool that uses external automated theorem provers (ATPs) to help find proofs within a larger proof assistant system.
+
+Related:
+
+- [Formalizing the proof of PFR in Lean4 using Blueprint][1001] by Terence Tao
+- [CMU Learning Language and Logic lab on github][1002]
+
+
+## Lecture 11: Abstraction and Discovery with Large Language Model Agents
+
+Swarat Chaudhuri, UT Austin
+
+
+## Lecture 12: Towards building safe and secure agentic AI
+
+Dawn Song, UC Berkeley
+
+
 
 
 [1]: https://llmagents-learning.org/sp25
@@ -437,3 +504,6 @@ The slides have a couple of very cool demos, which he skipped over. Maybe I can 
 [502]: https://www.swebench.com/
 [503]: https://swe-agent.com/latest/
 [504]: https://arxiv.org/abs/2501.07531v1
+
+[1001]: https://terrytao.wordpress.com/2023/11/18/formalizing-the-proof-of-pfr-in-lean4-using-blueprint-a-short-tour/
+[1002]: https://github.com/cmu-l3
