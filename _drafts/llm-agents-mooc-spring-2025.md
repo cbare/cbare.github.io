@@ -417,11 +417,14 @@ LLMs are frequently evaluated on math and coding tasks because they are importan
 ### Training LLMs for math
 
 ![SFT for math models](../images/llm-agents/training-math-llms.jpg)
+_[How NuminaMath Won the 1st AIMO Progress Prize][9004], Fleureau et al, 2024_
 
 - Supervised Finetuning on mathematical date - math overflow pages or papers from arXiv.
 - SFT on problems with step-by-step solutions.
 - SFT on problems with tool-integrated solutions.
 - RL on problems with verifiable solutions but no intermediate steps.
+
+See paper: [Formal Mathematical Reasoning: A New Frontier in AI][9005]
 
 ### Lean Dojo
 
@@ -444,6 +447,8 @@ These are doable within limited domains, but how do you generalize across domain
 [9001]: https://epoch.ai/frontiermath
 [9002]: https://arxiv.org/abs/2306.15626
 [9003]: https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/
+[9004]: https://huggingface.co/blog/winning-aimo-progress-prize
+[9005]: https://arxiv.org/abs/2412.16075v1
 
 
 ## Lecture 10: Bridging Informal and Formal Mathematical Reasoning
@@ -471,6 +476,44 @@ Related:
 
 Swarat Chaudhuri, UT Austin
 
+### Mathematical Discovery with LLM Agents
+
+#### Challenges with NNs for proof generation
+
+**Data scarcity**
+- Need traces or reward functions that enable rigorous mathematical reasoning
+- This is difficult beyond high-school or competition settings.
+
+**Lack of verifiability**
+- Natural-language reasoning is hard to verify
+- In applications like system verification, edge cases are especially critical.
+
+#### In-context learning for theorem proving
+
+![Copra - In-context learning for theorem proving](../images/llm-agents/copra.jpg)
+
+- LLMs and in-context learning are powerful tools for mathematical reasoning.
+    - RAG over lemmas.
+    - Feedback from theorem prover, Coq or Lean.
+- Similar techniques work for program verification.
+
+### AI for Scientific Discovery
+
+![Scientific progress](../images/llm-agents/scientific-progress.jpg)
+
+#### Symbolic Regression - LLM Agents for Empirical Discovery
+
+How do we derive a physical law from observed data? Genetic algorithms are often used for symbolic regression. But what if we use an LLM to generate candidate programs, like the cross-over step in evolutionary algos.
+
+![alt text](../images/llm-agents/keplers-third-law.jpg)
+
+
+- **LLM-directed evolution** is a powerful tool for empirical scientific discovery.
+- Frontier LLMs inject prior world knowledge into mutation/crossover operators.
+- LLMs can be used to learn abstract concepts that accelerate evolution.
+- All this can be applied to settings with visual inputs as well.
+
+Concluding notes: Combinations of agentic LLMs with other machinery are a very powerful tool for discovery.
 
 ## Lecture 12: Towards building safe and secure agentic AI
 
