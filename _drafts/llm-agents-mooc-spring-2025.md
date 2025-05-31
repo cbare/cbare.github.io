@@ -12,11 +12,19 @@ tags: AI LLMs Classes
 
 Notes on [Advanced Large Language Model Agents, Spring 2025][1], an online class that picks up where [Large Language Model Agents MOOC, Fall 2024][2] left off. In the Berkeley catalog, it's [CS294/194-280][12].
 
+## Advanced LLM Agents MOOC
+
+The _Advanced LLM Agents_ course surveys twelve topics in current research focusing on reasoning, tool use, post-training and inference-time techniques, with applications spanning coding, mathematics, web interaction, and scientific discovery. Going beyond text completion, these models operate in workflows - planning, exploring, and evaluating iteratively.
+
+Mid- and port-training steps are evolving into staged recipes that combine fine-tuning on curated reasoning traces with techniques like DPO and GRPO. Tasks with verifiable outputs — especially in code and math — serve as grounded reward signals for reinforcement learning, augmenting human feedback.
+
+At inference time, models are augmented with retrieval, memory systems, and tool integration. Reasoning strategies such as chain-of-thought prompting and tree-based search allow models to decompose problems, explore solution spaces and self-correct.
+
+Finally, the course underscores the convergence of LLMs with formal reasoning and scientific discovery. Systems like lean, a mathematical programming language and theorem prover, provide rigor with while LLMs supply intuition and abstraction - a powerful combination.
+
+Yet, as model capabilities increase, so does the potential for exploitation. The final lecture promotes security principles for safely deploying increasingly powerful agentic agents.
 
 
-## Class Resources
-
-- [LLM Agents Discord][14]
 
 ### Instructors
 
@@ -35,11 +43,15 @@ Notes on [Advanced Large Language Model Agents, Spring 2025][1], an online class
 - LLMs for mathematics: data curation, continual pretraining, and finetuning
 - LLM agents for theorem proving and autoformalization
 
+
 ### Reading
 
 - OpenAI blog [Learning to reason with LLMs][13]
 - [The Bitter Lesson][20] by Rich Sutton
 
+### Class Resources
+
+- [LLM Agents Discord][14]
 
 
 ## Lecture 1: _Inference-Time Techniques for LLM Reasoning_
@@ -519,7 +531,38 @@ Concluding notes: Combinations of agentic LLMs with other machinery are a very p
 
 Dawn Song, UC Berkeley
 
+### Attacks on Agentic Systems
 
+- SQL injection using LLM
+- Remote code execution (RCE) using LLM
+- Direct/Indirect Prompt Injection
+- Backdoor
+
+### Prompt Injection Attack Surface
+
+- Manipulated user input
+- Data poisoning: open datasets, documents on public internet
+
+![Prompt injection attack](../images/llm-agents/indirect-prompt-injection.jpg)
+
+Decodingtrust.github.io - Comprehensive Assessment of Trustworthiness in GPT Models
+
+### Defense Principles
+
+- Defense-in-depth
+- Least privilege & privilege separation
+- Safe-by-design, secure-by-design, provably secure
+
+### Defense Mechanisms
+
+- Harden models
+- Guardrail for input sanitization
+- Policy enforcement on actions
+- Privilege management
+- Privilege separation
+- Monitoring and detection
+- Information flow tracking
+- Secure-by-design and formal verification
 
 
 [1]: https://llmagents-learning.org/sp25
