@@ -16,7 +16,7 @@ Notes on [Advanced Large Language Model Agents, Spring 2025][1], an online class
 
 The _Advanced LLM Agents_ course surveys twelve topics in current research focusing on reasoning, tool use, post-training and inference-time techniques, with applications spanning coding, mathematics, web interaction, and scientific discovery. Going beyond text completion, these models operate in workflows - planning, exploring, and evaluating iteratively.
 
-Mid- and port-training steps are evolving into staged recipes that combine fine-tuning on curated reasoning traces with techniques like DPO and GRPO. Tasks with verifiable outputs — especially in code and math — serve as grounded reward signals for reinforcement learning, augmenting human feedback.
+Training has evolved towards staged recipes. Curated reasoning traces on tasks with verifiable outputs — code and math — serve as grounded reward signals for reinforcement learning, augmenting human feedback.
 
 At inference time, models are augmented with retrieval, memory systems, and tool integration. Reasoning strategies such as chain-of-thought prompting and tree-based search allow models to decompose problems, explore solution spaces and self-correct.
 
