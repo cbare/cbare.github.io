@@ -117,7 +117,7 @@ Goal: An AI that "trains" itself as much as possible
 - Evaluates whether it gets them right ("self-rewarding")
 - Updates itself based on what it understood
 
-![RLHF vs DPO](../images/ai/rlhf-vs-dpo.jpg)
+![RLHF vs DPO](../images/llm-agents/rlhf-vs-dpo.jpg)
 
 Research question: can this help it become superhuman? Can an LLM improve itself by assigning rewards to its own outputs and optimizing?
 
@@ -136,7 +136,7 @@ Research question: can this help it become superhuman? Can an LLM improve itself
 ...then this model can go through an iterative process of data creation/curation training on new data. And, get better at both instruction following and
 evaluation in each cycle.
 
-![Self-rewarding language models](../images/ai/self-rewarding-language-models.jpg)
+![Self-rewarding language models](../images/llm-agents/self-rewarding-language-models.jpg)
 
 
 
@@ -469,7 +469,7 @@ Sean Welleck, CMU
 
 Sean introduces Lean-STaR which is an RL system to train LMs to produce mathematical proofs by interleaving informal thoughts and steps in the proof, sampling lots of coninuations of the proof, and getting reward signal from Lean's proof verification.
 
-![Automated Theorem Prover workflow](../images/ai/automated-theorem-proving.jpg)
+![Automated Theorem Prover workflow](../images/llm-agents/automated-theorem-proving.jpg)
 
 Two approaches:
 
