@@ -6,7 +6,7 @@ category: AI, Machine Learning, Deep Learning
 
 ## TL;DR
 
-The paper [Learning Visual Context by Comparison][1] describes the "Attend-and-compare" module, a light-weight attention mechanism that can be added on to ResNet-style computer vision models. It was published in July of 2020 by folks from [Lunit][9].
+The paper [Learning Visual Context by Comparison][1] describes the "attend-and-compare" module, a light-weight attention mechanism that can be added on to ResNet-style computer vision models. It was published by folks from [Lunit][9] on arXiv in July 2020.
 
 ![Learning Visual Context by Comparison paper, 2020](../images/ai/paper-learning-visual-context-by-comparison.png)
 
@@ -15,13 +15,13 @@ Since Lunit is now the parent company of my present employer, I thought it would
 
 ## Authors
 
-- [Minchul Kim][2] (김민철) - (Lunit: 2018-2021), now at Google working on the Veo video generation model.
+- [Minchul Kim][2] (김민철) - (Lunit: 2018-2021), now at Google.
 - [Jongchan Park][3] (박종찬) - (Staff Research Scientist at Lunit: 2018–current), organized [Multi-Modal Foundation Models for Cancer Detection and Prevention][4].
 - [Seil Na][5] (나세일) - (Research Scientist, Lunit 2019-current)
 - [Chang Min Park][6] (박창민) - Radiology, Seoul National University Hospital
 - [Donggeun Yoo][7] (유동근) - (Co-founder & Chief of Research at Lunit)
 
-Jongchan Park. Donggeun Yoo, (Aiden) Sunggyun Park, Kyunghyun Paeng,  were lab-mates in a [group run by In So Kweon at Korea Advanced Institute of Science and Technology][8] (KAIST) in Daejeon, South Korea, a public research university founded in 1971, known as the "MIT of South Korea". This paper builds on [CBAM: Convolutional Block Attention Module][10] (2018) from that lab.
+Several founders and early Lunitians were lab-mates in a [group run by In So Kweon at Korea Advanced Institute of Science and Technology][8] (KAIST) in Daejeon, South Korea. KAIST is a public research university founded in 1971, known as the "MIT of South Korea". This paper builds on [CBAM: Convolutional Block Attention Module][10] (2018) from that lab.
 
 <figure style="height: 55%; width: 55%; margin-left: 8em; margin-top: 2em;">
     <img
@@ -34,11 +34,18 @@ Jongchan Park. Donggeun Yoo, (Aiden) Sunggyun Park, Kyunghyun Paeng,  were lab-m
 
 ## Context
 
-In late 2025, the time for application-specific tweaks to convolutional neural networks is probably about over, replaced by transformers. This paper came during a wave of exploration of variants of CNN architectures.
+This paper came during a wave of exploration of variants of CNN architectures, especially variants incorporating an attention mechanism.
 
 ### Timeline of Computer vision
 
-![timeline of computer vision](../images/ai/timeline-of-computer-vision.png)
+<figure style="margin-left: 1em; margin-top: 2em;">
+    <img
+      src="../images/ai/timeline-of-computer-vision.png"
+       alt="timeline of computer vision"
+       class="img-responsive"
+      >
+    <figcaption style="font-size: small; font-style: italic;">AI slop timeline of computer vision, 1989-2020</figcaption>
+</figure>
 
 - Backpropagation Applied to Handwritten Zip Code Recognition, Y. LeCun et al, 1989
 - AlexNet, ImageNet Classification with Deep Convolutional Neural Networks, Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, 2012
@@ -49,6 +56,8 @@ In late 2025, the time for application-specific tweaks to convolutional neural n
 - Vision transformers, October 2020
 
 ### Convolutional Neural Networks
+
+As background, recall that convolutional networks learn feature maps whose complexity increases with depth in the network.
 
 ![convolutional neural networks](../images/ai/cnn-layers-and-features.png)
 
@@ -67,7 +76,7 @@ In late 2025, the time for application-specific tweaks to convolutional neural n
 
 ### Computing the ACM block
 
-The ACM block computes K by projecting the feature map $$X$$ with a learned weight matrix $$W_K$$ and applying softmax over spatial locations to produce a $$C \times 1 \times 1$$ vector, and doing similarly for Q.
+The ACM block computes K by projecting the feature map $$X$$ with $$W_K$$, which is a 1×1 convolution producing a single-channel score map. Then softmax over spatial locations $$(i,j)$$ to produce a $$C \times 1 \times 1$$ vector. Q is computed similarly.
 
 $$
 X \in \mathbb{R}^{C \times H \times W}
@@ -89,13 +98,13 @@ I think $$K$$ and $$Q$$ are little easier to read like this:
 
 $$
 K = \sum_{i,j}
-    \operatorname{softmax}_{h,w}\!\big(W_K X\big)_{i,j}\,
+    \operatorname{softmax}_{i,j}\!\big(W_K X\big)_{i,j}\,
     X_{i,j}
 $$
 
 $$
 Q = \sum_{i,j}
-    \operatorname{softmax}_{h,w}\!\big(W_Q X\big)_{i,j}\,
+    \operatorname{softmax}_{i,j}\!\big(W_Q X\big)_{i,j}\,
     X_{i,j}
 $$
 
@@ -103,7 +112,7 @@ $$
 K, Q \in \mathbb{R}^{C \times 1 \times 1}
 $$
 
-Subtracting $$K-Q$$ highlights contrasting features. To get the result of the ACM we add that difference between $$K$$ and $$Q$$ back to the feature map $$X$$ and multiply by $$P$$:
+Subtracting $$K-Q$$ highlights contrasting features. It might learn to compare left vs right lung, although specific comparisons are learned and not baked into the algorithm. The algorithm doesn't enforce anatomical pairing (left-right symmetry) unless the data and training encourage it. To get the result of the ACM we add that difference between $$K$$ and $$Q$$ back to the feature map $$X$$ and multiply by $$P$$.
 
 $$
 F_{acm}(X) = P(X + (K-Q))
@@ -117,19 +126,19 @@ $$
 
 ### CNNs with Attention
 
-A nice review paper that covers related methods is [Visual attention methods in deep learning: An in-depth survey Hassanin, 2024][102] from which we get this figure:
+The late twenty-teens was a time of exploration of architectures combining attention and convolutions. A nice review paper that covers these kinds of methods is [Visual attention methods in deep learning: An in-depth survey Hassanin, 2022][102] from which we get this figure:
 
 ![alt text](../images/ai/cnn-variants-2024.png)
 
-In the figure, (a) is the squeeze-and-excitation (SE) block. Convolutional Block Attention Module (CBAM), (b), is another channel attention method for learning to attend to informative regions from the same lab at KAIST.
+In the figure, (a) is the squeeze-and-excitation (SE) block. Convolutional Block Attention Module (CBAM), (b), is another channel attention method for learning to attend to informative regions. CBAM comes from the same lab at KAIST. Both CBAM and SE are building blocks for ACM.
 
 
 ### Comparison with transformer-style self-attention
 
-In transformers, K and Q are projections of individual tokens or image patches in vision transformers and they are used to compute pairwise attention. In ACM, K and Q are globally-pooled summaries of two contrasting regions, e.g. left lung vs right lung, which are subtracted to explicitly model comparison. This signal is then injected back to the feature map with the effect of highlighting difference.
+In transformers, K and Q are projections of individual tokens or image patches in vision transformers and they are used to compute pairwise attention. In ACM, K and Q are globally-pooled summaries of two contrasting regions which are subtracted to explicitly model comparison. This signal is then injected back to the feature map with the effect of highlighting difference.
 
 $$
-K = W_K a_i, \; Q = W_Q a_j, \; V = W_V a_j
+Q = XW_Q,\quad K = XW_K,\quad V = XW_V
 $$
 
 $$
@@ -139,11 +148,13 @@ $$
 
 ![transformer](../images/ai/transformer-attention-block.png)
 
+Transformer-style attention is quadratic $$N \times N$$ in the number of input tokens, providing pairwise mixing of information. By pooling over the spatial dimensions, ACM is lighter with more like linear scaling. $$K$$ and $$Q$$ are two global attention poolings whose difference is beneficial to recognition tasks. ACM _can_ be multi-headed, in a sense, by splitting channels into groups and learning separate attention maps for each group.
+
 ## Is it still worth knowing?
 
 The attend-and-compare paper is from 2020 and sits in the “CNN plus attention” niche of the era before vision transformers. It’s a plug-in module for convolutional backbones that (a) learns where to look, and (b) adds channel reweighting. ACM makes explicit the inductive bias that comparison is important by encoding a difference signal and injecting it back into the feature map.
 
-The focus of research has largely moved on to vision transformers and after that to multimodal foundation models. Pragmatically, though, modern CNNs remain competitive with transformers in applied settings.
+The focus of research has largely moved on to vision transformers and more recently to multimodal foundation models. Pragmatically, though, modern CNNs remain competitive with transformers. Modern deep learning practice achieves improves performance by pretraining on larger datasets with more general models. Architecture tweaks matter less than scale. ACM can work well in medical imaging tasks where compare-and-contrast is naturally informative.
 
 ## More
 
