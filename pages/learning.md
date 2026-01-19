@@ -8,11 +8,14 @@ category: Learning
 
 I've surely reached the point where every new thing that goes into my brain knocks at least one thing out, but I haven't stopped trying.
 
-Not content with an undergraduate degree from Penn State and an MS from University of Washington, I'm still at it, taking online classes and even some in real life. I suppose that means I should have done a PhD.
+I love learning, through online classes and even some in real life. I suppose that means I should have done a PhD.
 
 There's always more to learn.
 
 -----|---------------------------------------------------|----------------|--------------------------
+2025 | [AIML 425: Neural Networks and Deep Learning][304] ([r][303]) | Bastiaan Kleijn | [Victoria University of Wellington][21]
+2025 | [AIML 428: Text Mining and Natural Language Processing][302] ([r][301]) | Xiaoying Gao & Ali Knott | [Victoria University of Wellington][21]
+2025 | [Advanced Large Language Model Agents][36] | [Dawn Song][33], [Xinyun Chen][34] | UC Berkeley
 2024 | [Large Language Model Agents][31]      ([r][209]) | [Dawn Song][33], [Xinyun Chen][34] | UC Berkeley
 2024 | [DLRL Summer School][24]                          |                | [Vector Institute][23]
 2024 | [CS224N: Natural Language Processing with Deep Learning][35] ([r][207]) | Christopher Manning | Stanford
@@ -57,7 +60,7 @@ There's always more to learn.
 [33]: https://dawnsong.io/
 [34]: https://jungyhuk.github.io/
 [35]: https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1244/
-
+[36]: https://agenticai-learning.org/sp25
 
 [101]: http://digitheadslabnotebook.blogspot.com/2011/10/stanford-machine-learning-class.html
 [102]: http://digitheadslabnotebook.blogspot.com/2012/03/probabilistic-graphical-models.html
@@ -78,3 +81,8 @@ There's always more to learn.
 [208]: https://github.com/cbare/ai-420
 [209]: https://github.com/cbare/llm-agents-mooc-2024
 [210]: https://github.com/cbare/notes-on-deep-learning
+
+[301]: https://github.com/cbare/aiml-428
+[302]: https://www.wgtn.ac.nz/courses/aiml/428/2025?crn=33070
+[303]: https://github.com/cbare/aiml-425
+[304]: https://www.wgtn.ac.nz/courses/aiml/425/2025?crn=33067
