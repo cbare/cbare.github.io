@@ -6,7 +6,7 @@ category: AI, Machine Learning, Deep Learning
 
 ## TL;DR
 
-The paper [Learning Visual Context by Comparison][1] describes the "attend-and-compare" module, a light-weight attention mechanism that can be added on to ResNet-style computer vision models. It was published by folks from [Lunit][9] on arXiv in July 2020.
+The paper [Learning Visual Context by Comparison][1] describes the "attend-and-compare" module, a light-weight attention mechanism that can be added on to ResNet-style computer vision models. It was published by folks from [Lunit][9] on arXiv in July 2020 and was a [conference paper at ECCV 2020][11].
 
 ![Learning Visual Context by Comparison paper, 2020](../images/ai/paper-learning-visual-context-by-comparison.png)
 
@@ -74,6 +74,8 @@ As background, recall that convolutional networks learn feature maps whose compl
 
 ![attent and compare module](../images/ai/attend-and-compare-module.png)
 
+ACM derives a comparison signal from two attention-pooled prototypes, $$K-Q$$. The squeeze-and-excitation gate (P) then reweights the channels of (X+(K-Q)).
+
 ### Computing the ACM block
 
 The ACM block computes K by projecting the feature map $$X$$ with $$W_K$$, which is a 1×1 convolution producing a single-channel score map. Then softmax over spatial locations $$(i,j)$$ to produce a $$C \times 1 \times 1$$ vector. Q is computed similarly.
@@ -98,13 +100,13 @@ I think $$K$$ and $$Q$$ are little easier to read like this:
 
 $$
 K = \sum_{i,j}
-    \operatorname{softmax}_{i,j}\!\big(W_K X\big)_{i,j}\,
+    \operatorname{softmax}_{(i,j)\in H\times W}\!\big(W_K X\big)_{i,j}\,
     X_{i,j}
 $$
 
 $$
 Q = \sum_{i,j}
-    \operatorname{softmax}_{i,j}\!\big(W_Q X\big)_{i,j}\,
+    \operatorname{softmax}_{(i,j)\in H\times W}\!\big(W_Q X\big)_{i,j}\,
     X_{i,j}
 $$
 
@@ -130,8 +132,7 @@ The late twenty-teens was a time of exploration of architectures combining atten
 
 ![alt text](../images/ai/cnn-variants-2024.png)
 
-In the figure, (a) is the squeeze-and-excitation (SE) block. Convolutional Block Attention Module (CBAM), (b), is another channel attention method for learning to attend to informative regions. CBAM comes from the same lab at KAIST. Both CBAM and SE are building blocks for ACM.
-
+In the figure, (a) is the squeeze-and-excitation (SE) block. Convolutional Block Attention Module (CBAM), (b), is a channel-and-spatial attention module for learning to attend to informative regions. CBAM is prior work from the same lab at KAIST. In contrast to ACM's spatial attention pooling, CBAM learns an explicit spatial gating mask $$M_s\in\mathbb{R}^{1\times H\times W}$$ that is applied to the feature map.
 
 ### Comparison with transformer-style self-attention
 
@@ -148,13 +149,13 @@ $$
 
 ![transformer](../images/ai/transformer-attention-block.png)
 
-Transformer-style attention is quadratic $$N \times N$$ in the number of input tokens, providing pairwise mixing of information. By pooling over the spatial dimensions, ACM is lighter with more like linear scaling. $$K$$ and $$Q$$ are two global attention poolings whose difference is beneficial to recognition tasks. ACM _can_ be multi-headed, in a sense, by splitting channels into groups and learning separate attention maps for each group.
+Transformer-style attention is quadratic $$N \times N$$ in the number of input tokens, providing pairwise mixing of information. By pooling over the spatial dimensions, ACM is lighter with more like linear scaling. $$K$$ and $$Q$$ are two global attention poolings whose difference is beneficial to recognition tasks. By splitting channels into groups and learning separate attention maps for each group, ACM gains something in the same spirit as multiheaded attention.
 
 ## Is it still worth knowing?
 
-The attend-and-compare paper is from 2020 and sits in the “CNN plus attention” niche of the era before vision transformers. It’s a plug-in module for convolutional backbones that (a) learns where to look, and (b) adds channel reweighting. ACM makes explicit the inductive bias that comparison is important by encoding a difference signal and injecting it back into the feature map.
+The attend-and-compare paper is from 2020 and sits in the “CNN plus attention” niche of the era before vision transformers. It’s a plug-in module for convolutional backbones that (a) learns where to look, and (b) adds channel reweighting. ACM makes explicit the inductive bias that comparison is important by encoding a difference signal and injecting it back into the feature map. ACM fits well with medical imaging tasks where compare-and-contrast is naturally informative.
 
-The focus of research has largely moved on to vision transformers and more recently to multimodal foundation models. Pragmatically, though, modern CNNs remain competitive with transformers. Modern deep learning practice achieves improves performance by pretraining on larger datasets with more general models. Architecture tweaks matter less than scale. ACM can work well in medical imaging tasks where compare-and-contrast is naturally informative.
+The focus of research has largely moved on to vision transformers and more recently to multimodal foundation models.  Modern deep learning practice improves performance by training or pretraining more general models on larger datasets. Architecture tweaks matter less than scale. Pragmatically, though, modern CNNs remain competitive with transformers especially where training data is scarce or expensive.
 
 ## More
 
@@ -172,5 +173,6 @@ The focus of research has largely moved on to vision transformers and more recen
 [8]: https://ee.kaist.ac.kr/en/professor/kweon-in-so-2/
 [9]: https://www.lunit.io/en/
 [10]: https://arxiv.org/abs/1807.06521
+[11]: https://link.springer.com/chapter/10.1007/978-3-030-58558-7_34
 [101]: https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16
 [102]: https://arxiv.org/abs/2204.07756
