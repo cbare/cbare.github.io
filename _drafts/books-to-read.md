@@ -23,3 +23,64 @@ The Pyramid Principle - Barbara Minto
 
 Seeing Like a State
 Book by James C. Scott
+
+
+Slow Gods, Claire North, 448p
+https://www.goodreads.com/book/show/223296158-slow-gods
+
+Human Acts, Han Kang, 218p
+https://www.goodreads.com/book/show/30091914-human-acts
+
+Life: A User's Manual, Georges Perec, 500p
+
+Ghost Cities, Siang Lu, 313p
+
+Wild Dark Shore, Charlotte McConaghy 
+
+Butter, Asako Yuzuki
+
+Shuggie Bain, Douglas Stuart
+
+
+
+Bring Up the Bodies
+
+When We Cease to Understand the World
+Benjamín Labatut
+
+H Is for Hawk
+Helen Macdonald
+
+Cloud Atlas
+David Mitchell
+
+Pachinko
+Min Jin Lee
+
+Klara and the Sun by Kazuo Ishiguro
+
+Our Dollar, Your Problem
+Kenneth Rogoff
+
+Exhalation
+Ted Chiang
+
+Too Like the Lightning
+Ada Palmer
+
+All Systems Red by Martha Wells
+
+
+Blindsight
+Peter Watts
+
+The Corrections
+Jonathan Franzen
+
+
+Children of Time
+Adrian Tchaikovsky
+
+The Hydrogen Sonata
+Iain Banks
+

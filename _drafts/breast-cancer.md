@@ -172,3 +172,17 @@ By Lydia Choi, MD, Karmanos Cancer Center
 Reviewed/Revised Jul 2023
 
 https://www.msdmanuals.com/professional/gynecology-and-obstetrics/breast-cancer/breast-cancer
+
+
+Strategies for integrating artificial intelligence into mammography screening programmes: a retrospective simulation analysis
+https://www.sciencedirect.com/science/article/pii/S2589750024001730
+
+Zacharias V Fisches MSc,
+Michael Ball ScB,
+Trasias Mukama PhD, 
+Vilim Štih PhD, 
+Nicholas R Payne PhD, 
+Sarah E Hickman PhD, 
+Prof Fiona J Gilbert PhD, 
+Stefan Bunk MSc, 
+Christian Leibig PhD

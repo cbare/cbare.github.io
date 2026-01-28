@@ -13,7 +13,7 @@
  (9)
 
 
-## Europe (17)
+## Europe (18)
 
  - Austria
  - Belgium
@@ -59,7 +59,7 @@
 (8)
 
 
-## Pacific (3)
+## Pacific (4)
 
  - Australia
  - Fiji
@@ -67,6 +67,8 @@
  - New Zealand
 
 (4)
+
+Total countries as of 2024: 41
 
 
 ## Want to go
